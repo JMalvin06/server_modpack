@@ -1,0 +1,21 @@
+filename = 'letsdo-furniture-fabric-1.0.4.jar'
+name = "[Let's Do] Furniture"
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.4'
+
+[download]
+hash = 'cda017481850120df5de19173e159bcbf6d69c6d3343f57711c15a3f17b08d255899df413d5f1f058eba20a85520cd0c10e12d5427df144bedce0f74fab79bb0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3JQDJrYW/versions/oG5DC7IV/letsdo-furniture-fabric-1.0.4.jar'
+
+[update.modrinth]
+mod-id = '3JQDJrYW'
+version = 'oG5DC7IV'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

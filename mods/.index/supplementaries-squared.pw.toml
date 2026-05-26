@@ -1,0 +1,29 @@
+filename = 'suppsquared-1.20-1.1.29.jar'
+name = 'Supplementaries Squared'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20-1.1.29'
+
+[download]
+hash = '8d80656d0cfa090f8c818997e59624a471e9a3c51372ff677204b7fb8f8e57930ddad3bdd320685504ef890b4c45b8b4b9b860e8f44e4b8a15317078bcbce83b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dCCkNFwE/versions/hGBKgPSc/suppsquared-1.20-1.1.29.jar'
+
+[update.modrinth]
+mod-id = 'dCCkNFwE'
+version = 'hGBKgPSc'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fFEIiSDQ'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'twkfQtEc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

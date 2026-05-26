@@ -1,0 +1,180 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "baking"
+	group: "1A12A5075142889E"
+	id: "035FEE0D9E0474B2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["01A622249CE826A8"]
+			hide_until_deps_complete: true
+			id: "4069774909AE0442"
+			subtitle: "Make Yeast"
+			tasks: [{
+				id: "6643F9D5A5F4EF5E"
+				item: "farm_and_charm:yeast"
+				type: "item"
+			}]
+			title: "Yeast of Your Worries"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"23A4824E9EEAA5A3"
+				"7221357A09424CA1"
+			]
+			hide_until_deps_complete: true
+			id: "3F029818F874AC68"
+			tasks: [{
+				id: "0FB2174FDBFA8468"
+				item: "bakery:cake_dough"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4069774909AE0442"]
+			id: "5A8D84A3C2602D86"
+			tasks: [{
+				id: "3B08CEAB49CED1F8"
+				item: "farm_and_charm:dough"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23A4824E9EEAA5A3"]
+			hide_until_deps_complete: true
+			id: "364245B53BFC9183"
+			tasks: [{
+				id: "7F1F97F32903AD3B"
+				item: "bakery:sweet_dough"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F029818F874AC68"]
+			id: "1E569048D1011F31"
+			subtitle: "Bake a Cake"
+			tasks: [{
+				id: "20AA0625F42AA2DF"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(bakery:strawberry_cake)item(bakery:sweetberry_cake)item(bakery:chocolate_cake)item(bakery:chocolate_gateau))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Bake Me a Cake"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E569048D1011F31"]
+			description: ["Try using a knife on Cake Dough!"]
+			id: "1E6CC9740C3E3082"
+			tasks: [{
+				id: "12D86B22F162F31F"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(bakery:strawberry_cupcake)item(bakery:sweetberry_cupcake)item(bakery:apple_cupcake))"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E569048D1011F31"]
+			description: ["Try using a knife and rolling pin on Cake Dough!"]
+			id: "7A3A0C0C28B67BF2"
+			subtitle: "Bake Cookies"
+			tasks: [{
+				id: "22F5DB8561DBAD88"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(bakery:strawberry_glazed_cookie)item(bakery:sweetberry_glazed_cookie)item(bakery:chocolate_glazed_cookie))"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["23A4824E9EEAA5A3"]
+			hide_until_deps_complete: true
+			id: "7221357A09424CA1"
+			tasks: [{
+				id: "6C75BBB18DAB87D4"
+				item: "bakery:baker_station"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A8D84A3C2602D86"]
+			id: "403BAFEBB10F07DC"
+			tasks: [{
+				id: "2C283C7742C3550A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(bakery:bread)not(item(minecraft:bread))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Make Bread"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["364245B53BFC9183"]
+			id: "3A8034E9B410F9DD"
+			tasks: [{
+				id: "6E6DBD24414CCC0A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(bakery:waffle)item(bakery:croissant)item(bakery:baguette)item(bakery:glowberry_tart)item(bakery:cornet)item(bakery:misslilitu_biscuit)item(bakery:chocolate_tart)item(bakery:braided_bread)item(bakery:apple_pie)item(bakery:linzer_tart)item(bakery:jam_roll))"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E569048D1011F31"]
+			id: "7E4174CCD498551C"
+			subtitle: "Obtain a Cake Stand"
+			tasks: [{
+				id: "762DDE04FE0A5233"
+				item: "bakery:cake_stand"
+				type: "item"
+			}]
+			title: "Tada!"
+			x: 1.5d
+			y: 5.5d
+		}
+	]
+	title: "Baking"
+}

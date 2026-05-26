@@ -1,0 +1,25 @@
+filename = 'supplementaries-1.20-3.1.43-fabric.jar'
+name = 'Supplementaries'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20-3.1.43-fabric'
+
+[download]
+hash = '141b8c1358083b3804f4cd43c825050a32f0d96fd1502d6f880cf4f85dc8a79d781ab521dd30154d2ea4d7cae30c9e781ecd0b9138295fb2ca2513b667cf36de'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fFEIiSDQ/versions/i7ejA878/supplementaries-1.20-3.1.43-fabric.jar'
+
+[update.modrinth]
+mod-id = 'fFEIiSDQ'
+version = 'i7ejA878'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'twkfQtEc'
+type = 'REQUIRED'

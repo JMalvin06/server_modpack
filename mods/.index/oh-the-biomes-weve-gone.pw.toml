@@ -1,0 +1,41 @@
+filename = 'Oh-The-Biomes-Weve-Gone-Fabric-1.7.5.jar'
+name = "Oh The Biomes We've Gone"
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.7.5-Fabric'
+
+[download]
+hash = '1a5666a85bf74014a3cc1daef200959d14de523c87435979c785beb5351a4d6d9e4a8aefb138eace6dc5a2d6d80888744b1b764709c5ed6e36bf914c63a2b89a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NTi7d3Xc/versions/nTgMZTl1/Oh-The-Biomes-Weve-Gone-Fabric-1.7.5.jar'
+
+[update.modrinth]
+mod-id = 'NTi7d3Xc'
+version = 'nTgMZTl1'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ziOp6EO8'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '6AQIaxuO'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kkmrDlKT'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'g8NOG5OR'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

@@ -1,0 +1,800 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: "create:wrench"
+	id: "690345D3606A9E45"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["516EB57614295500"]
+			description: ["Utilize these to generate energy for your new machines"]
+			id: "03C284AF92EF051E"
+			rewards: [{
+				id: "6158348E8879D352"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain a Water Wheel or Windmill Bearing"
+			tasks: [
+				{
+					id: "68B6E51EA7D0280C"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "3CD4EB91610A6C63"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
+			title: "Stressing Me Out"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["516EB57614295500"]
+			id: "0875E30471A46A03"
+			rewards: [{
+				id: "2511468C56FA4B34"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain a Cog"
+			tasks: [{
+				id: "34E7F5D671056C47"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			title: "Gearing Up"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["762B19D7A6212237"]
+			id: "516EB57614295500"
+			rewards: [{
+				id: "6C42BA747A6E7687"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain Andesite Alloy"
+			tasks: [{
+				id: "446707022E895977"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Alloying 101"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0875E30471A46A03"]
+			id: "06F57025F2187434"
+			optional: true
+			rewards: [{
+				id: "322D9CB1B3440014"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "These items will help transport your stress units"
+			tasks: [
+				{
+					id: "56245F409905D0D4"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "2790D23A076A9E41"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "3E46A67769C2FAC8"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			title: "Bring Extra Gear"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0875E30471A46A03"]
+			id: "115855E13FE2CFB8"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "46A869E95EE71253"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "534EA657AA212EBF"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "These items will help manipulate your stress units"
+			tasks: [
+				{
+					id: "76B376096AEB6B76"
+					item: "create:clutch"
+					type: "item"
+				}
+				{
+					id: "1D4B67B91B155837"
+					item: "create:adjustable_chain_gearshift"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F4723482068F452"]
+			id: "34AA8FDB5AE7A18F"
+			rewards: [{
+				id: "6A16D90A01FE506F"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "gear"
+			subtitle: "Obtain Basic Andesite Machinery"
+			tasks: [{
+				id: "35F50BB55565C85D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(create:millstone)item(create:mechanical_press)item(create:mechanical_mixer)item(create:mechanical_drill)item(create:mechanical_saw))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Baby's First Machine"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0875E30471A46A03"
+				"03C284AF92EF051E"
+			]
+			id: "4F4723482068F452"
+			rewards: [
+				{
+					count: 5
+					id: "720EEFD41FFE0676"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "453F3C786300B32C"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Place Andesite Alloy on a Stripped Log"
+			tasks: [{
+				id: "4971B4E92EDD9CC1"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Case(ing) Closed"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34AA8FDB5AE7A18F"]
+			id: "4F087FC65A2A8799"
+			rewards: [{
+				count: 8
+				id: "5FF0DB95CDA37C45"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Use Belts and Funnels to transport your items"
+			tasks: [
+				{
+					id: "7778CF996AA16881"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "4E8B4628DF1B09B0"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+			]
+			title: "Public Transportation"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E887823A79D6A8D"]
+			id: "33346CF6759BCECA"
+			rewards: [{
+				id: "61457B327E841098"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain Copper Casing to start building copper machinery"
+			tasks: [{
+				id: "0C511A82F49F6982"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			title: "Starting to Rust"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F087FC65A2A8799"]
+			id: "7E887823A79D6A8D"
+			rewards: [{
+				count: 5
+				id: "52785899466749CA"
+				item: "minecraft:copper_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Use Copper Machines to transport and store fluids"
+			tasks: [
+				{
+					id: "53309711259277BB"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "01A8E3A5F9620E52"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "0496DA360373A2DF"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "Fluid Dynamics"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F087FC65A2A8799"]
+			id: "0615989F272CF98E"
+			rewards: [
+				{
+					count: 16
+					id: "3E4FD9223ABC51F7"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "264B2BEA6D58CAE3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			subtitle: "Obtain a Blaze Burner"
+			tasks: [{
+				id: "64F0F4F6B44A4BD4"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0615989F272CF98E"]
+			id: "60DE22490741F644"
+			rewards: [
+				{
+					count: 3
+					id: "182F7598BCA5B46D"
+					item: "create:brass_ingot"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "747AF5581B8521EC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Obtain Brass"
+			tasks: [{
+				id: "53A43EEDC38121F5"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Getting Down to Brass Tacks"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F087FC65A2A8799"]
+			id: "3EF3C1598C40B251"
+			rewards: [{
+				count: 3
+				id: "3BB85BCB488EBCEB"
+				item: "minecraft:chain"
+				random_bonus: 3
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Obtain a Chain Conveyor"
+			tasks: [{
+				id: "3EF3683DF9E24EE1"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			title: "Chained Together"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EF3C1598C40B251"]
+			id: "289CE11C0DC36D25"
+			rewards: [{
+				id: "4B92275008755CF8"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			subtitle: "Obtain machines capable of managing factory logistics"
+			tasks: [
+				{
+					id: "4F63CC34520CF3C1"
+					item: "create:package_frogport"
+					type: "item"
+				}
+				{
+					id: "09470B315C45B139"
+					item: "create:packager"
+					type: "item"
+				}
+				{
+					id: "0876ACC3D3CBEC95"
+					item: "create:stock_ticker"
+					type: "item"
+				}
+				{
+					id: "5159046A56272C0B"
+					item: "create:stock_link"
+					type: "item"
+				}
+			]
+			title: "Learning Logistics"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["289CE11C0DC36D25"]
+			id: "68ABB7F9D0389EDA"
+			optional: true
+			rewards: [{
+				id: "77961CBFE5A1DEE3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain a Postbox"
+			tasks: [{
+				id: "207CD0BA8B606237"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(create:postboxes)"
+					}
+				}
+				title: "Postbox"
+				type: "item"
+			}]
+			title: "Mail Me Maybe"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["33346CF6759BCECA"]
+			id: "1BA52193210C458B"
+			rewards: [{
+				id: "79B88D7067ECE2E3"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			subtitle: "Obtain a Steam Engine to supercharge your stress unit production"
+			tasks: [{
+				id: "112BF8C1670E0AB4"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Steampunk Energistics"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F4723482068F452"]
+			id: "656141BA4B7A4D43"
+			optional: true
+			rewards: [{
+				id: "3AA1291F51FD2CB6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain a Toolbox"
+			tasks: [{
+				id: "2540A95259D5600D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(create:toolboxes)"
+					}
+				}
+				type: "item"
+			}]
+			title: "A Nice Set of Tools"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F4723482068F452"]
+			id: "227005F4E5E59D5F"
+			optional: true
+			rewards: [{
+				id: "70DA5CA55FC70F3A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain a Crafting Blueprint"
+			tasks: [{
+				id: "053E3E135ACD4111"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			title: "Quick Crafts"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["60DE22490741F644"]
+			id: "76DF2D55D548F46E"
+			rewards: [{
+				id: "7732D19D03F904E5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7E95871DB12852FE"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Wait to Deploy"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76DF2D55D548F46E"]
+			id: "1D47F924C10B331F"
+			rewards: [{
+				id: "71AC71D981690519"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Utilize Precision Mechanisms to create more complex machinery"
+			tasks: [{
+				id: "12286F996F890070"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Creating With Precision"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60DE22490741F644"]
+			id: "151AA6ECADDB19F9"
+			rewards: [{
+				id: "04202869720CB1E4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain a Train Casing"
+			tasks: [{
+				id: "46B99D4905D97AAB"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "Mind the Gap"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["151AA6ECADDB19F9"]
+			id: "2259D21DBB3C7D7F"
+			rewards: [
+				{
+					count: 64
+					id: "4D0B1DFE10A3BAEE"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "3C4640D38D82BA94"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			subtitle: "Obtain the machinery to set up your first train line"
+			tasks: [
+				{
+					id: "0036EAB981ED6AED"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "65A8CEF921AEB29C"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "4C69F78C39B2FBE0"
+					item: "create:track"
+					type: "item"
+				}
+			]
+			title: "I Like Trains"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["289CE11C0DC36D25"]
+			id: "20E2E26B1B772517"
+			optional: true
+			rewards: [
+				{
+					id: "35BD27DD6A7CEFF9"
+					item: "create:cardboard_sword"
+					type: "item"
+				}
+				{
+					id: "1B5AF022D54F2220"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			subtitle: "Obtain Cardboard Armor"
+			tasks: [
+				{
+					id: "449F7ED103EF42F3"
+					item: {
+						Count: 1
+						id: "create:cardboard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "228074646A6A47EA"
+					item: {
+						Count: 1
+						id: "create:cardboard_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54FB03ECAAF9C98E"
+					item: {
+						Count: 1
+						id: "create:cardboard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "095374E3629A4638"
+					item: {
+						Count: 1
+						id: "create:cardboard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "No One Hears a Word"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34AA8FDB5AE7A18F"]
+			id: "5DD5E82D44112607"
+			rewards: [{
+				id: "7926592B48745F82"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain a Mechanical Bearing to start making contraptions"
+			tasks: [{
+				id: "3ACE3188699DEE88"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			title: "Creative Contraptions"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2259D21DBB3C7D7F"]
+			id: "09BCA74FBE49F877"
+			rewards: [{
+				id: "374B6F5BA9DB3886"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Utilize these items to make the most out of your train network"
+			tasks: [{
+				id: "6A943C08FF4FAFCD"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(create:schedule)item(create:track_signal)item(create:track_observer)item(railways:track_coupler)item_tag(railways:conductor_caps)item(railways:semaphore))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Above and Beyond"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2259D21DBB3C7D7F"]
+			id: "19DCA531723F4890"
+			optional: true
+			rewards: [{
+				id: "6C0A4621D062CE4C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain the Handcar"
+			tasks: [{
+				id: "3944F2B516539CEB"
+				item: "railways:handcar"
+				type: "item"
+			}]
+			title: "Like Back in the Day"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34AA8FDB5AE7A18F"]
+			id: "55F8ABB4E2EAB109"
+			optional: true
+			rewards: [{
+				id: "546ED26D962F28EA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Use a Hand Crank to manually power your machines"
+			tasks: [{
+				block: "create:hand_crank"
+				block_type: 0
+				id: "270839303F343796"
+				replace: false
+				replaced: "minecraft:air"
+				type: "questsadditions:place"
+				value: 1L
+			}]
+			title: "Fine, I'll Do It Myself"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Hover over the cogwheel and hold W for a mini-tutorial!"
+				"Utilize this feature on Create items to learn more about the mod :D"
+			]
+			icon: "create:wrench"
+			icon_scale: 0.9d
+			id: "762B19D7A6212237"
+			min_required_tasks: 1
+			rewards: [{
+				id: "02093455F4622F01"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Press W to Ponder!"
+			tasks: [
+				{
+					id: "1D77EA1C72F817F7"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "304AB0D4B19A90FD"
+					title: "Pondered"
+					type: "checkmark"
+				}
+			]
+			title: "Welcome to Create"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4F4723482068F452"]
+			id: "31661121C18EE76D"
+			optional: true
+			rewards: [{
+				id: "24650F5A9F3D8EDD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			subtitle: "Obtain a Wrench and Engineer's Goggles"
+			tasks: [
+				{
+					id: "11CB92E2C09B275D"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "0A7A4987AE32ACD8"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "Essential Tools"
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	title: "Create"
+}

@@ -1,0 +1,16 @@
+{
+	id: "65C70065D9D47623"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 15, item: "farm_and_charm:corn" }
+		{ count: 15, item: "farm_and_charm:oat" }
+		{ count: 15, item: "farm_and_charm:lettuce" }
+		{ count: 15, item: "farm_and_charm:tomato" }
+		{ count: 10, item: "farm_and_charm:kernels" }
+		{ count: 10, item: "farm_and_charm:tomato_seeds" }
+		{ count: 10, item: "farm_and_charm:oat_seeds" }
+		{ count: 10, item: "farm_and_charm:lettuce_seeds" }
+	]
+	title: "crops"
+}

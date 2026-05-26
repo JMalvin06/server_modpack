@@ -1,0 +1,383 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brewing"
+	group: "1A12A5075142889E"
+	id: "14E80F308C462354"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5F84895480ED306F"
+			tasks: [{
+				id: "40811EFC43AA32A1"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F84895480ED306F"]
+			id: "21602667859CB4F9"
+			tasks: [{
+				id: "51CC73B256B6E0B3"
+				item: "brewery:copper_brewingstation"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21602667859CB4F9"]
+			id: "1B794FBBE058ED49"
+			tasks: [{
+				id: "5FCEDBE9AA2BAF58"
+				item: "brewery:netherite_brewingstation"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F84895480ED306F"]
+			id: "3D57314C9C1D499F"
+			subtitle: "Brew your first beer"
+			tasks: [{
+				id: "74C3D01ED7EF98F6"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(brewery:beer))"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["21602667859CB4F9"]
+			id: "24654A6F099857DA"
+			subtitle: "Brew your first whiskey"
+			tasks: [{
+				id: "61967F117C352B64"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(brewery:small_bottle))not(item_tag(brewery:beer))not(mod(vinery))"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3D57314C9C1D499F"
+				"24654A6F099857DA"
+			]
+			id: "3AAACC312B44F14B"
+			subtitle: "Brew every beer and whiskey"
+			tasks: [
+				{
+					id: "20E2254813F09549"
+					item: "brewery:whiskey_jamesons_malt"
+					type: "item"
+				}
+				{
+					id: "0F0EA83FC5626B2B"
+					item: "brewery:whiskey_smokey_reverie"
+					type: "item"
+				}
+				{
+					id: "6C4464488C383484"
+					item: "brewery:whiskey_highland_hearth"
+					type: "item"
+				}
+				{
+					id: "64035E3359BF226D"
+					item: "brewery:whiskey_ak"
+					type: "item"
+				}
+				{
+					id: "619D76486C06FECA"
+					item: "brewery:whiskey_maggoallan"
+					type: "item"
+				}
+				{
+					id: "5A88CCBF07944D55"
+					item: "brewery:whiskey_cristelwalker"
+					type: "item"
+				}
+				{
+					id: "7C0D153197F13689"
+					item: "brewery:whiskey_lilitusinglemalt"
+					type: "item"
+				}
+				{
+					id: "4797606621286EC7"
+					item: "brewery:whiskey_jojannik"
+					type: "item"
+				}
+				{
+					id: "27260A9E2F9F1EF4"
+					item: "brewery:whiskey_carrasconlabel"
+					type: "item"
+				}
+				{
+					id: "5445F0CA5379C47D"
+					item: "brewery:beer_wheat"
+					type: "item"
+				}
+				{
+					id: "06DA174A77F3BFB3"
+					item: "brewery:beer_barley"
+					type: "item"
+				}
+				{
+					id: "79FB72822B2866C0"
+					item: "brewery:beer_hops"
+					type: "item"
+				}
+				{
+					id: "3438D7B17E486079"
+					item: "brewery:beer_nettle"
+					type: "item"
+				}
+				{
+					id: "5EF97D59B94E2A64"
+					item: "brewery:beer_oat"
+					type: "item"
+				}
+				{
+					id: "3F9D45B8941653B8"
+					item: "brewery:beer_haley"
+					type: "item"
+				}
+			]
+			title: "Drunkard"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3FC2C9A45648C5A2"
+				"4C331F6E6A190D9D"
+			]
+			dependency_requirement: "one_completed"
+			id: "79E9482B44A711B7"
+			tasks: [{
+				id: "72CC138A9E410054"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "145EF663A8100401"
+			tasks: [{
+				id: "74B47E1D9E28D7D3"
+				item: "vinery:apple_press"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7C5CFD0A0FED122E"
+				"786E3B5B428E4C07"
+			]
+			dependency_requirement: "one_completed"
+			id: "3B54948B56F1DB4C"
+			tasks: [{
+				id: "7F0E487E8D18909A"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79E9482B44A711B7"]
+			id: "786E3B5B428E4C07"
+			tasks: [{
+				id: "35F4C41F156647EC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(vinery:grapejuice)"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["145EF663A8100401"]
+			id: "7C5CFD0A0FED122E"
+			tasks: [{
+				id: "5FA035239E7F8D4C"
+				item: "vinery:apple_juice"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B54948B56F1DB4C"]
+			id: "426FDF35D3F6535F"
+			tasks: [{
+				id: "7DD58842ED81C49D"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(vinery:large_bottle)item_tag(vinery:small_bottle))not(mod(brewery))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Make Wine"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["426FDF35D3F6535F"]
+			id: "224F6156F1A5339D"
+			tasks: [{
+				advancement: "vinery:main/wine_somelier"
+				criterion: ""
+				id: "77BDCE89B0F7A560"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["426FDF35D3F6535F"]
+			id: "493B513F83F8C09D"
+			subtitle: "Obtain any wine storage block"
+			tasks: [
+				{
+					id: "3F540C9D05C86858"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(vinery:dark_cherry_wine_rack_small)item(vinery:dark_cherry_wine_rack_big)item(vinery:dark_cherry_wine_rack_mid)item(vinery:oak_wine_rack_small)item(vinery:oak_wine_rack_big)item(vinery:oak_wine_rack_mid)item(vinery:spruce_wine_rack_small)item(vinery:spruce_wine_rack_big)item(vinery:spruce_wine_rack_mid)item(vinery:birch_wine_rack_small)item(vinery:birch_wine_rack_big)item(vinery:birch_wine_rack_mid)item(vinery:jungle_wine_rack_small)item(vinery:jungle_wine_rack_big)item(vinery:jungle_wine_rack_mid)item(vinery:acacia_wine_rack_small)item(vinery:acacia_wine_rack_big)item(vinery:acacia_wine_rack_mid)item(vinery:dark_oak_wine_rack_small)item(vinery:dark_oak_wine_rack_big)item(vinery:dark_oak_wine_rack_mid)item(vinery:mangrove_wine_rack_small)item(vinery:mangrove_wine_rack_big)item(vinery:mangrove_wine_rack_mid)item(vinery:bamboo_wine_rack_small)item(vinery:bamboo_wine_rack_big)item(vinery:bamboo_wine_rack_mid)item(vinery:cherry_wine_rack_small)item(vinery:cherry_wine_rack_big)item(vinery:cherry_wine_rack_mid))"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7000FC515A78378A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(vinery:dark_cherry_wine_rack_small)item(vinery:dark_cherry_wine_rack_big)item(vinery:dark_cherry_wine_rack_mid)item(vinery:oak_wine_rack_small)item(vinery:oak_wine_rack_big)item(vinery:oak_wine_rack_mid)item(vinery:spruce_wine_rack_small)item(vinery:spruce_wine_rack_big)item(vinery:spruce_wine_rack_mid)item(vinery:birch_wine_rack_small)item(vinery:birch_wine_rack_big)item(vinery:birch_wine_rack_mid)item(vinery:jungle_wine_rack_small)item(vinery:jungle_wine_rack_big)item(vinery:jungle_wine_rack_mid)item(vinery:acacia_wine_rack_small)item(vinery:acacia_wine_rack_big)item(vinery:acacia_wine_rack_mid)item(vinery:dark_oak_wine_rack_small)item(vinery:dark_oak_wine_rack_big)item(vinery:dark_oak_wine_rack_mid)item(vinery:mangrove_wine_rack_small)item(vinery:mangrove_wine_rack_big)item(vinery:mangrove_wine_rack_mid)item(vinery:bamboo_wine_rack_small)item(vinery:bamboo_wine_rack_big)item(vinery:bamboo_wine_rack_mid)item(vinery:cherry_wine_rack_small)item(vinery:cherry_wine_rack_big)item(vinery:cherry_wine_rack_mid)item(vinery:wine_box))"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			id: "14BB6C00D0760516"
+			subtitle: "Encounter the Wandering Winemaker"
+			tasks: [{
+				icon: "vinery:wandering_winemaker_spawn_egg"
+				id: "4A3552EAC02D04F5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "vinery:wandering_winemaker"
+				type: "observation"
+			}]
+			title: "Wine to Meet You"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"224F6156F1A5339D"
+				"3AAACC312B44F14B"
+			]
+			icon: "brewery:beer_wheat"
+			id: "00A1EF7806C97168"
+			subtitle: "Complete Brewery and Vineru"
+			title: "Time to Call AA"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "3FC2C9A45648C5A2"
+			tasks: [{
+				id: "4C519753E8E274C5"
+				item: "vinery:grapevine_stem"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			id: "4C331F6E6A190D9D"
+			tasks: [{
+				id: "2FDF25309DCFCD88"
+				item: "vinery:oak_lattice"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "637EE1784B55EFE6"
+			tasks: [{
+				id: "1EB9927B52C8F58C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(herbalbrews:tea_kettle)item(herbalbrews:copper_tea_kettle))"
+					}
+				}
+				title: "Tea Kettle"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			id: "3EE7DDDE819166E6"
+			tasks: [{
+				id: "32E1C21A7F613D27"
+				item: "herbalbrews:cauldron"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3EE7DDDE819166E6"]
+			id: "7565391074D7F767"
+			subtitle: "Combine Potions in a Brewing Cauldron"
+			tasks: [{
+				id: "70E6A7F47CABC2F6"
+				item: "herbalbrews:flask"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+	]
+	title: "Brewing"
+}

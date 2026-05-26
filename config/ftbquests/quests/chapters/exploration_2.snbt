@@ -1,0 +1,557 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration_2"
+	group: ""
+	icon: "minecraft:compass"
+	id: "38B207E8ED2BDD05"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:netherrack"
+			id: "74B9E7FAD86459E6"
+			subtitle: "Travel to the Nether"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "07410631AF4B7435"
+				title: "Visit the Nether"
+				type: "dimension"
+			}]
+			title: "Go to Hell"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74B9E7FAD86459E6"]
+			hide_until_deps_complete: true
+			icon: "betternether:cincinnasite_block"
+			id: "7FC7388D50A2CC36"
+			subtitle: "Find a Nether City"
+			tasks: [{
+				icon: "betternether:cincinnasite_block"
+				id: "4FFCACB5F7B32A0A"
+				structure: "betternether:nether_city"
+				title: "Find a Nether City"
+				type: "structure"
+			}]
+			title: "Lost Civilization"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "24316BDE52F59EBA"
+			rewards: [
+				{
+					id: "1A082C7C5DBCDE92"
+					item: "plushie_buddies:plushie_frog"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: "minecraft:crafting_table"
+					id: "640A6D03F3F21AE8"
+					ignore_reward_blocking: true
+					stage: "frog_plush"
+					title: "Frog Plush Recipe"
+					type: "gamestage"
+				}
+			]
+			subtitle: "Find a Frog Village"
+			tasks: [{
+				icon: "ribbits:red_toadstool"
+				id: "77F202FF41B218F2"
+				structure: "ribbits:ribbit_village"
+				title: "Find a Frog Village"
+				type: "structure"
+			}]
+			title: "Feeling Swamped"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			icon: "minecraft:end_portal_frame"
+			id: "3F081145D6D33EE9"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "706200FBE1E5A74E"
+				title: "The End?"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74B9E7FAD86459E6"]
+			id: "0FBC031A719DCA0E"
+			subtitle: "Kill the Wither and obtain a Nether Star"
+			tasks: [{
+				id: "735D66E680F51C3F"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74B9E7FAD86459E6"]
+			hide_until_deps_complete: true
+			id: "092FE52B6D611BF1"
+			tasks: [{
+				id: "345C6296E3D78F3B"
+				item: "betternether:nether_ruby"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74B9E7FAD86459E6"]
+			hide_until_deps_complete: true
+			id: "4C88F05D0FDBF19E"
+			tasks: [{
+				id: "1A076EA275E76103"
+				item: "betternether:cincinnasite_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74B9E7FAD86459E6"]
+			hide_until_deps_complete: true
+			id: "63C15940720DEA7E"
+			tasks: [{
+				id: "19DAE7565570D3D2"
+				item: "betternether:nether_reed_stem"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4C88F05D0FDBF19E"
+				"63C15940720DEA7E"
+			]
+			id: "7EDFAACF95D3A9F6"
+			tasks: [{
+				id: "4E6073EC8A23C759"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(betternether:cincinnasite_sword)item(betternether:cincinnasite_pickaxe)item(betternether:cincinnasite_axe)item(betternether:cincinnasite_shovel)item(betternether:cincinnasite_hoe))"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"092FE52B6D611BF1"
+				"63C15940720DEA7E"
+			]
+			id: "272827B9C4A41129"
+			tasks: [{
+				id: "562881A3D6DEA562"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(betternether:nether_ruby_pickaxe)item(betternether:nether_ruby_sword)item(betternether:nether_ruby_axe)item(betternether:nether_ruby_shovel)item(betternether:nether_ruby_hoe))"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EDFAACF95D3A9F6"]
+			id: "51DC1EACB1C01001"
+			tasks: [
+				{
+					id: "6967E210E4F64217"
+					item: "betternether:cincinnasite_diamond_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "773799F48258AA2A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(betternether:cincinnasite_pickaxe_diamond)item(betternether:cincinnasite_sword_diamond)item(betternether:cincinnasite_axe_diamond)item(betternether:cincinnasite_shovel_diamond)item(betternether:cincinnasite_hoe_diamond))"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["272827B9C4A41129"]
+			id: "42B330B4E85A04CA"
+			tasks: [
+				{
+					id: "7DA7B07E817FFE77"
+					item: "betternether:flaming_ruby_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "0F1BB7A25A3CF2CA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(betternether:flaming_ruby_pickaxe)item(betternether:flaming_ruby_sword)item(betternether:flaming_ruby_axe)item(betternether:flaming_ruby_shovel)item(betternether:flaming_ruby_hoe))"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F081145D6D33EE9"]
+			hide_until_deps_complete: true
+			id: "19E37C5A24F36F9B"
+			tasks: [{
+				id: "427DEC96B8232AEA"
+				item: "betterend:thallasium_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19E37C5A24F36F9B"]
+			id: "2ED8EF92AF2398B4"
+			subtitle: "Use Thallasium ingots and a Smithing Hammer in a Thallasium anvil to make tools"
+			tasks: [
+				{
+					id: "3AF9947177643240"
+					item: {
+						Count: 1
+						id: "betterend:thallasium_anvil"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "17DAB7FE844A7593"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item_tag(betterend:smithing_hammers))"
+						}
+					}
+					title: "Smithing Hammer"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19E37C5A24F36F9B"]
+			id: "6FC37730C933BDB5"
+			tasks: [{
+				id: "1454F7D971F2E0DB"
+				item: "betterend:end_stone_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6FC37730C933BDB5"]
+			id: "4070C53488694541"
+			tasks: [{
+				id: "24C0E7F11A42B79A"
+				item: "betterend:terminite_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E2682A4EDF96070"]
+			id: "1B43D925925E3230"
+			subtitle: "Combine Terminite and Netherite Ingots in an End Stone Smelter to obtain Aeternium"
+			tasks: [{
+				id: "2C3421FFF8F8464B"
+				item: "betterend:aeternium_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4070C53488694541"]
+			id: "1E2682A4EDF96070"
+			tasks: [{
+				id: "7AF3018654B97766"
+				item: {
+					Count: 1
+					id: "betterend:terminite_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2ED8EF92AF2398B4"]
+			id: "0B114ACFB9F5CF35"
+			tasks: [{
+				id: "502C72219DBB8779"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(betterend:thallasium_tools))"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4070C53488694541"]
+			id: "099A67673D6B2E81"
+			tasks: [{
+				id: "40F91CB16DBEDD7C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(betterend:terminite_tools))"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B43D925925E3230"]
+			id: "6BDFE494AC54FE8C"
+			tasks: [{
+				id: "2FB68FDB0B2A3F0E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(betterend:aeternium_tools))"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1E2682A4EDF96070"]
+			id: "77E983CE55EC1FC0"
+			rewards: [{
+				id: "6DDC05D4375D2238"
+				item: "betterend:guidebook"
+				type: "item"
+			}]
+			subtitle: "Utilize the infusion ritual to make some cool items!"
+			tasks: [
+				{
+					id: "2EFFE0E787DA17BD"
+					item: "betterend:infusion_pedestal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "49403E87422D3E25"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item_tag(betterend:pedestals))not(item(betterend:infusion_pedestal))"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F081145D6D33EE9"]
+			id: "57A4F2E5D1F81159"
+			subtitle: "Defeat the Dragon and obtain its egg"
+			tasks: [{
+				id: "1E56E9964019CA77"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			icon: "biomesoplenty:redwood_sapling"
+			icon_scale: 0.9d
+			id: "38020E8099FFBE0B"
+			rewards: [{
+				auto: "invisible"
+				icon: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				id: "1AAA60DA6575FA6C"
+				ignore_reward_blocking: true
+				stage: "natures_compass"
+				title: "Nature's Compass Recipe"
+				type: "gamestage"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Visit 40 Biomes"
+			tasks: [{
+				icon: "biomesoplenty:redwood_sapling"
+				id: "2394A1458A891B7A"
+				title: "Visit Biomes"
+				type: "custom"
+			}]
+			title: "Biome Explorer"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "07F20E4D8EB5E05C"
+			tasks: [{
+				icon: "minecraft:mossy_cobblestone"
+				id: "7704378FA15552A2"
+				structure: "#betterdungeons:better_dungeons"
+				title: "Find a Dungeon"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "1C59E50A81D20460"
+			tasks: [{
+				icon: "minecraft:jungle_leaves"
+				id: "061B27EA393114CE"
+				structure: "#betterjungletemples:better_jungle_temples"
+				title: "Find a Jungle Temple"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "079E7D8644770896"
+			tasks: [{
+				icon: "minecraft:chiseled_sandstone"
+				id: "0C561FE6BC6AD303"
+				structure: "#minecraft:desert_pyramid"
+				title: "Find a Desert Temple"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "68485C48E3C91CA4"
+			tasks: [{
+				icon: "minecraft:rail"
+				id: "3A046AD00F13BE18"
+				structure: "#bettermineshafts:better_mineshafts"
+				title: "Find a Mineshaft"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "0D39F55C0BF153CA"
+			tasks: [{
+				icon: "minecraft:prismarine"
+				id: "32AF150B04296DE5"
+				structure: "#betteroceanmonuments:better_ocean_monuments"
+				title: "Find an Ocean Temple"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"079E7D8644770896"
+				"1C59E50A81D20460"
+				"0D39F55C0BF153CA"
+			]
+			icon: "minecraft:lead"
+			id: "73006AC32FC9B51A"
+			shape: "square"
+			subtitle: "Visit all major temples"
+			title: "Indiana Jones"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"68485C48E3C91CA4"
+				"07F20E4D8EB5E05C"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "784EB7182E5E4704"
+			shape: "square"
+			subtitle: "Visit both major cave structures"
+			title: "Cave Explorer"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F081145D6D33EE9"]
+			id: "701A1E918AE1E027"
+			tasks: [{
+				icon: "minecraft:shulker_box"
+				id: "3AB583D555296B8E"
+				structure: "#minecraft:end_city"
+				title: "Find an End City"
+				type: "structure"
+			}]
+			title: "Find an End City"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74B9E7FAD86459E6"]
+			id: "78C21D7140595BA1"
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "06081DC57863E34E"
+				structure: "#betterfortresses:better_fortresses"
+				title: "Find a Nether Fortress"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+	]
+	title: "Exploration"
+}

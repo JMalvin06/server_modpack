@@ -1,0 +1,24 @@
+{
+  "bookmarks": {},
+  "opened_books": {
+    "66f72bad-cf78-40f9-b907-7dbc6b81635a": [
+      "things:almanac"
+    ],
+    "ef036723-ecfe-4175-ac44-282afd72099a": [
+      "things:almanac"
+    ]
+  },
+  "viewed_entries": {
+    "66f72bad-cf78-40f9-b907-7dbc6b81635a": {
+      "things:almanac": [
+        "things:items/apples"
+      ]
+    },
+    "ef036723-ecfe-4175-ac44-282afd72099a": {
+      "things:almanac": [
+        "things:trinkets/placebo",
+        "things:items/recall_potion"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+interval = 5
+renderTracks = false
+renderCarriages = true
+renderTrains = false

@@ -1,0 +1,21 @@
+filename = 'beekeeperhut-fabric-mc1.20.1-2.0.1.jar'
+name = 'Friends&Foes - Beekeeper Hut (Fabric/Quilt)'
+side = 'server'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fabric-mc1.20.1-2.0.1'
+
+[download]
+hash = '4ed581c69bf34f06b89bbe88bf86322cfbf4399a205adfac4775e0c80a8641fdfd090e180a9acc98577e9a2e60be2cb41ebbac640359bdb6f4a73db535b3773b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Kt4RVKEd/versions/Iya1d63p/beekeeperhut-fabric-mc1.20.1-2.0.1.jar'
+
+[update.modrinth]
+mod-id = 'Kt4RVKEd'
+version = 'Iya1d63p'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

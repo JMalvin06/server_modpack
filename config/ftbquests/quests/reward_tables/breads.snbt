@@ -1,0 +1,16 @@
+{
+	id: "433B28A0808066B4"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "bakery:crusty_bread" }
+		{ item: "bakery:bread" }
+		{ item: "bakery:braided_bread" }
+		{ item: "bakery:bun" }
+		{ item: "bakery:baguette" }
+		{ item: "bakery:toast" }
+		{ item: "farm_and_charm:farmers_bread" }
+		{ item: "minecraft:bread" }
+	]
+	title: "breads"
+}

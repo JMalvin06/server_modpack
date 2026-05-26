@@ -1,0 +1,18 @@
+filename = 'plushie_buddies-1.0.0-1.20.1.jar'
+name = 'Plushie Buddies'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0-1.20.1'
+
+[download]
+hash = '4e86b99cc558bf05825977a46b0743572aeb4fec1f8755d265a21602a1042f5c174d1d12d0c6c17710d7d349a5cba55ae2f8de98e067dd29e9b5eb4214d5411a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5hoSWfrw/versions/BUUeUZLY/plushie_buddies-1.0.0-1.20.1.jar'
+
+[update.modrinth]
+mod-id = '5hoSWfrw'
+version = 'BUUeUZLY'

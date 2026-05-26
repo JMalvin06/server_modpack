@@ -1,0 +1,679 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "1A12A5075142889E"
+	id: "4C2EC3B14CA79211"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "08FE72F86C5C5CDB"
+			rewards: [{
+				id: "7A9DDE5B72DC7048"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Tame a mob"
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				icon: "minecraft:lead"
+				id: "45077C7F34452E43"
+				title: "Tame a mob"
+				type: "advancement"
+			}]
+			title: "Best Friends Forever"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08FE72F86C5C5CDB"]
+			description: ["Try right clicking it with a nametag for additional customization!"]
+			icon: "farm_and_charm:pet_bowl"
+			id: "13AB0D8B68E65E4A"
+			rewards: [
+				{
+					id: "59672F083763035F"
+					item: "farm_and_charm:dog_food_bag"
+					type: "item"
+				}
+				{
+					id: "13E4BD65B57F6E4C"
+					item: "farm_and_charm:cat_food_bag"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a Pet Bowl"
+			tasks: [{
+				id: "6CA23A85F702B1E2"
+				item: "farm_and_charm:pet_bowl"
+				type: "item"
+			}]
+			title: "Dinner Time!"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["294AE3085A06040D"]
+			id: "15EEDC8C668365E3"
+			rewards: [
+				{
+					id: "75C3181BA3942618"
+					item: "plushie_buddies:plushie_chicken"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					icon: "minecraft:crafting_table"
+					id: "741BA15D91ED65B0"
+					ignore_reward_blocking: true
+					stage: "chicken_plush"
+					title: "Chicken Plush Recipe"
+					type: "gamestage"
+				}
+			]
+			subtitle: "Place a Chicken Coop"
+			tasks: [{
+				advancement: "farm_and_charm:main/place_chicken_coop"
+				criterion: ""
+				id: "738054B50299E0CB"
+				type: "advancement"
+			}]
+			title: "Eggs Won't Fall Far"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B013D20CD5FA1A2"]
+			id: "3FBA920A94255531"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78049CD78B5EB9A4"
+				table_id: 7333830955642418723L
+				type: "choice"
+			}]
+			subtitle: "Obtain a Bag of Crops"
+			tasks: [{
+				id: "32F6E4F8F2AD33E8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(farm_and_charm:lettuce_bag)item(farm_and_charm:tomato_bag)item(farm_and_charm:carrot_bag)item(farm_and_charm:potato_bag)item(farm_and_charm:onion_bag)item(farm_and_charm:beetroot_bag)item(farm_and_charm:corn_bag)item(farm_and_charm:strawberry_bag)item(farm_and_charm:flour_bag)item(herbalbrews:tea_leaf_crate)item(vinery:white_grape_bag)item(vinery:red_grape_bag)item(vinery:cherry_bag)item(vinery:apple_bag))"
+					}
+				}
+				title: "Bag of Crops"
+				type: "item"
+			}]
+			title: "Bag and Tag"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B013D20CD5FA1A2"]
+			id: "7E76B6A8EBCFE520"
+			rewards: [{
+				count: 12
+				id: "5535FB989F7D86BF"
+				item: "minecraft:bone_meal"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Obtain Fertilizer"
+			tasks: [{
+				id: "1D84CAD6056EB865"
+				item: "farm_and_charm:fertilizer"
+				type: "item"
+			}]
+			title: "Clean Farming"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E76B6A8EBCFE520"]
+			disable_toast: true
+			id: "5C21A518A3714EFF"
+			rewards: [{
+				id: "144545DBADB2AB6A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Use a pitchfork on fertilized soil for a bonemeal effect"
+			tasks: [{
+				advancement: "farm_and_charm:main/use_pitchfork_on_fertilized_soil"
+				criterion: ""
+				id: "29278503D7E110B3"
+				type: "advancement"
+			}]
+			title: "Pitchfork Perfection"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7E76B6A8EBCFE520"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2BBBF955063D261C"
+			rewards: [{
+				id: "0A089D484C9DCC7B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Use a hoe on fertilized soil"
+			tasks: [{
+				advancement: "farm_and_charm:main/use_hoe_on_fertilized_soil"
+				criterion: ""
+				id: "2EF2D749BB349BA0"
+				title: "To Hoe or Not to Hoe"
+				type: "advancement"
+			}]
+			title: "Thinking With Fertilizer"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			description: [""]
+			id: "294AE3085A06040D"
+			rewards: [{
+				count: 16
+				id: "7990C1A1BF6DC635"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			subtitle: "Place a Chicken Nest"
+			tasks: [{
+				advancement: "farm_and_charm:main/place_chicken_nest"
+				criterion: ""
+				id: "72128B34747328B9"
+				type: "advancement"
+			}]
+			title: "Fully Nested"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "1C97A40D6C216107"
+			rewards: [{
+				count: 7
+				id: "36629BB178D4A34A"
+				item: "minecraft:coal"
+				random_bonus: 5
+				type: "item"
+			}]
+			subtitle: "Obtain a Stove"
+			tasks: [{
+				id: "54F9C074B7FA14C4"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(farm_and_charm:stove)item(candlelight:cobblestone_stove)item(candlelight:sandstone_stove)item(candlelight:stone_bricks_stove)item(candlelight:deepslate_stove)item(candlelight:granite_stove)item(candlelight:end_stove)item(candlelight:mud_stove)item(candlelight:quartz_stove)item(candlelight:red_nether_bricks_stove)item(candlelight:basalt_stove)item(candlelight:bamboo_stove))"
+					}
+				}
+				title: "Stove"
+				type: "item"
+			}]
+			title: "On Fire"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C97A40D6C216107"]
+			id: "01A622249CE826A8"
+			rewards: [
+				{
+					auto: "invisible"
+					description: "Check out your quest tab for new tasks"
+					exclude_from_claim_all: true
+					icon: "bakery:bread"
+					id: "5C3FFEE411376C2C"
+					title: "Baking Chapter Unlocked!"
+					type: "toast"
+				}
+				{
+					id: "24B8F8C517DA8858"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Obtain a Cooking Pot"
+			tasks: [{
+				id: "2D6A22A541C1AC36"
+				item: "farm_and_charm:cooking_pot"
+				type: "item"
+			}]
+			title: "We Need to Cook"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1C97A40D6C216107"]
+			id: "0562AD301C6E8B4E"
+			rewards: [{
+				id: "47749C07B095B43F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Roaster"
+			tasks: [{
+				id: "07A40138DF6250BF"
+				item: "farm_and_charm:roaster"
+				type: "item"
+			}]
+			title: "Ready to Roast"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["01A622249CE826A8"]
+			id: "734A7E6B5B75BF5A"
+			rewards: [{
+				id: "5D5418D1E3EDC3F2"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Cook a meal with the Cooking Pot"
+			tasks: [{
+				id: "3EEC1D54DFECDC95"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(farm_and_charm:strawberry_tea)item(farm_and_charm:nettle_tea)item(farm_and_charm:ribwort_tea)item(farm_and_charm:barley_soup)item(farm_and_charm:simple_tomato_soup)item(farm_and_charm:onion_soup)item(farm_and_charm:potato_soup)item(farm_and_charm:goulash)item(farm_and_charm:corn_grits)item(farm_and_charm:yeast))"
+					}
+				}
+				title: "Obtain a cooked item"
+				type: "item"
+			}]
+			title: "They Cooked"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1C97A40D6C216107"]
+			id: "427B9870632AFF7C"
+			rewards: [{
+				id: "60624AA5B821BB3F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Bake dish with the Stove"
+			tasks: [{
+				id: "3000155A8647E1DE"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(farm_and_charm:baked_lamb_ham)item(farm_and_charm:stuffed_chicken)item(farm_and_charm:potato_with_roast_meat)item(farm_and_charm:stuffed_rabbit)item(farm_and_charm:farmers_bread)item(farm_and_charm:grandmothers_strawberry_cake)item(farm_and_charm:roasted_corn)item(farm_and_charm:pasta_with_onion_sauce)item(farm_and_charm:roasted_chicken))"
+					}
+				}
+				title: "Obtain a baked item"
+				type: "item"
+			}]
+			title: "Investment Baker"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0562AD301C6E8B4E"]
+			id: "79EBB304A2C749D5"
+			rewards: [{
+				id: "0D337CC66A05C90B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Roast a meal with the Roaster"
+			tasks: [{
+				id: "387E22B1CF4F52D8"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(farm_and_charm:cooked_cod)item(farm_and_charm:bacon_with_eggs)item(farm_and_charm:lamb_with_corn)item(farm_and_charm:chicken_wrapped_in_bacon)item(farm_and_charm:sausage_with_oat_patty)item(farm_and_charm:cooked_salmon)item(farm_and_charm:barley_patties_with_potatoes)item(farm_and_charm:beef_patty_with_vegetables)item(farm_and_charm:farmers_breakfast)item(farm_and_charm:oat_pancake))"
+					}
+				}
+				title: "Obtain a roasted item"
+				type: "item"
+			}]
+			title: "Boom, Roasted"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			id: "23A4824E9EEAA5A3"
+			rewards: [{
+				id: "30138A8B83902CCE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Crafting Bowl"
+			tasks: [{
+				id: "4C464375D82BBE8B"
+				item: "farm_and_charm:crafting_bowl"
+				type: "item"
+			}]
+			title: "Stirring Things Up"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23A4824E9EEAA5A3"]
+			id: "5B4A69EA855E2632"
+			rewards: [{
+				id: "01D40B089022C5A0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Use the Crafting Bowl to make something"
+			tasks: [{
+				id: "3E9114E36C8F2798"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(farm_and_charm:dog_food)item(farm_and_charm:cat_food)item(farm_and_charm:dough)item(farm_and_charm:butter)item(farm_and_charm:oatmeal_with_strawberries)item(farm_and_charm:farmer_salad))"
+					}
+				}
+				title: "Stirred Item"
+				type: "item"
+			}]
+			title: "Stirring the Pot"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			description: ["Try using a horse to pull it!"]
+			id: "655DE55C01698712"
+			rewards: [{
+				count: 12
+				id: "173A21F5995E493C"
+				item: "minecraft:bone_meal"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Obtain a Cart and Plow"
+			tasks: [
+				{
+					id: "5713AF9EE215BB13"
+					item: "farm_and_charm:supply_cart"
+					type: "item"
+				}
+				{
+					id: "1C31340ED103BF0E"
+					item: "farm_and_charm:plow"
+					type: "item"
+				}
+			]
+			title: "Nifty!"
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			id: "1B013D20CD5FA1A2"
+			rewards: [{
+				id: "544D63755ECAB2A3"
+				item: {
+					Count: 1
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Obtain any seeds from the Let's Do series"
+			tasks: [{
+				id: "6C87003ADBCA4413"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(farm_and_charm:seeds))not(mod(betternether))not(mod(betterend))not(mod(minecraft))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Time to Farm!"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B013D20CD5FA1A2"]
+			description: ["Hydrates a 17x17 block area!"]
+			id: "55A2F021AD4C1575"
+			rewards: [{
+				id: "3CEA9FB32E368D65"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Water Sprinker"
+			tasks: [{
+				id: "65F867BCB1AAF0F3"
+				item: "farm_and_charm:water_sprinkler"
+				type: "item"
+			}]
+			title: "Sprinkled with Love!"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "42B1E22DA7C52504"
+			rewards: [{
+				id: "4EF534BF5AE2FA25"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Feeding Trough"
+			tasks: [{
+				id: "5B4C27853FCAB883"
+				item: "farm_and_charm:feeding_trough"
+				type: "item"
+			}]
+			title: "Feeding Efficiently"
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1B013D20CD5FA1A2"]
+			id: "0B4BE81419792014"
+			rewards: [{
+				id: "0505F2B5E6C8C569"
+				type: "xp"
+				xp: 25
+			}]
+			secret: true
+			subtitle: "Obtain Lettuce"
+			tasks: [{
+				id: "5F04FE717239ED23"
+				item: "farm_and_charm:lettuce"
+				type: "item"
+			}]
+			title: "Let Us Have Some Lettuce"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "5D9B8AA7D7D54B3B"
+			rewards: [
+				{
+					id: "15076D969CFDBADC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "minecraft:bread"
+					id: "1CD09C5BE2D26381"
+					table_id: 4844510493982877364L
+					type: "choice"
+				}
+			]
+			secret: true
+			subtitle: "Make yourself a Sandwich"
+			tasks: [{
+				id: "5CC0034B1A8604EC"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(bakery:sandwich)item(bakery:vegetable_sandwich)item(bakery:grilled_salmon_sandwich)item(bakery:grilled_bacon_sandwich))"
+					}
+				}
+				type: "item"
+			}]
+			title: "Sandwich Man"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7F7816657E3F087F"]
+			id: "2C598B05FDF59CF0"
+			rewards: [{
+				count: 2
+				id: "3074E77442E296BF"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			subtitle: "Obtain a Cheese Press"
+			tasks: [{
+				id: "6E343EA73B8890A8"
+				item: "meadow:cheese_form"
+				type: "item"
+			}]
+			title: "I'm Impressed"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2C598B05FDF59CF0"]
+			id: "0CBA591DF9CCDC0E"
+			rewards: [
+				{
+					count: 2
+					id: "3FA35286AA4CD97B"
+					item: "meadow:piece_of_cheese"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "74342A39C02CFC8B"
+					item: "meadow:cheese_rack"
+					type: "item"
+				}
+			]
+			subtitle: "Make Cheese"
+			tasks: [{
+				id: "7EE6FDD137013E15"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(meadow:cheese_blocks))"
+					}
+				}
+				type: "item"
+			}]
+			title: "One Cheese Please!"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			id: "75D00A918A4A3331"
+			rewards: [{
+				id: "617C934A45BD7E81"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Cooking Cauldron"
+			tasks: [{
+				id: "1C474A279B606E96"
+				item: "meadow:cooking_cauldron"
+				type: "item"
+			}]
+			title: "Cheese Cauldron"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["75D00A918A4A3331"]
+			id: "7F7816657E3F087F"
+			rewards: [{
+				id: "5A3CD97A650F6D45"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain Rennet"
+			tasks: [{
+				id: "4FF7A8B401C2F981"
+				item: "meadow:rennet"
+				type: "item"
+			}]
+			title: "Liquid Cheese"
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0CBA591DF9CCDC0E"]
+			id: "0FF1D45592DCC81E"
+			rewards: [{
+				id: "4FBE233E77DCA421"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Use a Fondue and Bread to make a Cheese Stick"
+			tasks: [
+				{
+					id: "6C64D63C4017FE63"
+					item: "meadow:fondue"
+					type: "item"
+				}
+				{
+					id: "4F8D3D3B9D41DBD0"
+					item: "meadow:cheese_stick"
+					type: "item"
+				}
+			]
+			title: "Fancy Cheese"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"427B9870632AFF7C"
+				"79EBB304A2C749D5"
+				"734A7E6B5B75BF5A"
+			]
+			icon: {
+				Count: 1
+				id: "candlelight:cooking_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "29BF62FEDA95A326"
+			rewards: [{
+				id: "221BF2B8A92A1921"
+				item: {
+					Count: 1
+					id: "candlelight:cooking_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Cook, Bake and Roast a meal"
+			title: "Proper Chef"
+			x: 1.0d
+			y: 8.0d
+		}
+	]
+	title: "Farming"
+}

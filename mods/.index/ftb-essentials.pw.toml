@@ -1,0 +1,33 @@
+filename = 'ftb-essentials-fabric-2001.2.4.jar'
+name = 'FTB Essentials (Forge & Fabric)'
+side = ''
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ftb-essentials-fabric-2001.2.4.jar'
+
+[download]
+hash = 'c38e8ba6a905d29094b625c6169c512a75f814b1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7609946
+project-id = 410811
+
+[[x-prismlauncher-dependencies]]
+addonId = '438495'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '472659'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '419699'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306612'
+type = 'REQUIRED'

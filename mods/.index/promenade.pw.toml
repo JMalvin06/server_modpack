@@ -1,0 +1,45 @@
+filename = 'promenade-4.0.0.jar'
+name = 'Promenade'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v4.0.0'
+
+[download]
+hash = '919bd5f0d581cb1ecd394f60959586eb3f068afd9cc614947c44b3a7ba8e73b44f0f0854128d5b83e3d3f6519c90c3b3579aeeb88387960898cb30526fcbfa16'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GuE5FpvB/versions/LuXqUsc6/promenade-4.0.0.jar'
+
+[update.modrinth]
+mod-id = 'GuE5FpvB'
+version = 'LuXqUsc6'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kkmrDlKT'
+type = 'OPTIONAL'
+version = 'CMDA8IcP'
+
+[[x-prismlauncher-dependencies]]
+addonId = '4WJZr8JU'
+type = 'OPTIONAL'
+version = 'xwi1gDNI'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'RllgGJib'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'meZK2DCX'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+version = 'XheZ9iGK'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'EMBEDDED'
+version = 's7VTKfLA'

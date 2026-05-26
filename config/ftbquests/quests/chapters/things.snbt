@@ -1,0 +1,134 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "things"
+	group: ""
+	id: "3D2CBBEA8D7A7B71"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "5FE5ECD13549310C"
+			rewards: [{
+				id: "58A5A50A788057B9"
+				item: "things:things_almanac"
+				type: "item"
+			}]
+			subtitle: "Equip an apple!"
+			tasks: [{
+				icon: "minecraft:apple"
+				id: "36BD868B6D161CA1"
+				title: "Apple on Face"
+				type: "custom"
+			}]
+			title: "Apple of My Eye"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "50F4A5713DF2C09A"
+			tasks: [{
+				id: "4F645C8E9E060E55"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61A590D6A5FA311E"]
+			id: "4086122E54FD1204"
+			tasks: [{
+				id: "02A818C1731266F7"
+				item: "exposure:photograph"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00C8B9584B7F8A51"]
+			id: "5E1E4C602468A12C"
+			tasks: [{
+				id: "517B8102EE933ECC"
+				item: "exposure:lightroom"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50F4A5713DF2C09A"]
+			id: "00C8B9584B7F8A51"
+			tasks: [{
+				id: "63F377703411E2A9"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(exposure:film_rolls))"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E1E4C602468A12C"]
+			id: "61A590D6A5FA311E"
+			tasks: [{
+				id: "5AF75F23B52AC080"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(exposure:developed_film_rolls))"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FE5ECD13549310C"]
+			id: "649C65B55BDE3193"
+			tasks: [{
+				id: "4AC32BCE1A4FF730"
+				item: {
+					Count: 1
+					id: "things:displacement_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FE5ECD13549310C"]
+			id: "4837071CFEC91CB1"
+			tasks: [{
+				id: "059E65BED6D9AEBB"
+				item: "things:hardening_catalyst"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5FE5ECD13549310C"]
+			id: "7357B6DB4323E6CF"
+			tasks: [{
+				id: "3B796B2E98612264"
+				item: "things:recall_potion"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "Misc"
+}

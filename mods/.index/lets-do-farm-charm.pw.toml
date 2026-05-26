@@ -1,0 +1,25 @@
+filename = 'letsdo-farm_and_charm-fabric-1.0.14.jar'
+name = "[Let's Do] Farm & Charm"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.14'
+
+[download]
+hash = '21ac172f64e88d4f942375bbcddae0a76bec483b15694f88bc816874434d4f385161b9a05e113da626159350a1e4806b3e4113121d6f170536f65a15f7fc661f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HJetCzWo/versions/sMjnKy5B/letsdo-farm_and_charm-fabric-1.0.14.jar'
+
+[update.modrinth]
+mod-id = 'HJetCzWo'
+version = 'sMjnKy5B'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'
