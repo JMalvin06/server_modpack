@@ -10,11 +10,18 @@
 		{
 			description: [""]
 			id: "5FE5ECD13549310C"
-			rewards: [{
-				id: "58A5A50A788057B9"
-				item: "things:things_almanac"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "58A5A50A788057B9"
+					item: "things:things_almanac"
+					type: "item"
+				}
+				{
+					id: "3B5D308146B94D4D"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Equip an apple!"
 			tasks: [{
 				icon: "minecraft:apple"
@@ -28,39 +35,72 @@
 		}
 		{
 			id: "50F4A5713DF2C09A"
+			rewards: [{
+				id: "2B526C9F9123EB4E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Camera"
 			tasks: [{
 				id: "4F645C8E9E060E55"
 				item: "exposure:camera"
 				type: "item"
 			}]
+			title: "Capture the Moment"
 			x: -3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["61A590D6A5FA311E"]
 			id: "4086122E54FD1204"
+			rewards: [
+				{
+					id: "59A7602606947F95"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "19E978774BCFE0F0"
+					item: "exposure:album"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "02A818C1731266F7"
 				item: "exposure:photograph"
 				type: "item"
 			}]
+			title: "It'll Last Longer!"
 			x: 2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["00C8B9584B7F8A51"]
 			id: "5E1E4C602468A12C"
+			rewards: [{
+				id: "10E65C16BFEB942A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Lightroom"
 			tasks: [{
 				id: "517B8102EE933ECC"
 				item: "exposure:lightroom"
 				type: "item"
 			}]
+			title: "Professional Developer"
 			x: -0.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["50F4A5713DF2C09A"]
 			id: "00C8B9584B7F8A51"
+			rewards: [{
+				id: "26A38D5C7B570774"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain Film"
 			tasks: [{
 				id: "63F377703411E2A9"
 				item: {
@@ -70,14 +110,22 @@
 						"ftbfiltersystem:filter": "or(item_tag(exposure:film_rolls))"
 					}
 				}
+				title: "Film"
 				type: "item"
 			}]
+			title: "Fit for the Spotlight"
 			x: -2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5E1E4C602468A12C"]
 			id: "61A590D6A5FA311E"
+			rewards: [{
+				id: "577BFA6E11BAB35C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Develop Film using a Lightroom"
 			tasks: [{
 				id: "5AF75F23B52AC080"
 				item: {
@@ -87,14 +135,31 @@
 						"ftbfiltersystem:filter": "or(item_tag(exposure:developed_film_rolls))"
 					}
 				}
+				title: "Developed Film"
 				type: "item"
 			}]
+			title: "Finished Film"
 			x: 1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5FE5ECD13549310C"]
 			id: "649C65B55BDE3193"
+			rewards: [
+				{
+					count: 3
+					id: "08CD7390E1DD6F2C"
+					item: "things:displacement_page"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "126D64C7ADB89593"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a Displacement Tome"
 			tasks: [{
 				id: "4AC32BCE1A4FF730"
 				item: {
@@ -104,31 +169,95 @@
 				}
 				type: "item"
 			}]
+			title: "Reliable Waypoints"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5FE5ECD13549310C"]
 			id: "4837071CFEC91CB1"
+			rewards: [{
+				id: "4E0CCB6698F5D8EC"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			subtitle: "Obtain a Hardening Catalyst"
 			tasks: [{
 				id: "059E65BED6D9AEBB"
 				item: "things:hardening_catalyst"
 				type: "item"
 			}]
+			title: "Hard as Diamonds"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["5FE5ECD13549310C"]
 			id: "7357B6DB4323E6CF"
+			rewards: [{
+				id: "10BF97FE71D10E22"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Obtain a Recall Potion"
 			tasks: [{
 				id: "3B796B2E98612264"
 				item: "things:recall_potion"
 				type: "item"
 			}]
+			title: "Take Me Home"
 			x: 0.5d
 			y: 0.0d
 		}
+		{
+			id: "2F2761AAC9FB1967"
+			rewards: [{
+				id: "13EC6CC9B3C63BC5"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Utilize Nephrite blocks to store your XP"
+			tasks: [
+				{
+					id: "5BDBA161C2199328"
+					item: "spelunkery:nephrite_siphon"
+					type: "item"
+				}
+				{
+					id: "1EC05F07789DE88E"
+					item: "spelunkery:nephrite_fountain"
+					type: "item"
+				}
+				{
+					id: "12638A4AF973D520"
+					item: "spelunkery:carved_nephrite"
+					type: "item"
+				}
+			]
+			title: "Nifty Nephrite"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50F4A5713DF2C09A"]
+			id: "0CD0191D4229D087"
+			rewards: [{
+				id: "7FF1DB45CF7BBB3B"
+				type: "xp"
+				xp: 20
+			}]
+			secret: true
+			subtitle: "Obtain an Instant Camera"
+			tasks: [{
+				id: "3FBD81AC243D146A"
+				item: "exposure_polaroid:instant_camera"
+				type: "item"
+			}]
+			title: "Perfect Polaroid"
+			x: -3.5d
+			y: 2.5d
+		}
 	]
+	subtitle: ["Stuff and Things"]
 	title: "Misc"
 }

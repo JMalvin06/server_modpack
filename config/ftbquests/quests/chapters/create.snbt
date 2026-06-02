@@ -75,6 +75,7 @@
 		}
 		{
 			dependencies: ["0875E30471A46A03"]
+			hide_until_deps_complete: true
 			id: "06F57025F2187434"
 			optional: true
 			rewards: [{
@@ -107,6 +108,7 @@
 		}
 		{
 			dependencies: ["0875E30471A46A03"]
+			hide_until_deps_complete: true
 			id: "115855E13FE2CFB8"
 			optional: true
 			rewards: [
@@ -159,6 +161,7 @@
 						"ftbfiltersystem:filter": "or(item(create:millstone)item(create:mechanical_press)item(create:mechanical_mixer)item(create:mechanical_drill)item(create:mechanical_saw))"
 					}
 				}
+				title: "Andesite Machine"
 				type: "item"
 			}]
 			title: "Baby's First Machine"
@@ -248,6 +251,7 @@
 		}
 		{
 			dependencies: ["4F087FC65A2A8799"]
+			hide_until_deps_complete: true
 			id: "7E887823A79D6A8D"
 			rewards: [{
 				count: 5
@@ -281,6 +285,7 @@
 		}
 		{
 			dependencies: ["4F087FC65A2A8799"]
+			hide_until_deps_complete: true
 			id: "0615989F272CF98E"
 			rewards: [
 				{
@@ -336,6 +341,7 @@
 		}
 		{
 			dependencies: ["4F087FC65A2A8799"]
+			hide_until_deps_complete: true
 			id: "3EF3C1598C40B251"
 			rewards: [{
 				count: 3
@@ -439,6 +445,7 @@
 		}
 		{
 			dependencies: ["4F4723482068F452"]
+			hide_until_deps_complete: true
 			id: "656141BA4B7A4D43"
 			optional: true
 			rewards: [{
@@ -457,6 +464,7 @@
 						"ftbfiltersystem:filter": "item_tag(create:toolboxes)"
 					}
 				}
+				title: "Toolbox"
 				type: "item"
 			}]
 			title: "A Nice Set of Tools"
@@ -465,6 +473,7 @@
 		}
 		{
 			dependencies: ["4F4723482068F452"]
+			hide_until_deps_complete: true
 			id: "227005F4E5E59D5F"
 			optional: true
 			rewards: [{
@@ -643,12 +652,13 @@
 					type: "item"
 				}
 			]
-			title: "No One Hears a Word"
+			title: "No One Hears a Word They Say"
 			x: 2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["34AA8FDB5AE7A18F"]
+			hide_until_deps_complete: true
 			id: "5DD5E82D44112607"
 			rewards: [{
 				id: "7926592B48745F82"
@@ -685,6 +695,7 @@
 						"ftbfiltersystem:filter": "or(item(create:schedule)item(create:track_signal)item(create:track_observer)item(railways:track_coupler)item_tag(railways:conductor_caps)item(railways:semaphore))"
 					}
 				}
+				title: "Train Extras"
 				type: "item"
 			}]
 			title: "Above and Beyond"
@@ -713,6 +724,7 @@
 		}
 		{
 			dependencies: ["34AA8FDB5AE7A18F"]
+			hide_until_deps_complete: true
 			id: "55F8ABB4E2EAB109"
 			optional: true
 			rewards: [{
@@ -754,14 +766,15 @@
 			subtitle: "Press W to Ponder!"
 			tasks: [
 				{
-					id: "1D77EA1C72F817F7"
-					item: "create:cogwheel"
-					type: "item"
-				}
-				{
 					id: "304AB0D4B19A90FD"
 					title: "Pondered"
 					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "1D77EA1C72F817F7"
+					item: "create:cogwheel"
+					type: "item"
 				}
 			]
 			title: "Welcome to Create"
@@ -770,6 +783,7 @@
 		}
 		{
 			dependencies: ["4F4723482068F452"]
+			hide_until_deps_complete: true
 			id: "31661121C18EE76D"
 			optional: true
 			rewards: [{

@@ -11,6 +11,11 @@
 			dependencies: ["01A622249CE826A8"]
 			hide_until_deps_complete: true
 			id: "4069774909AE0442"
+			rewards: [{
+				id: "06518AFFE8AEC183"
+				type: "xp"
+				xp: 15
+			}]
 			subtitle: "Make Yeast"
 			tasks: [{
 				id: "6643F9D5A5F4EF5E"
@@ -19,7 +24,7 @@
 			}]
 			title: "Yeast of Your Worries"
 			x: -1.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -28,40 +33,59 @@
 			]
 			hide_until_deps_complete: true
 			id: "3F029818F874AC68"
+			subtitle: "Obtain Cake Dough"
 			tasks: [{
 				id: "0FB2174FDBFA8468"
 				item: "bakery:cake_dough"
 				type: "item"
 			}]
+			title: "Bake It Slow"
 			x: 0.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4069774909AE0442"]
 			id: "5A8D84A3C2602D86"
+			rewards: [{
+				id: "6F2415475BFE3575"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				id: "3B08CEAB49CED1F8"
 				item: "farm_and_charm:dough"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["23A4824E9EEAA5A3"]
 			hide_until_deps_complete: true
 			id: "364245B53BFC9183"
+			rewards: [{
+				id: "5D694C1675B452E4"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Make some Sweet Dough"
 			tasks: [{
 				id: "7F1F97F32903AD3B"
 				item: "bakery:sweet_dough"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			title: "Never Too Sweet"
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3F029818F874AC68"]
 			id: "1E569048D1011F31"
+			rewards: [{
+				id: "01848E81E1EFB9FF"
+				type: "xp"
+				xp: 20
+			}]
 			subtitle: "Bake a Cake"
 			tasks: [{
 				id: "20AA0625F42AA2DF"
@@ -72,16 +96,30 @@
 						"ftbfiltersystem:filter": "or(item(bakery:strawberry_cake)item(bakery:sweetberry_cake)item(bakery:chocolate_cake)item(bakery:chocolate_gateau))"
 					}
 				}
+				title: "Cake"
 				type: "item"
 			}]
 			title: "Bake Me a Cake"
 			x: 1.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["1E569048D1011F31"]
+			dependencies: ["3F029818F874AC68"]
 			description: ["Try using a knife on Cake Dough!"]
 			id: "1E6CC9740C3E3082"
+			rewards: [
+				{
+					id: "7577C00C470E9CD6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4C92C9C24A978DB5"
+					item: "bakery:cupcake_display"
+					type: "item"
+				}
+			]
+			subtitle: "Use a Knife on Cake Dough to make Cupakes"
 			tasks: [{
 				id: "12D86B22F162F31F"
 				item: {
@@ -91,16 +129,23 @@
 						"ftbfiltersystem:filter": "or(item(bakery:strawberry_cupcake)item(bakery:sweetberry_cupcake)item(bakery:apple_cupcake))"
 					}
 				}
+				title: "Cupcake"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			title: "Mini Cakes"
+			x: 1.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["1E569048D1011F31"]
-			description: ["Try using a knife and rolling pin on Cake Dough!"]
+			dependencies: ["3F029818F874AC68"]
+			description: [""]
 			id: "7A3A0C0C28B67BF2"
-			subtitle: "Bake Cookies"
+			rewards: [{
+				id: "16033CBD24272F01"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Use a Knife and Rolling pin on Cake Dough to make Cookies"
 			tasks: [{
 				id: "22F5DB8561DBAD88"
 				item: {
@@ -110,26 +155,48 @@
 						"ftbfiltersystem:filter": "or(item(bakery:strawberry_glazed_cookie)item(bakery:sweetberry_glazed_cookie)item(bakery:chocolate_glazed_cookie))"
 					}
 				}
+				title: "Cookie"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
+			title: "Cookie Monster"
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["23A4824E9EEAA5A3"]
 			hide_until_deps_complete: true
 			id: "7221357A09424CA1"
+			rewards: [{
+				id: "50DF013E1B7FC526"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Caking Station"
 			tasks: [{
 				id: "6C75BBB18DAB87D4"
 				item: "bakery:baker_station"
 				type: "item"
 			}]
+			title: "Crazy Cakery"
 			x: -1.5d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["5A8D84A3C2602D86"]
 			id: "403BAFEBB10F07DC"
+			rewards: [
+				{
+					id: "259BC8C8E5A91876"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6E952A3AA0022766"
+					item: "bakery:chocolate_box"
+					type: "item"
+				}
+			]
+			subtitle: "Bake a loaf of Bread"
 			tasks: [{
 				id: "2C283C7742C3550A"
 				item: {
@@ -139,15 +206,29 @@
 						"ftbfiltersystem:filter": "item_tag(bakery:bread)not(item(minecraft:bread))"
 					}
 				}
+				title: "Loaf of Bread"
 				type: "item"
 			}]
-			title: "Make Bread"
+			title: "Baking Bread"
 			x: 1.5d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["364245B53BFC9183"]
 			id: "3A8034E9B410F9DD"
+			rewards: [
+				{
+					id: "56B67BD7EC95B63B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "785E63825D765B66"
+					item: "bakery:chocolate_cake_slice"
+					type: "item"
+				}
+			]
+			subtitle: "Bake some Sweet Bread"
 			tasks: [{
 				id: "6E6DBD24414CCC0A"
 				item: {
@@ -157,23 +238,98 @@
 						"ftbfiltersystem:filter": "or(item(bakery:waffle)item(bakery:croissant)item(bakery:baguette)item(bakery:glowberry_tart)item(bakery:cornet)item(bakery:misslilitu_biscuit)item(bakery:chocolate_tart)item(bakery:braided_bread)item(bakery:apple_pie)item(bakery:linzer_tart)item(bakery:jam_roll))"
 					}
 				}
+				title: "Sweet Bread"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			title: "Pastry Chef"
+			x: -1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1E569048D1011F31"]
 			id: "7E4174CCD498551C"
+			rewards: [{
+				id: "0A6CC621072630E6"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Obtain a Cake Stand"
 			tasks: [{
 				id: "762DDE04FE0A5233"
 				item: "bakery:cake_stand"
 				type: "item"
 			}]
-			title: "Tada!"
+			title: "Showoff.."
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["422C826BD72CBAE3"]
+			id: "73DB80A733872DED"
+			rewards: [{
+				id: "5C95C3F8234F7871"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Cook some Pudding"
+			tasks: [{
+				id: "0D4EB6C58E5A99C4"
+				item: "bakery:pudding"
+				type: "item"
+			}]
+			title: "Pudding Your Worries Aside"
 			x: 1.5d
-			y: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["422C826BD72CBAE3"]
+			id: "44F80A1BFC143807"
+			rewards: [{
+				id: "37FF10F269B0595B"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Obtain some Jam"
+			tasks: [{
+				id: "7FFDF5C9D113F725"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(bakery:jams))"
+					}
+				}
+				title: "Jam"
+				type: "item"
+			}]
+			title: "I'll Be Jammed"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01A622249CE826A8"]
+			hide_until_deps_complete: true
+			id: "422C826BD72CBAE3"
+			rewards: [{
+				id: "5236ACD3F2C8DE5B"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Obtain a Small Cooking Pot"
+			tasks: [{
+				id: "63D4DA513EED03EB"
+				item: {
+					Count: 1
+					id: "bakery:small_cooking_pot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Optimized Cooking"
+			x: 0.0d
+			y: 6.5d
 		}
 	]
 	title: "Baking"

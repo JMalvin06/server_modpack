@@ -1,0 +1,26 @@
+{
+	id: "09DFC9FEF40921C6"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "brewery:brewfest_regalia"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "brewery:brewfest_blouse"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "brewfest shirts"
+}

@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["767745255B65BCC0"]
 			id: "183D546BF09A9494"
 			rewards: [{
 				id: "680117697EEF213F"
@@ -16,7 +17,8 @@
 				xp: 10
 			}]
 			shape: "square"
-			size: 1.5d
+			size: 1.2d
+			subtitle: "Obtain any kind of Wood Log"
 			tasks: [{
 				id: "30E4C8EF675F65E2"
 				item: {
@@ -26,6 +28,7 @@
 						"ftbfiltersystem:filter": "or(item_tag(minecraft:logs))"
 					}
 				}
+				title: "Wood Log"
 				type: "item"
 			}]
 			title: "Getting Started"
@@ -35,53 +38,110 @@
 		{
 			dependencies: ["4BBCC0830068CB8C"]
 			id: "6C686132BBE2A215"
+			rewards: [{
+				id: "37520B5BB607F1F3"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain Cobblestone"
 			tasks: [{
 				id: "6248E9C608EE9D47"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
+			title: "Rock and Stone"
 			x: -5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["34BD64A75677C572"]
 			id: "3E8D0031267E7276"
-			shape: "hexagon"
-			size: 1.5d
+			rewards: [
+				{
+					count: 8
+					id: "52C3678DC90B5BD1"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					id: "0989014832DE3CE5"
+					type: "xp"
+					xp: 15
+				}
+			]
+			size: 1.0d
+			subtitle: "Obtain an Iron Ingot"
 			tasks: [{
 				id: "1D09B352338954DC"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
 			x: -2.5d
-			y: 0.0d
+			y: -0.035714285714277594d
 		}
 		{
 			dependencies: ["183D546BF09A9494"]
 			id: "4BBCC0830068CB8C"
+			rewards: [
+				{
+					count: 4
+					id: "721DB6133ABD2A3E"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "0FA9E032137CA87C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Obtain a Crafting Table"
 			tasks: [{
 				id: "7A8C22057676C013"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
+			title: "Let's Minecraft"
 			x: -7.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C686132BBE2A215"]
 			id: "34BD64A75677C572"
+			rewards: [{
+				count: 16
+				id: "34BCC7128DE2A004"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Obtain a Furnace"
 			tasks: [{
 				id: "726093B8C28A370D"
 				item: "minecraft:furnace"
 				type: "item"
 			}]
+			title: "Super Smelter"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3E8D0031267E7276"]
+			dependencies: ["7750B3B970E8883B"]
 			description: ["Try using a Diamond Grindstone or some Sand Paper to polish!"]
 			id: "20E3BD3D2EE0592D"
+			rewards: [
+				{
+					count: 3
+					id: "2107082D6F6AACC3"
+					item: "spelunkery:rough_diamond_shard"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "4B9F7F8FD8D40D77"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
 			subtitle: "Obtain a Rough Diamond"
 			tasks: [{
 				id: "1CD1B17EA58F6D5B"
@@ -89,12 +149,17 @@
 				type: "item"
 			}]
 			title: "Diamond That is Rough"
-			x: -2.5d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["20E3BD3D2EE0592D"]
 			id: "007189A416C6B42D"
+			rewards: [{
+				id: "61E707A4E82F6F47"
+				type: "xp"
+				xp: 25
+			}]
 			subtitle: "Polish a Rough Diamond"
 			tasks: [{
 				id: "02756DA7E5911EF9"
@@ -102,67 +167,196 @@
 				type: "item"
 			}]
 			title: "Polishing Up"
-			x: -2.5d
+			x: -1.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["3E8D0031267E7276"]
+			dependencies: ["7750B3B970E8883B"]
 			id: "2316094D602A3B54"
+			rewards: [{
+				id: "4CE7CCF219578328"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain Rough Cinnabar"
 			tasks: [{
 				id: "0382A85FC143A88E"
 				item: "spelunkery:rough_cinnabar"
 				type: "item"
 			}]
-			x: -2.5d
+			title: "Roughly Done"
+			x: -1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2316094D602A3B54"]
 			id: "35F8212DC1BE223B"
+			rewards: [
+				{
+					count: 6
+					id: "79898904394DFA12"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "6F4B3DDEBB4FF34A"
+					type: "xp"
+					xp: 15
+				}
+			]
 			subtitle: "Grind Rough Cinnabar into Redstone"
 			tasks: [{
 				id: "56EAFFC4EFE70A91"
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			title: "Obtain Redstone"
-			x: -3.0d
+			title: "Dust Off the Grindstone"
+			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["2316094D602A3B54"]
 			id: "428BB1248B69FAFA"
+			rewards: [{
+				id: "5B5FC9F92D26816A"
+				type: "xp"
+				xp: 15
+			}]
 			subtitle: "Polish Rough Cinnabar"
 			tasks: [{
 				id: "4ABADA594C62E7C0"
 				item: "spelunkery:cinnabar"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["5A4322AA972BA322"]
 			id: "558E8DC239903E5F"
-			subtitle: "Polish Lazurite"
+			rewards: [
+				{
+					count: 3
+					id: "42CBCCF46B393DA1"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "3BEA5663839F78EB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Polish Lazurite into Lapis"
 			tasks: [{
 				id: "3FE96F157E5E7578"
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: 0.0d
+			title: "Enchanting Alloy"
+			x: 1.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3E8D0031267E7276"]
+			dependencies: ["7750B3B970E8883B"]
 			id: "5A4322AA972BA322"
+			rewards: [{
+				id: "47DCC1A92A599A31"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain Rough Lazurite"
 			tasks: [{
 				id: "64C2F1BF4EC444A8"
 				item: "spelunkery:rough_lazurite"
 				type: "item"
 			}]
+			title: "Rather Unrefined"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Welcome to the quest menu!"
+				""
+				"Quests are intended to be a intuitive way to familiarize yourself with the mods in this pack. They are not required, and often explore the surface level of a mod."
+				""
+				"The Getting Started Chapter is centered on the basic Minecraft ore progression (with some modded tweaks), though the other chapters explore deeper into the modpack."
+				""
+				"Thank you for playing!"
+			]
+			icon: "minecraft:book"
+			id: "767745255B65BCC0"
+			rewards: [{
+				id: "64A84A5DD724ACDA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Click Me!"
+			tasks: [{
+				id: "38DF0646C6B03E0A"
+				title: "Click to complete"
+				type: "checkmark"
+			}]
+			title: "Welcome to Quests!"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E8D0031267E7276"]
+			id: "7750B3B970E8883B"
+			rewards: [{
+				id: "6293D1C20B650C73"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.2d
+			subtitle: "Obtain a polishing tool"
+			tasks: [{
+				id: "020A1C0B02CE5280"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(create:sandpaper)item(minecraft:grindstone))"
+					}
+				}
+				title: "Polishing Tool"
+				type: "item"
+			}]
+			title: "On the Grind"
 			x: -1.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["767745255B65BCC0"]
+			description: [
+				"EMI is a mod that helps you search blocks, items and recipes"
+				""
+				"On the right of your inventory screen, you can use the searchbar to search for specific items. You can use the @ symbol at the start of the search to query by mod name or the # symbol to query by item tag."
+				""
+				"To get the recipe of an item, hover your mouse over the item and press the R key. You can press the U key to see what recipes it is used in."
+				""
+				"Happy crafting!"
+			]
+			icon: "minecraft:grass_block"
+			id: "248015E6F3074731"
+			rewards: [{
+				id: "09AA1ED302A79288"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "50871AF399CDBA44"
+				title: "Click here when done!"
+				type: "checkmark"
+			}]
+			title: "EMI Be Clear"
+			x: -10.5d
+			y: -1.5d
 		}
 	]
 	title: "Getting Started"

@@ -15,7 +15,7 @@
   // -----------------------------------------------------------
   // Items here will be unusable completely
   //    Example: minecraft:diamond
-  "blacklisted_items": ['create:dough', 'create:wheat_flour', "!comforts:sleeping_bag_.*", 'create:honey_bucket', 'create:honey', 'herbalbrews:stove'],
+  "blacklisted_items": ['create:dough', 'create:wheat_flour', "!comforts:sleeping_bag_.*", 'create:honey_bucket', 'create:honey', 'herbalbrews:stove', 'plushie_buddies:workbench', 'plushie_buddies:plushie_breeze'],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
   // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.

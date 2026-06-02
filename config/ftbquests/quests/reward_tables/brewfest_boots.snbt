@@ -1,0 +1,26 @@
+{
+	id: "4E865C47C080B58A"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "brewery:brewfest_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "brewery:brewfest_shoes"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "brewfest boots"
+}

@@ -1,0 +1,26 @@
+{
+	id: "5D201BAEB8E73A3A"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "brewery:brewfest_trousers"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "brewery:brewfest_dress"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "brewfest pants"
+}

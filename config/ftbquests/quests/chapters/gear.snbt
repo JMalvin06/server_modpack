@@ -16,6 +16,12 @@
 	quests: [
 		{
 			id: "0BAE68D955A9CC59"
+			rewards: [{
+				id: "418351636FD7F9E3"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Obtain a set of Iron Armor"
 			tasks: [
 				{
 					id: "1400FDF7A8844E1C"
@@ -62,11 +68,17 @@
 					type: "item"
 				}
 			]
+			title: "Gearing Up"
 			x: -4.5d
 			y: 3.0d
 		}
 		{
 			id: "6B0E0B9BDD1949E0"
+			rewards: [{
+				id: "48816E932F7F64AF"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [
 				{
 					id: "7DAEFB84007C2317"
@@ -113,11 +125,17 @@
 					type: "item"
 				}
 			]
+			title: "Warrior Armor"
 			x: -3.5d
 			y: 3.0d
 		}
 		{
 			id: "4B4683EDBC669F90"
+			rewards: [{
+				id: "24F047108EA88429"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [
 				{
 					id: "5A20C53CB9C3C7FA"
@@ -164,11 +182,17 @@
 					type: "item"
 				}
 			]
+			title: "Heavy Armor"
 			x: -5.5d
 			y: 3.0d
 		}
 		{
 			id: "06B660E7D55A83F9"
+			rewards: [{
+				id: "0A073124A246622E"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [
 				{
 					id: "714C8D7A2FA90273"
@@ -215,11 +239,17 @@
 					type: "item"
 				}
 			]
+			title: "Steampunk Armor"
 			x: -7.5d
 			y: 3.0d
 		}
 		{
 			id: "252E2C3348FF4DB5"
+			rewards: [{
+				id: "7F92F9B299EB8671"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [
 				{
 					id: "792AE0911B36E0EB"
@@ -266,12 +296,18 @@
 					type: "item"
 				}
 			]
+			title: "Magic Robes"
 			x: -5.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["252E2C3348FF4DB5"]
 			id: "2DECCC64CFA985A9"
+			rewards: [{
+				id: "04ED2F4AF6B82B21"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [
 				{
 					id: "6EA9755DE0B4189B"
@@ -318,11 +354,30 @@
 					type: "item"
 				}
 			]
+			title: "Divine Armor"
 			x: -7.0d
 			y: 2.0d
 		}
 		{
 			id: "44300EA41933AF3F"
+			rewards: [
+				{
+					id: "13803B33C3326F90"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1E2C1EA981F30875"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "01C2937EFFC9F286"
@@ -369,11 +424,24 @@
 					type: "item"
 				}
 			]
+			title: "Bone Armor"
 			x: -3.5d
 			y: 2.0d
 		}
 		{
 			id: "63038F39143DD152"
+			rewards: [
+				{
+					id: "5C890E837E9B3464"
+					item: "plushie_buddies:plushie_slime"
+					type: "item"
+				}
+				{
+					id: "23A382B6375440FD"
+					type: "xp"
+					xp: 15
+				}
+			]
 			tasks: [
 				{
 					id: "468A1BCA1A0278BA"
@@ -420,11 +488,24 @@
 					type: "item"
 				}
 			]
+			title: "Slime Armor"
 			x: -6.5d
 			y: 3.0d
 		}
 		{
 			id: "396CEBECE08BCB69"
+			rewards: [
+				{
+					id: "52035C00B801C761"
+					item: "plushie_buddies:plushie_guardian"
+					type: "item"
+				}
+				{
+					id: "3BBBB2D873E33461"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [
 				{
 					id: "2BE81882F008B190"
@@ -471,11 +552,17 @@
 					type: "item"
 				}
 			]
+			title: "Prismarine Armor"
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			id: "7A1670C9719E749F"
+			rewards: [{
+				id: "52AD25260E5D3A04"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [
 				{
 					id: "39CFD5615359C7A8"
@@ -522,12 +609,19 @@
 					type: "item"
 				}
 			]
+			title: "Wooden Armor"
 			x: -4.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["0BAE68D955A9CC59"]
 			id: "6B471C9B3E40D286"
+			rewards: [{
+				id: "7D8FDC90305B32CD"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Obtain a set of Diamond Armor"
 			tasks: [
 				{
 					id: "5F57C18CE5B37A0D"
@@ -574,12 +668,26 @@
 					type: "item"
 				}
 			]
+			title: "Shine Bright"
 			x: -4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6B471C9B3E40D286"]
 			id: "52D9370C99E1D456"
+			rewards: [
+				{
+					id: "07803B0B29E6F3BC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "592D4837D5CCFB79"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a set of Netherite Armor"
 			tasks: [
 				{
 					id: "69008CCE2C3721C4"
@@ -626,12 +734,26 @@
 					type: "item"
 				}
 			]
+			title: "Industrial Grade"
 			x: -4.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1F4794D61A14C600"]
 			id: "226C158E665BC963"
+			rewards: [
+				{
+					id: "0C51C341B94A017D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 5
+					id: "5D4286C4409EA68B"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "490FEB005FB9EDC0"
@@ -642,6 +764,7 @@
 							"ftbfiltersystem:filter": "or(item_tag(mythicupgrades:upgraded_helmets))"
 						}
 					}
+					title: "Upgraded Helmet"
 					type: "item"
 				}
 				{
@@ -653,6 +776,7 @@
 							"ftbfiltersystem:filter": "or(item_tag(mythicupgrades:upgraded_chestplates))"
 						}
 					}
+					title: "Upgraded Chestplate"
 					type: "item"
 				}
 				{
@@ -664,6 +788,7 @@
 							"ftbfiltersystem:filter": "or(item_tag(mythicupgrades:upgraded_leggings))"
 						}
 					}
+					title: "Upgraded Leggings"
 					type: "item"
 				}
 				{
@@ -675,6 +800,7 @@
 							"ftbfiltersystem:filter": "or(item_tag(mythicupgrades:upgraded_boots))"
 						}
 					}
+					title: "Upgraded Boots"
 					type: "item"
 				}
 			]
@@ -685,6 +811,11 @@
 			dependencies: ["52D9370C99E1D456"]
 			hide_until_deps_complete: true
 			id: "1F4794D61A14C600"
+			rewards: [{
+				id: "186A36EB74B2EC10"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [
 				{
 					id: "2AC6D0CC3A4E6AB9"
@@ -695,6 +826,7 @@
 							"ftbfiltersystem:filter": "or(item_tag(mythicupgrades:ingots))"
 						}
 					}
+					title: "Upgrade Ingot"
 					type: "item"
 				}
 				{
@@ -706,6 +838,7 @@
 							"ftbfiltersystem:filter": "or(item_tag(mythicupgrades:smithing_templates))"
 						}
 					}
+					title: "Upgrade Template"
 					type: "item"
 				}
 			]
@@ -716,6 +849,11 @@
 			dependencies: ["74B9E7FAD86459E6"]
 			hide_until_deps_complete: true
 			id: "6F043F7A1DF2DA2D"
+			rewards: [{
+				id: "04E69BECC38BE4E7"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [
 				{
 					id: "283D8B057EF792C9"
@@ -762,23 +900,25 @@
 					type: "item"
 				}
 			]
+			title: "Nether Ruby Armor"
 			x: -5.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6F043F7A1DF2DA2D"]
-			id: "6A5E21A7546EC09E"
-			tasks: [{
-				id: "0B3893BB9D62D2DD"
-				item: "betternether:flaming_ruby_upgrade_smithing_template"
-				type: "item"
-			}]
-			x: -5.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["6A5E21A7546EC09E"]
 			id: "05AFCF5ED7730EAB"
+			rewards: [
+				{
+					id: "6B6A831F80D5394B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6BEA43751F73D759"
+					item: "plushie_buddies:plushie_magma_cube"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3A6832FA94AB4063"
@@ -841,13 +981,19 @@
 					type: "item"
 				}
 			]
+			title: "Fireruby Armor"
 			x: -5.5d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3F081145D6D33EE9"]
 			hide_until_deps_complete: true
 			id: "7A2D06218093BE3A"
+			rewards: [{
+				id: "0B14ECCDE82ECB8A"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [
 				{
 					id: "111C80E467E5F3DC"
@@ -894,23 +1040,43 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			x: -2.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["7A2D06218093BE3A"]
+			dependencies: ["3F081145D6D33EE9"]
+			hide_until_deps_complete: true
 			id: "428BFA48FAF6EC9F"
+			rewards: [{
+				id: "1BA4C40B78C3307E"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Obtain the Smithing Template for Aeternium Armor"
 			tasks: [{
 				id: "2EA90B80D71FBB56"
 				item: "betterend:plate_upgrade_smithing_template"
 				type: "item"
 			}]
+			title: "Aeternium Upgrade"
 			x: -3.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["428BFA48FAF6EC9F"]
 			id: "50B3725B213FCA82"
+			rewards: [
+				{
+					id: "3F9C93932CE906A8"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "16BD825A65692A37"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3872F7BA49AF315B"
@@ -968,12 +1134,25 @@
 					type: "item"
 				}
 			]
+			title: "Aeternium Armor"
 			x: -3.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["44300EA41933AF3F"]
 			id: "6C90E4FA2D26EC5F"
+			rewards: [
+				{
+					id: "3D911F760AD392A9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5547BCAF01E55B3F"
+					item: "plushie_buddies:plushie_wither_skeleton"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3D991F4DE5A55F7F"
@@ -1020,16 +1199,29 @@
 					type: "item"
 				}
 			]
+			title: "Wither Armor"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: [
-				"7A2D06218093BE3A"
 				"77E983CE55EC1FC0"
+				"3F081145D6D33EE9"
 			]
 			hide_until_deps_complete: true
 			id: "1BF42D2170DE36CA"
+			rewards: [
+				{
+					id: "0B07D99FE3541E2C"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "522F5F847DB0BF6C"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "4BE79E156F5F2645"
@@ -1087,16 +1279,25 @@
 					type: "item"
 				}
 			]
+			title: "Crystalite Armor"
 			x: -2.5d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			id: "0CE11A1EA3D955A6"
-			rewards: [{
-				id: "35E3DA9898E31075"
-				item: "travelersbackpack:jukebox_upgrade"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "35E3DA9898E31075"
+					item: "travelersbackpack:jukebox_upgrade"
+					type: "item"
+				}
+				{
+					id: "403B175D11BA19AE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Obtain a Traveler's Backpack"
 			tasks: [{
 				id: "7F5A47BB29406242"
 				item: {
@@ -1113,12 +1314,18 @@
 				}
 				type: "item"
 			}]
+			title: "Backpacking Across the Land"
 			x: -6.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["0CE11A1EA3D955A6"]
 			id: "32877D80DF20831D"
+			rewards: [{
+				id: "2789D9AA1068F703"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "370862206BC59671"
 				item: "travelersbackpack:iron_tier_upgrade"
@@ -1130,6 +1337,11 @@
 		{
 			dependencies: ["32877D80DF20831D"]
 			id: "1E14218A79D67D45"
+			rewards: [{
+				id: "1AD805767E859F4A"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				id: "5FC23C837E1CB1AF"
 				item: "travelersbackpack:gold_tier_upgrade"
@@ -1141,6 +1353,11 @@
 		{
 			dependencies: ["1E14218A79D67D45"]
 			id: "576967F4B94EC16B"
+			rewards: [{
+				id: "15A7A00BD985D1F1"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "304224FB0F2AA302"
 				item: "travelersbackpack:diamond_tier_upgrade"
@@ -1152,6 +1369,11 @@
 		{
 			dependencies: ["576967F4B94EC16B"]
 			id: "576CD6CC7CAF88A2"
+			rewards: [{
+				id: "00C93F22B458BA27"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "29C8C98F535F3ED1"
 				item: "travelersbackpack:netherite_tier_upgrade"
@@ -1162,6 +1384,11 @@
 		}
 		{
 			id: "2C77C5FFC599FFDA"
+			rewards: [{
+				id: "510C0B4EE14E95FB"
+				type: "xp"
+				xp: 15
+			}]
 			subtitle: "Obtain a set of Gold Armor"
 			tasks: [
 				{
@@ -1215,6 +1442,12 @@
 		}
 		{
 			id: "39B96B658CA74B4F"
+			rewards: [{
+				id: "33CB019683A2FD14"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Obtain a Paraglider"
 			tasks: [{
 				id: "43551F6E11D4DB3E"
 				item: {
@@ -1226,8 +1459,126 @@
 				}
 				type: "item"
 			}]
+			title: "Fall Damage Begone!"
 			x: -4.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["3F081145D6D33EE9"]
+			hide_until_deps_complete: true
+			id: "7518A8E8916B99C3"
+			rewards: [{
+				id: "1C93DDE2F7783FFB"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "3E5F507E8F4739CA"
+					item: {
+						Count: 1
+						id: "betterend:thallasium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FD7159E8520929F"
+					item: {
+						Count: 1
+						id: "betterend:thallasium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1109608D23DC6033"
+					item: {
+						Count: 1
+						id: "betterend:thallasium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0104FD603C642A40"
+					item: {
+						Count: 1
+						id: "betterend:thallasium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74B9E7FAD86459E6"]
+			hide_until_deps_complete: true
+			id: "1D4FF778BBEC33D4"
+			rewards: [{
+				id: "0EA0DC2F9B6C8313"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "61578E100E0B2202"
+					item: {
+						Count: 1
+						id: "betternether:cincinnasite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B72707993CC42F6"
+					item: {
+						Count: 1
+						id: "betternether:cincinnasite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DE5DF72C2198E5A"
+					item: {
+						Count: 1
+						id: "betternether:cincinnasite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72BE9E205B37FAD0"
+					item: {
+						Count: 1
+						id: "betternether:cincinnasite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cincinnacite Armor"
+			x: -6.5d
+			y: 4.5d
 		}
 	]
 	title: "Gear"

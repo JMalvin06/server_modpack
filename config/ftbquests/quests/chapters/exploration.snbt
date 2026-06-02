@@ -13,7 +13,7 @@
 			rewards: [{
 				id: "7A9DDE5B72DC7048"
 				type: "xp"
-				xp: 10
+				xp: 15
 			}]
 			subtitle: "Tame a mob"
 			tasks: [{
@@ -35,14 +35,15 @@
 			id: "13AB0D8B68E65E4A"
 			rewards: [
 				{
-					id: "59672F083763035F"
-					item: "farm_and_charm:dog_food_bag"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "46558636339825DC"
+					table_id: 3605945339145881946L
+					type: "choice"
 				}
 				{
-					id: "13E4BD65B57F6E4C"
-					item: "farm_and_charm:cat_food_bag"
-					type: "item"
+					id: "6FDA13796E8D685C"
+					type: "xp"
+					xp: 15
 				}
 			]
 			subtitle: "Obtain a Pet Bowl"
@@ -65,13 +66,9 @@
 					type: "item"
 				}
 				{
-					auto: "no_toast"
-					icon: "minecraft:crafting_table"
-					id: "741BA15D91ED65B0"
-					ignore_reward_blocking: true
-					stage: "chicken_plush"
-					title: "Chicken Plush Recipe"
-					type: "gamestage"
+					id: "1845EDDC607668A8"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "Place a Chicken Coop"
@@ -277,7 +274,7 @@
 			rewards: [{
 				id: "5D5418D1E3EDC3F2"
 				type: "xp"
-				xp: 10
+				xp: 15
 			}]
 			subtitle: "Cook a meal with the Cooking Pot"
 			tasks: [{
@@ -302,7 +299,7 @@
 			rewards: [{
 				id: "60624AA5B821BB3F"
 				type: "xp"
-				xp: 10
+				xp: 15
 			}]
 			subtitle: "Bake dish with the Stove"
 			tasks: [{
@@ -327,7 +324,7 @@
 			rewards: [{
 				id: "0D337CC66A05C90B"
 				type: "xp"
-				xp: 10
+				xp: 15
 			}]
 			subtitle: "Roast a meal with the Roaster"
 			tasks: [{
@@ -417,17 +414,24 @@
 		}
 		{
 			id: "1B013D20CD5FA1A2"
-			rewards: [{
-				id: "544D63755ECAB2A3"
-				item: {
-					Count: 1
-					id: "minecraft:iron_hoe"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "544D63755ECAB2A3"
+					item: {
+						Count: 1
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "3936E106E3C0777F"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Obtain any seeds from the Let's Do series"
 			tasks: [{
 				id: "6C87003ADBCA4413"
@@ -438,6 +442,7 @@
 						"ftbfiltersystem:filter": "or(item_tag(farm_and_charm:seeds))not(mod(betternether))not(mod(betterend))not(mod(minecraft))"
 					}
 				}
+				title: "Seeds"
 				type: "item"
 			}]
 			title: "Time to Farm!"
@@ -526,9 +531,10 @@
 						"ftbfiltersystem:filter": "or(item(bakery:sandwich)item(bakery:vegetable_sandwich)item(bakery:grilled_salmon_sandwich)item(bakery:grilled_bacon_sandwich))"
 					}
 				}
+				title: "Sandwich"
 				type: "item"
 			}]
-			title: "Sandwich Man"
+			title: "The Perfect Meal"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -578,6 +584,7 @@
 						"ftbfiltersystem:filter": "or(item_tag(meadow:cheese_blocks))"
 					}
 				}
+				title: "Cheese Wheel"
 				type: "item"
 			}]
 			title: "One Cheese Please!"

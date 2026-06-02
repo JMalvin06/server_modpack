@@ -26,9 +26,9 @@ FTBQuestsEvents.customTask('36BD868B6D161CA1', event => {
 })
 
 FTBQuestsEvents.customTask('2394A1458A891B7A', event => {
-    event.maxProgress = 40 // Sets the Progress Count.
+    event.maxProgress = 40;
 
-    event.setCheckTimer(20) // Checks for progress every 1 second (20 ticks).
+    event.setCheckTimer(20);
 
     event.setCheck((task, player) => {
         var biomeList = player.getPersistentData().get("visited_biomes");
@@ -38,6 +38,15 @@ FTBQuestsEvents.customTask('2394A1458A891B7A', event => {
         } else {
             task.progress = 0;
         }
+    })
+})
+
+FTBQuestsEvents.customTask('0CFD77390E0EF100', event => {
+    event.maxProgress = 1;
+    event.setCheckTimer(20);
+
+    event.setCheck((task, player) => {
+        task.progress = player.hasEffect("brewery:blackout") ? 1 : 0;
     })
 })
 

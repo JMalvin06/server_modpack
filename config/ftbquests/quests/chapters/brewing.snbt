@@ -9,6 +9,11 @@
 	quests: [
 		{
 			id: "5F84895480ED306F"
+			rewards: [{
+				id: "2580D8660B3A182E"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
 				id: "40811EFC43AA32A1"
 				item: "brewery:wooden_brewingstation"
@@ -20,28 +25,43 @@
 		{
 			dependencies: ["5F84895480ED306F"]
 			id: "21602667859CB4F9"
+			rewards: [{
+				id: "1109019D472F143C"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [{
 				id: "51CC73B256B6E0B3"
 				item: "brewery:copper_brewingstation"
 				type: "item"
 			}]
 			x: -4.5d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["21602667859CB4F9"]
 			id: "1B794FBBE058ED49"
+			rewards: [{
+				id: "1E0D19BA8F1CC908"
+				type: "xp"
+				xp: 25
+			}]
 			tasks: [{
 				id: "5FCEDBE9AA2BAF58"
 				item: "brewery:netherite_brewingstation"
 				type: "item"
 			}]
 			x: -4.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5F84895480ED306F"]
 			id: "3D57314C9C1D499F"
+			rewards: [{
+				id: "5917B78C23669C98"
+				type: "xp"
+				xp: 20
+			}]
 			subtitle: "Brew your first beer"
 			tasks: [{
 				id: "74C3D01ED7EF98F6"
@@ -52,15 +72,22 @@
 						"ftbfiltersystem:filter": "or(item_tag(brewery:beer))"
 					}
 				}
+				title: "Beer"
 				type: "item"
 			}]
+			title: "Bottoms Up!"
 			x: -3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["21602667859CB4F9"]
 			id: "24654A6F099857DA"
-			subtitle: "Brew your first whiskey"
+			rewards: [{
+				id: "32F92DF988CBB197"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Brew your first Whiskey"
 			tasks: [{
 				id: "61967F117C352B64"
 				item: {
@@ -70,10 +97,11 @@
 						"ftbfiltersystem:filter": "or(item_tag(brewery:small_bottle))not(item_tag(brewery:beer))not(mod(vinery))"
 					}
 				}
+				title: "Whiskey"
 				type: "item"
 			}]
 			x: -3.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -81,6 +109,11 @@
 				"24654A6F099857DA"
 			]
 			id: "3AAACC312B44F14B"
+			rewards: [{
+				id: "59D78E0900FA6273"
+				type: "xp"
+				xp: 40
+			}]
 			subtitle: "Brew every beer and whiskey"
 			tasks: [
 				{
@@ -160,8 +193,8 @@
 				}
 			]
 			title: "Drunkard"
-			x: -1.5d
-			y: 0.5d
+			x: -1.4107142857142847d
+			y: 0.25d
 		}
 		{
 			dependencies: [
@@ -170,23 +203,45 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "79E9482B44A711B7"
+			rewards: [{
+				id: "476508FC95212361"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Obtain a Grapevine Pot"
 			tasks: [{
 				id: "72CC138A9E410054"
 				item: "vinery:grapevine_pot"
 				type: "item"
 			}]
+			title: "Stomping Things Out"
 			x: -6.0d
 			y: 4.0d
 		}
 		{
 			id: "145EF663A8100401"
+			rewards: [
+				{
+					count: 3
+					id: "01DB242493B65678"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "2CE45C2351A1D1AB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Obtain an Apple Press"
 			tasks: [{
 				id: "74B47E1D9E28D7D3"
 				item: "vinery:apple_press"
 				type: "item"
 			}]
+			title: "Hot Off the Press"
 			x: -6.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -195,17 +250,29 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "3B54948B56F1DB4C"
+			rewards: [{
+				id: "2B3648B835498372"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Obtain a Fermentation Barrel"
 			tasks: [{
 				id: "7F0E487E8D18909A"
 				item: "vinery:fermentation_barrel"
 				type: "item"
 			}]
 			x: -3.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["79E9482B44A711B7"]
 			id: "786E3B5B428E4C07"
+			rewards: [{
+				id: "2CFE3377958CC44F"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Stomp Grapes in the Grapevine pot to make Grape Juice"
 			tasks: [{
 				id: "35F4C41F156647EC"
 				item: {
@@ -215,25 +282,53 @@
 						"ftbfiltersystem:filter": "item_tag(vinery:grapejuice)"
 					}
 				}
+				title: "Grape Juice"
 				type: "item"
 			}]
+			title: "Baby Steps"
 			x: -4.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["145EF663A8100401"]
 			id: "7C5CFD0A0FED122E"
+			rewards: [{
+				id: "1CC0087CAAAF9CFD"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Make Apple Juice with the Apple Press"
 			tasks: [{
 				id: "5FA035239E7F8D4C"
 				item: "vinery:apple_juice"
 				type: "item"
 			}]
+			title: "Juicing Things Up"
 			x: -4.5d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3B54948B56F1DB4C"]
 			id: "426FDF35D3F6535F"
+			rewards: [
+				{
+					id: "21C6B26B4475468D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "58CBB4BD5E06A17C"
+					item: {
+						Count: 1
+						id: "vinery:straw_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Use the Fermentation Barrel to make Wine"
 			tasks: [{
 				id: "7DD58842ED81C49D"
 				item: {
@@ -243,57 +338,75 @@
 						"ftbfiltersystem:filter": "or(item_tag(vinery:large_bottle)item_tag(vinery:small_bottle))not(mod(brewery))"
 					}
 				}
+				title: "Wine"
 				type: "item"
 			}]
-			title: "Make Wine"
+			title: "Natural Winemaker"
 			x: -1.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["426FDF35D3F6535F"]
 			id: "224F6156F1A5339D"
+			rewards: [{
+				id: "4417A8D1C3D8FBBD"
+				type: "xp"
+				xp: 40
+			}]
+			subtitle: "Make every type of Wine"
 			tasks: [{
 				advancement: "vinery:main/wine_somelier"
 				criterion: ""
 				id: "77BDCE89B0F7A560"
 				type: "advancement"
 			}]
+			title: "Wine Sommelier"
 			x: -1.5d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["426FDF35D3F6535F"]
 			id: "493B513F83F8C09D"
-			subtitle: "Obtain any wine storage block"
-			tasks: [
+			rewards: [
 				{
-					id: "3F540C9D05C86858"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(vinery:dark_cherry_wine_rack_small)item(vinery:dark_cherry_wine_rack_big)item(vinery:dark_cherry_wine_rack_mid)item(vinery:oak_wine_rack_small)item(vinery:oak_wine_rack_big)item(vinery:oak_wine_rack_mid)item(vinery:spruce_wine_rack_small)item(vinery:spruce_wine_rack_big)item(vinery:spruce_wine_rack_mid)item(vinery:birch_wine_rack_small)item(vinery:birch_wine_rack_big)item(vinery:birch_wine_rack_mid)item(vinery:jungle_wine_rack_small)item(vinery:jungle_wine_rack_big)item(vinery:jungle_wine_rack_mid)item(vinery:acacia_wine_rack_small)item(vinery:acacia_wine_rack_big)item(vinery:acacia_wine_rack_mid)item(vinery:dark_oak_wine_rack_small)item(vinery:dark_oak_wine_rack_big)item(vinery:dark_oak_wine_rack_mid)item(vinery:mangrove_wine_rack_small)item(vinery:mangrove_wine_rack_big)item(vinery:mangrove_wine_rack_mid)item(vinery:bamboo_wine_rack_small)item(vinery:bamboo_wine_rack_big)item(vinery:bamboo_wine_rack_mid)item(vinery:cherry_wine_rack_small)item(vinery:cherry_wine_rack_big)item(vinery:cherry_wine_rack_mid))"
-						}
-					}
-					type: "item"
+					id: "37CBBFD9885A27EC"
+					type: "xp"
+					xp: 15
 				}
 				{
-					id: "7000FC515A78378A"
+					id: "1003190749CE3EB5"
 					item: {
 						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item(vinery:dark_cherry_wine_rack_small)item(vinery:dark_cherry_wine_rack_big)item(vinery:dark_cherry_wine_rack_mid)item(vinery:oak_wine_rack_small)item(vinery:oak_wine_rack_big)item(vinery:oak_wine_rack_mid)item(vinery:spruce_wine_rack_small)item(vinery:spruce_wine_rack_big)item(vinery:spruce_wine_rack_mid)item(vinery:birch_wine_rack_small)item(vinery:birch_wine_rack_big)item(vinery:birch_wine_rack_mid)item(vinery:jungle_wine_rack_small)item(vinery:jungle_wine_rack_big)item(vinery:jungle_wine_rack_mid)item(vinery:acacia_wine_rack_small)item(vinery:acacia_wine_rack_big)item(vinery:acacia_wine_rack_mid)item(vinery:dark_oak_wine_rack_small)item(vinery:dark_oak_wine_rack_big)item(vinery:dark_oak_wine_rack_mid)item(vinery:mangrove_wine_rack_small)item(vinery:mangrove_wine_rack_big)item(vinery:mangrove_wine_rack_mid)item(vinery:bamboo_wine_rack_small)item(vinery:bamboo_wine_rack_big)item(vinery:bamboo_wine_rack_mid)item(vinery:cherry_wine_rack_small)item(vinery:cherry_wine_rack_big)item(vinery:cherry_wine_rack_mid)item(vinery:wine_box))"
-						}
+						id: "vinery:red_wine"
+						tag: { }
 					}
 					type: "item"
 				}
 			]
+			subtitle: "Obtain any wine storage block"
+			tasks: [{
+				id: "7000FC515A78378A"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(vinery:dark_cherry_wine_rack_small)item(vinery:dark_cherry_wine_rack_big)item(vinery:dark_cherry_wine_rack_mid)item(vinery:oak_wine_rack_small)item(vinery:oak_wine_rack_big)item(vinery:oak_wine_rack_mid)item(vinery:spruce_wine_rack_small)item(vinery:spruce_wine_rack_big)item(vinery:spruce_wine_rack_mid)item(vinery:birch_wine_rack_small)item(vinery:birch_wine_rack_big)item(vinery:birch_wine_rack_mid)item(vinery:jungle_wine_rack_small)item(vinery:jungle_wine_rack_big)item(vinery:jungle_wine_rack_mid)item(vinery:acacia_wine_rack_small)item(vinery:acacia_wine_rack_big)item(vinery:acacia_wine_rack_mid)item(vinery:dark_oak_wine_rack_small)item(vinery:dark_oak_wine_rack_big)item(vinery:dark_oak_wine_rack_mid)item(vinery:mangrove_wine_rack_small)item(vinery:mangrove_wine_rack_big)item(vinery:mangrove_wine_rack_mid)item(vinery:bamboo_wine_rack_small)item(vinery:bamboo_wine_rack_big)item(vinery:bamboo_wine_rack_mid)item(vinery:cherry_wine_rack_small)item(vinery:cherry_wine_rack_big)item(vinery:cherry_wine_rack_mid)item(vinery:wine_box))"
+					}
+				}
+				title: "Wine Storage"
+				type: "item"
+			}]
+			title: "Smart Storage"
 			x: -1.5d
-			y: 6.5d
+			y: 5.0d
 		}
 		{
 			id: "14BB6C00D0760516"
+			rewards: [{
+				id: "5A59EF8DEB87913F"
+				type: "xp"
+				xp: 20
+			}]
 			subtitle: "Encounter the Wandering Winemaker"
 			tasks: [{
 				icon: "vinery:wandering_winemaker_spawn_egg"
@@ -303,9 +416,9 @@
 				to_observe: "vinery:wandering_winemaker"
 				type: "observation"
 			}]
-			title: "Wine to Meet You"
-			x: -6.0d
-			y: 3.0d
+			title: "Wine Seller"
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -314,69 +427,174 @@
 			]
 			icon: "brewery:beer_wheat"
 			id: "00A1EF7806C97168"
+			rewards: [
+				{
+					id: "3D94BC0103BC598C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 6
+					id: "646219F79321B1D6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			subtitle: "Complete Brewery and Vineru"
 			title: "Time to Call AA"
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			id: "3FC2C9A45648C5A2"
+			rewards: [{
+				id: "797331AF2999DDB1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Grapevine Stem to grow normal Grapes"
 			tasks: [{
 				id: "4C519753E8E274C5"
 				item: "vinery:grapevine_stem"
 				type: "item"
 			}]
+			title: "Grape Farmer"
 			x: -7.5d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			id: "4C331F6E6A190D9D"
+			rewards: [{
+				id: "69EEEA9E42FA7574"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain an Oak Lattice to grow Jungle Grapes"
 			tasks: [{
 				id: "2FDF25309DCFCD88"
 				item: "vinery:oak_lattice"
 				type: "item"
 			}]
+			title: "Jungle Grape Farmer"
 			x: -7.5d
-			y: 3.5d
-		}
-		{
-			id: "637EE1784B55EFE6"
-			tasks: [{
-				id: "1EB9927B52C8F58C"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(herbalbrews:tea_kettle)item(herbalbrews:copper_tea_kettle))"
-					}
-				}
-				title: "Tea Kettle"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 7.5d
+			y: 4.5d
 		}
 		{
 			id: "3EE7DDDE819166E6"
+			rewards: [{
+				id: "2AEEBDBB02FF635E"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Obtain a Brewing Cauldron"
 			tasks: [{
 				id: "32E1C21A7F613D27"
 				item: "herbalbrews:cauldron"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 8.5d
+			title: "Witch's Brewery"
+			x: -5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3EE7DDDE819166E6"]
 			id: "7565391074D7F767"
-			subtitle: "Combine Potions in a Brewing Cauldron"
+			rewards: [{
+				id: "0D6F4F0C7C95FC77"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Combine Potions in a Brewing Cauldron to create a Flask"
 			tasks: [{
 				id: "70E6A7F47CABC2F6"
 				item: "herbalbrews:flask"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.5d
+			title: "Convenient Combiner"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D57314C9C1D499F"]
+			id: "3FB2E8BB4C638F10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02B8F27FADCBDA40"
+					table_id: 3362708834884453979L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A384CFA9F5CCEBA"
+					table_id: 711509363000943046L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7600B65251801B37"
+					table_id: 6710393882022459962L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36383B3F8C3E7222"
+					table_id: 5658311445079700874L
+					type: "choice"
+				}
+			]
+			subtitle: "Get blackout drunk"
+			tasks: [{
+				icon: "brewery:barrel_main"
+				id: "0CFD77390E0EF100"
+				title: "Blackout"
+				type: "custom"
+			}]
+			title: "One Too Many Drinks"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "4AD45BF995A7BB72"
+			rewards: [{
+				id: "4502F1A57D6FDC00"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Obtain a Tea Kettle"
+			tasks: [{
+				id: "380E08B2B1EC9504"
+				item: "herbalbrews:tea_kettle"
+				type: "item"
+			}]
+			title: "Tea Time"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4AD45BF995A7BB72"]
+			id: "3F8E354219103413"
+			rewards: [{
+				id: "657B296F10CC96EE"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Brew someting with the Tea Kettle"
+			tasks: [{
+				id: "47F6A0284F6CCC2B"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(herbalbrews:rooibos_tea)item(herbalbrews:hibiscus_tea)item(herbalbrews:green_tea)item(herbalbrews:lavender_tea)item(herbalbrews:yerba_mate_tea)item(herbalbrews:black_tea)item(herbalbrews:coffee)item(herbalbrews:milk_coffee)item(herbalbrews:oolong_tea))"
+					}
+				}
+				title: "Brewable Item"
+				type: "item"
+			}]
+			title: "First Brew"
+			x: -6.5d
+			y: 1.0d
 		}
 	]
 	title: "Brewing"
