@@ -10,7 +10,7 @@
     "sign_blacklist": []
   },
   "projectiles": {
-    "snowball_3d": true,
+    "snowball_3d": false,
     "slimeball_3d": true,
     "fireball_3d": true,
     "ghast_fireball_trail": true,

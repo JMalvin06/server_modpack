@@ -157,4 +157,14 @@ ServerEvents.recipes(event => {
 
         event.custom({type: 'create:mixing', results: json.result, ingredients: json.ingredients});
     });
+
+    /*event.forEachRecipe({mod: "betternether", type: "crafting_shaped"}, recipe => {
+        const json = JSON.parse(recipe.json);
+        json.ingredients.forEach(ingredient => {
+            if (ingredient.tag == "c:iron_ingots") {
+                ingredient.tag = null;
+                ingredient.item = "betternether:cinncinasite_ingot"
+            }
+        })
+    });*/
 });

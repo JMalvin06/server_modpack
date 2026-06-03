@@ -2,685 +2,851 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "exploration"
-	group: "1A12A5075142889E"
-	id: "4C2EC3B14CA79211"
-	order_index: 0
+	group: ""
+	icon: "minecraft:compass"
+	id: "38B207E8ED2BDD05"
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			disable_toast: true
-			id: "08FE72F86C5C5CDB"
+			icon: "minecraft:netherrack"
+			id: "74B9E7FAD86459E6"
 			rewards: [{
-				id: "7A9DDE5B72DC7048"
+				id: "51D666A1BBFDC7D8"
 				type: "xp"
-				xp: 15
+				xp: 20
 			}]
-			subtitle: "Tame a mob"
+			subtitle: "Travel to the Nether"
 			tasks: [{
-				advancement: "minecraft:husbandry/tame_an_animal"
-				criterion: ""
-				icon: "minecraft:lead"
-				id: "45077C7F34452E43"
-				title: "Tame a mob"
-				type: "advancement"
+				dimension: "minecraft:the_nether"
+				id: "07410631AF4B7435"
+				title: "Visit the Nether"
+				type: "dimension"
 			}]
-			title: "Best Friends Forever"
-			x: 7.0d
-			y: 3.5d
+			title: "Go to Hell"
+			x: -2.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["08FE72F86C5C5CDB"]
-			description: ["Try right clicking it with a nametag for additional customization!"]
-			icon: "farm_and_charm:pet_bowl"
-			id: "13AB0D8B68E65E4A"
+			dependencies: ["74B9E7FAD86459E6"]
+			hide_until_deps_complete: true
+			icon: "betternether:cincinnasite_block"
+			id: "7FC7388D50A2CC36"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "46558636339825DC"
-					table_id: 3605945339145881946L
-					type: "choice"
+					count: 3
+					id: "706F1398467F7AEE"
+					item: "betternether:nether_ruby"
+					type: "item"
 				}
 				{
-					id: "6FDA13796E8D685C"
+					id: "220CEC57E9D99E35"
 					type: "xp"
 					xp: 15
 				}
 			]
-			subtitle: "Obtain a Pet Bowl"
+			subtitle: "Find a Nether City"
 			tasks: [{
-				id: "6CA23A85F702B1E2"
-				item: "farm_and_charm:pet_bowl"
-				type: "item"
+				icon: "betternether:cincinnasite_block"
+				id: "4FFCACB5F7B32A0A"
+				structure: "betternether:nether_city"
+				title: "Find a Nether City"
+				type: "structure"
 			}]
-			title: "Dinner Time!"
-			x: 7.0d
-			y: 5.0d
+			title: "Lost Civilization"
+			x: -2.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["294AE3085A06040D"]
-			id: "15EEDC8C668365E3"
+			id: "24316BDE52F59EBA"
+			rewards: [{
+				id: "1A082C7C5DBCDE92"
+				item: "plushie_buddies:plushie_frog"
+				type: "item"
+			}]
+			subtitle: "Find a Frog Village"
+			tasks: [{
+				icon: "ribbits:red_toadstool"
+				id: "77F202FF41B218F2"
+				structure: "ribbits:ribbit_village"
+				title: "Find a Frog Village"
+				type: "structure"
+			}]
+			title: "Feeling Swamped"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			icon: "minecraft:end_portal_frame"
+			id: "3F081145D6D33EE9"
+			rewards: [{
+				id: "37FCC5360D3D61FA"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Reach the End dimension"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "706200FBE1E5A74E"
+				title: "Visit the End"
+				type: "dimension"
+			}]
+			title: "The End?"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74B9E7FAD86459E6"]
+			id: "0FBC031A719DCA0E"
 			rewards: [
 				{
-					id: "75C3181BA3942618"
-					item: "plushie_buddies:plushie_chicken"
+					id: "5B4CD90B0F347641"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 3
+					id: "37446F5F08FEF49B"
+					item: "minecraft:diamond"
 					type: "item"
 				}
-				{
-					id: "1845EDDC607668A8"
-					type: "xp"
-					xp: 10
-				}
 			]
-			subtitle: "Place a Chicken Coop"
+			subtitle: "Kill the Wither and obtain a Nether Star"
 			tasks: [{
-				advancement: "farm_and_charm:main/place_chicken_coop"
-				criterion: ""
-				id: "738054B50299E0CB"
-				type: "advancement"
-			}]
-			title: "Eggs Won't Fall Far"
-			x: 6.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1B013D20CD5FA1A2"]
-			id: "3FBA920A94255531"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "78049CD78B5EB9A4"
-				table_id: 7333830955642418723L
-				type: "choice"
-			}]
-			subtitle: "Obtain a Bag of Crops"
-			tasks: [{
-				id: "32F6E4F8F2AD33E8"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(farm_and_charm:lettuce_bag)item(farm_and_charm:tomato_bag)item(farm_and_charm:carrot_bag)item(farm_and_charm:potato_bag)item(farm_and_charm:onion_bag)item(farm_and_charm:beetroot_bag)item(farm_and_charm:corn_bag)item(farm_and_charm:strawberry_bag)item(farm_and_charm:flour_bag)item(herbalbrews:tea_leaf_crate)item(vinery:white_grape_bag)item(vinery:red_grape_bag)item(vinery:cherry_bag)item(vinery:apple_bag))"
-					}
-				}
-				title: "Bag of Crops"
+				id: "735D66E680F51C3F"
+				item: "minecraft:nether_star"
 				type: "item"
 			}]
-			title: "Bag and Tag"
-			x: 3.0d
-			y: 5.0d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["1B013D20CD5FA1A2"]
-			id: "7E76B6A8EBCFE520"
+			dependencies: ["74B9E7FAD86459E6"]
+			hide_until_deps_complete: true
+			id: "092FE52B6D611BF1"
 			rewards: [{
-				count: 12
-				id: "5535FB989F7D86BF"
-				item: "minecraft:bone_meal"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "Obtain Fertilizer"
-			tasks: [{
-				id: "1D84CAD6056EB865"
-				item: "farm_and_charm:fertilizer"
-				type: "item"
-			}]
-			title: "Clean Farming"
-			x: 4.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["7E76B6A8EBCFE520"]
-			disable_toast: true
-			id: "5C21A518A3714EFF"
-			rewards: [{
-				id: "144545DBADB2AB6A"
+				id: "4B0AFCE73EEF2F97"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Use a pitchfork on fertilized soil for a bonemeal effect"
+			subtitle: "Obtain a Nether Ruby"
 			tasks: [{
-				advancement: "farm_and_charm:main/use_pitchfork_on_fertilized_soil"
-				criterion: ""
-				id: "29278503D7E110B3"
-				type: "advancement"
-			}]
-			title: "Pitchfork Perfection"
-			x: 3.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["7E76B6A8EBCFE520"]
-			icon: {
-				Count: 1
-				id: "minecraft:diamond_hoe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "2BBBF955063D261C"
-			rewards: [{
-				id: "0A089D484C9DCC7B"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Use a hoe on fertilized soil"
-			tasks: [{
-				advancement: "farm_and_charm:main/use_hoe_on_fertilized_soil"
-				criterion: ""
-				id: "2EF2D749BB349BA0"
-				title: "To Hoe or Not to Hoe"
-				type: "advancement"
-			}]
-			title: "Thinking With Fertilizer"
-			x: 4.5d
-			y: 6.5d
-		}
-		{
-			description: [""]
-			id: "294AE3085A06040D"
-			rewards: [{
-				count: 16
-				id: "7990C1A1BF6DC635"
-				item: "minecraft:egg"
+				id: "345C6296E3D78F3B"
+				item: "betternether:nether_ruby"
 				type: "item"
 			}]
-			subtitle: "Place a Chicken Nest"
-			tasks: [{
-				advancement: "farm_and_charm:main/place_chicken_nest"
-				criterion: ""
-				id: "72128B34747328B9"
-				type: "advancement"
-			}]
-			title: "Fully Nested"
-			x: 6.0d
-			y: 3.5d
-		}
-		{
-			id: "1C97A40D6C216107"
-			rewards: [{
-				count: 7
-				id: "36629BB178D4A34A"
-				item: "minecraft:coal"
-				random_bonus: 5
-				type: "item"
-			}]
-			subtitle: "Obtain a Stove"
-			tasks: [{
-				id: "54F9C074B7FA14C4"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(farm_and_charm:stove)item(candlelight:cobblestone_stove)item(candlelight:sandstone_stove)item(candlelight:stone_bricks_stove)item(candlelight:deepslate_stove)item(candlelight:granite_stove)item(candlelight:end_stove)item(candlelight:mud_stove)item(candlelight:quartz_stove)item(candlelight:red_nether_bricks_stove)item(candlelight:basalt_stove)item(candlelight:bamboo_stove))"
-					}
-				}
-				title: "Stove"
-				type: "item"
-			}]
-			title: "On Fire"
-			x: 1.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["1C97A40D6C216107"]
-			id: "01A622249CE826A8"
-			rewards: [
-				{
-					auto: "invisible"
-					description: "Check out your quest tab for new tasks"
-					exclude_from_claim_all: true
-					icon: "bakery:bread"
-					id: "5C3FFEE411376C2C"
-					title: "Baking Chapter Unlocked!"
-					type: "toast"
-				}
-				{
-					id: "24B8F8C517DA8858"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "Obtain a Cooking Pot"
-			tasks: [{
-				id: "2D6A22A541C1AC36"
-				item: "farm_and_charm:cooking_pot"
-				type: "item"
-			}]
-			title: "We Need to Cook"
-			x: 0.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1C97A40D6C216107"]
-			id: "0562AD301C6E8B4E"
-			rewards: [{
-				id: "47749C07B095B43F"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Obtain a Roaster"
-			tasks: [{
-				id: "07A40138DF6250BF"
-				item: "farm_and_charm:roaster"
-				type: "item"
-			}]
-			title: "Ready to Roast"
-			x: 2.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["01A622249CE826A8"]
-			id: "734A7E6B5B75BF5A"
-			rewards: [{
-				id: "5D5418D1E3EDC3F2"
-				type: "xp"
-				xp: 15
-			}]
-			subtitle: "Cook a meal with the Cooking Pot"
-			tasks: [{
-				id: "3EEC1D54DFECDC95"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(farm_and_charm:strawberry_tea)item(farm_and_charm:nettle_tea)item(farm_and_charm:ribwort_tea)item(farm_and_charm:barley_soup)item(farm_and_charm:simple_tomato_soup)item(farm_and_charm:onion_soup)item(farm_and_charm:potato_soup)item(farm_and_charm:goulash)item(farm_and_charm:corn_grits)item(farm_and_charm:yeast))"
-					}
-				}
-				title: "Obtain a cooked item"
-				type: "item"
-			}]
-			title: "They Cooked"
-			x: 0.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1C97A40D6C216107"]
-			id: "427B9870632AFF7C"
-			rewards: [{
-				id: "60624AA5B821BB3F"
-				type: "xp"
-				xp: 15
-			}]
-			subtitle: "Bake dish with the Stove"
-			tasks: [{
-				id: "3000155A8647E1DE"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(farm_and_charm:baked_lamb_ham)item(farm_and_charm:stuffed_chicken)item(farm_and_charm:potato_with_roast_meat)item(farm_and_charm:stuffed_rabbit)item(farm_and_charm:farmers_bread)item(farm_and_charm:grandmothers_strawberry_cake)item(farm_and_charm:roasted_corn)item(farm_and_charm:pasta_with_onion_sauce)item(farm_and_charm:roasted_chicken))"
-					}
-				}
-				title: "Obtain a baked item"
-				type: "item"
-			}]
-			title: "Investment Baker"
-			x: 1.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["0562AD301C6E8B4E"]
-			id: "79EBB304A2C749D5"
-			rewards: [{
-				id: "0D337CC66A05C90B"
-				type: "xp"
-				xp: 15
-			}]
-			subtitle: "Roast a meal with the Roaster"
-			tasks: [{
-				id: "387E22B1CF4F52D8"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(farm_and_charm:cooked_cod)item(farm_and_charm:bacon_with_eggs)item(farm_and_charm:lamb_with_corn)item(farm_and_charm:chicken_wrapped_in_bacon)item(farm_and_charm:sausage_with_oat_patty)item(farm_and_charm:cooked_salmon)item(farm_and_charm:barley_patties_with_potatoes)item(farm_and_charm:beef_patty_with_vegetables)item(farm_and_charm:farmers_breakfast)item(farm_and_charm:oat_pancake))"
-					}
-				}
-				title: "Obtain a roasted item"
-				type: "item"
-			}]
-			title: "Boom, Roasted"
-			x: 2.0d
-			y: 6.5d
-		}
-		{
-			id: "23A4824E9EEAA5A3"
-			rewards: [{
-				id: "30138A8B83902CCE"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Obtain a Crafting Bowl"
-			tasks: [{
-				id: "4C464375D82BBE8B"
-				item: "farm_and_charm:crafting_bowl"
-				type: "item"
-			}]
-			title: "Stirring Things Up"
+			title: "Forged From Blood"
 			x: -1.5d
-			y: 5.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["23A4824E9EEAA5A3"]
-			id: "5B4A69EA855E2632"
+			dependencies: ["74B9E7FAD86459E6"]
+			hide_until_deps_complete: true
+			id: "4C88F05D0FDBF19E"
 			rewards: [{
-				id: "01D40B089022C5A0"
+				id: "253DF5D5F53BCFD8"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Use the Crafting Bowl to make something"
+			subtitle: "Obtain a Cincinnasite Ingot"
 			tasks: [{
-				id: "3E9114E36C8F2798"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(farm_and_charm:dog_food)item(farm_and_charm:cat_food)item(farm_and_charm:dough)item(farm_and_charm:butter)item(farm_and_charm:oatmeal_with_strawberries)item(farm_and_charm:farmer_salad))"
-					}
-				}
-				title: "Stirred Item"
+				id: "1A076EA275E76103"
+				item: "betternether:cincinnasite_ingot"
 				type: "item"
 			}]
-			title: "Stirring the Pot"
-			x: -1.5d
-			y: 6.5d
+			title: "Iron of the Underworld"
+			x: -3.5d
+			y: 2.0d
 		}
 		{
-			description: ["Try using a horse to pull it!"]
-			id: "655DE55C01698712"
+			dependencies: ["74B9E7FAD86459E6"]
+			hide_until_deps_complete: true
+			id: "63C15940720DEA7E"
 			rewards: [{
-				count: 12
-				id: "173A21F5995E493C"
-				item: "minecraft:bone_meal"
-				random_bonus: 4
-				type: "item"
-			}]
-			subtitle: "Obtain a Cart and Plow"
-			tasks: [
-				{
-					id: "5713AF9EE215BB13"
-					item: "farm_and_charm:supply_cart"
-					type: "item"
-				}
-				{
-					id: "1C31340ED103BF0E"
-					item: "farm_and_charm:plow"
-					type: "item"
-				}
-			]
-			title: "Nifty!"
-			x: 7.0d
-			y: 6.5d
-		}
-		{
-			id: "1B013D20CD5FA1A2"
-			rewards: [
-				{
-					id: "544D63755ECAB2A3"
-					item: {
-						Count: 1
-						id: "minecraft:iron_hoe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3936E106E3C0777F"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "Obtain any seeds from the Let's Do series"
-			tasks: [{
-				id: "6C87003ADBCA4413"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item_tag(farm_and_charm:seeds))not(mod(betternether))not(mod(betterend))not(mod(minecraft))"
-					}
-				}
-				title: "Seeds"
-				type: "item"
-			}]
-			title: "Time to Farm!"
-			x: 4.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["1B013D20CD5FA1A2"]
-			description: ["Hydrates a 17x17 block area!"]
-			id: "55A2F021AD4C1575"
-			rewards: [{
-				id: "3CEA9FB32E368D65"
+				id: "754876CAE2C765A8"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Obtain a Water Sprinker"
 			tasks: [{
-				id: "65F867BCB1AAF0F3"
-				item: "farm_and_charm:water_sprinkler"
+				id: "19DAE7565570D3D2"
+				item: "betternether:nether_reed_stem"
 				type: "item"
 			}]
-			title: "Sprinkled with Love!"
-			x: 5.0d
-			y: 5.0d
-		}
-		{
-			id: "42B1E22DA7C52504"
-			rewards: [{
-				id: "4EF534BF5AE2FA25"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Obtain a Feeding Trough"
-			tasks: [{
-				id: "5B4C27853FCAB883"
-				item: "farm_and_charm:feeding_trough"
-				type: "item"
-			}]
-			title: "Feeding Efficiently"
-			x: 6.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["1B013D20CD5FA1A2"]
-			id: "0B4BE81419792014"
-			rewards: [{
-				id: "0505F2B5E6C8C569"
-				type: "xp"
-				xp: 25
-			}]
-			secret: true
-			subtitle: "Obtain Lettuce"
-			tasks: [{
-				id: "5F04FE717239ED23"
-				item: "farm_and_charm:lettuce"
-				type: "item"
-			}]
-			title: "Let Us Have Some Lettuce"
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			id: "5D9B8AA7D7D54B3B"
-			rewards: [
-				{
-					id: "15076D969CFDBADC"
-					type: "xp"
-					xp: 25
-				}
-				{
-					exclude_from_claim_all: true
-					icon: "minecraft:bread"
-					id: "1CD09C5BE2D26381"
-					table_id: 4844510493982877364L
-					type: "choice"
-				}
-			]
-			secret: true
-			subtitle: "Make yourself a Sandwich"
-			tasks: [{
-				id: "5CC0034B1A8604EC"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item(bakery:sandwich)item(bakery:vegetable_sandwich)item(bakery:grilled_salmon_sandwich)item(bakery:grilled_bacon_sandwich))"
-					}
-				}
-				title: "Sandwich"
-				type: "item"
-			}]
-			title: "The Perfect Meal"
-			x: 1.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["7F7816657E3F087F"]
-			id: "2C598B05FDF59CF0"
-			rewards: [{
-				count: 2
-				id: "3074E77442E296BF"
-				item: "minecraft:milk_bucket"
-				type: "item"
-			}]
-			subtitle: "Obtain a Cheese Press"
-			tasks: [{
-				id: "6E343EA73B8890A8"
-				item: "meadow:cheese_form"
-				type: "item"
-			}]
-			title: "I'm Impressed"
-			x: -3.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["2C598B05FDF59CF0"]
-			id: "0CBA591DF9CCDC0E"
-			rewards: [
-				{
-					count: 2
-					id: "3FA35286AA4CD97B"
-					item: "meadow:piece_of_cheese"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "74342A39C02CFC8B"
-					item: "meadow:cheese_rack"
-					type: "item"
-				}
-			]
-			subtitle: "Make Cheese"
-			tasks: [{
-				id: "7EE6FDD137013E15"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "or(item_tag(meadow:cheese_blocks))"
-					}
-				}
-				title: "Cheese Wheel"
-				type: "item"
-			}]
-			title: "One Cheese Please!"
-			x: -3.0d
-			y: 8.0d
-		}
-		{
-			id: "75D00A918A4A3331"
-			rewards: [{
-				id: "617C934A45BD7E81"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Obtain a Cooking Cauldron"
-			tasks: [{
-				id: "1C474A279B606E96"
-				item: "meadow:cooking_cauldron"
-				type: "item"
-			}]
-			title: "Cheese Cauldron"
-			x: -3.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["75D00A918A4A3331"]
-			id: "7F7816657E3F087F"
-			rewards: [{
-				id: "5A3CD97A650F6D45"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Obtain Rennet"
-			tasks: [{
-				id: "4FF7A8B401C2F981"
-				item: "meadow:rennet"
-				type: "item"
-			}]
-			title: "Liquid Cheese"
-			x: -3.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["0CBA591DF9CCDC0E"]
-			id: "0FF1D45592DCC81E"
-			rewards: [{
-				id: "4FBE233E77DCA421"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Use a Fondue and Bread to make a Cheese Stick"
-			tasks: [
-				{
-					id: "6C64D63C4017FE63"
-					item: "meadow:fondue"
-					type: "item"
-				}
-				{
-					id: "4F8D3D3B9D41DBD0"
-					item: "meadow:cheese_stick"
-					type: "item"
-				}
-			]
-			title: "Fancy Cheese"
-			x: -1.5d
-			y: 8.0d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"427B9870632AFF7C"
-				"79EBB304A2C749D5"
-				"734A7E6B5B75BF5A"
+				"4C88F05D0FDBF19E"
+				"63C15940720DEA7E"
+			]
+			id: "7EDFAACF95D3A9F6"
+			rewards: [
+				{
+					count: 3
+					id: "0E2B63072A407A30"
+					item: "betternether:cincinnasite_ingot"
+					type: "item"
+				}
+				{
+					id: "33C6D9F53DF22E55"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "4E6073EC8A23C759"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(betternether:cincinnasite_sword)item(betternether:cincinnasite_pickaxe)item(betternether:cincinnasite_axe)item(betternether:cincinnasite_shovel)item(betternether:cincinnasite_hoe))"
+					}
+				}
+				title: "Cinncinasite Tool"
+				type: "item"
+			}]
+			title: "Obtain a Cincinnasite tool"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"092FE52B6D611BF1"
+				"63C15940720DEA7E"
+			]
+			id: "272827B9C4A41129"
+			rewards: [
+				{
+					count: 3
+					id: "4A1342670E9F52FA"
+					item: "betternether:nether_ruby"
+					type: "item"
+				}
+				{
+					id: "14CDBDB39C055AA4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "562881A3D6DEA562"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(betternether:nether_ruby_pickaxe)item(betternether:nether_ruby_sword)item(betternether:nether_ruby_axe)item(betternether:nether_ruby_shovel)item(betternether:nether_ruby_hoe))"
+					}
+				}
+				title: "Nether Ruby Tool"
+				type: "item"
+			}]
+			title: "Obtain a Nether Ruby tool"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EDFAACF95D3A9F6"]
+			id: "51DC1EACB1C01001"
+			rewards: [{
+				id: "2897D0FE442DA5F8"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Infuse a Cinncinasite tool with Diamonds"
+			tasks: [
+				{
+					id: "6967E210E4F64217"
+					item: "betternether:cincinnasite_diamond_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "773799F48258AA2A"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(betternether:cincinnasite_pickaxe_diamond)item(betternether:cincinnasite_sword_diamond)item(betternether:cincinnasite_axe_diamond)item(betternether:cincinnasite_shovel_diamond)item(betternether:cincinnasite_hoe_diamond))"
+						}
+					}
+					title: "Diamond Cinncinasite Tool"
+					type: "item"
+				}
+			]
+			title: "Hard as Diamonds"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["272827B9C4A41129"]
+			id: "42B330B4E85A04CA"
+			rewards: [{
+				id: "0F3FE5CE32B2B220"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Upgrade a Nether Ruby tool to Fireruby"
+			tasks: [
+				{
+					id: "7DA7B07E817FFE77"
+					item: "betternether:flaming_ruby_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "0F1BB7A25A3CF2CA"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item(betternether:flaming_ruby_pickaxe)item(betternether:flaming_ruby_sword)item(betternether:flaming_ruby_axe)item(betternether:flaming_ruby_shovel)item(betternether:flaming_ruby_hoe))"
+						}
+					}
+					title: "Fireruby Tool"
+					type: "item"
+				}
+			]
+			title: "Forged in Flame"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F081145D6D33EE9"]
+			hide_until_deps_complete: true
+			id: "19E37C5A24F36F9B"
+			rewards: [
+				{
+					count: 3
+					id: "2B75ADEE8E5B7C02"
+					item: "betterend:thallasium_ingot"
+					type: "item"
+				}
+				{
+					id: "72999DFBF07740FC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Obtain Thallasium"
+			tasks: [{
+				id: "427DEC96B8232AEA"
+				item: "betterend:thallasium_ingot"
+				type: "item"
+			}]
+			title: "Gearing Up"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19E37C5A24F36F9B"]
+			id: "2ED8EF92AF2398B4"
+			rewards: [{
+				id: "4FC9114163602412"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Use Thallasium ingots and a Smithing Hammer in a Thallasium anvil to make tools"
+			tasks: [
+				{
+					id: "3AF9947177643240"
+					item: {
+						Count: 1
+						id: "betterend:thallasium_anvil"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "17DAB7FE844A7593"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item_tag(betterend:smithing_hammers))"
+						}
+					}
+					title: "Smithing Hammer"
+					type: "item"
+				}
+			]
+			title: "Ender Smith"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19E37C5A24F36F9B"]
+			id: "6FC37730C933BDB5"
+			rewards: [{
+				id: "21F4DE9CD34470F5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain an End Stone Smelter"
+			tasks: [{
+				id: "1454F7D971F2E0DB"
+				item: "betterend:end_stone_smelter"
+				type: "item"
+			}]
+			title: "Cross-Dimensional Smelting"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6FC37730C933BDB5"]
+			id: "4070C53488694541"
+			rewards: [
+				{
+					id: "6277A069B97D1A3C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "109D4ABF1950999E"
+					item: "betterend:terminite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a Terminite Ingot"
+			tasks: [{
+				id: "24C0E7F11A42B79A"
+				item: "betterend:terminite_ingot"
+				type: "item"
+			}]
+			title: "Material From Beyond"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E2682A4EDF96070"]
+			id: "1B43D925925E3230"
+			rewards: [{
+				id: "7914BEFFCF1894D2"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Combine Terminite and Netherite Ingots in an End Stone Smelter to obtain Aeternium"
+			tasks: [{
+				id: "2C3421FFF8F8464B"
+				item: "betterend:aeternium_ingot"
+				type: "item"
+			}]
+			title: "Looking Into Aeternety"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4070C53488694541"]
+			id: "1E2682A4EDF96070"
+			rewards: [{
+				id: "66B885F10D0E554F"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Obtain a Terminite Anvil"
+			tasks: [{
+				id: "7AF3018654B97766"
+				item: {
+					Count: 1
+					id: "betterend:terminite_anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Expect Smith"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2ED8EF92AF2398B4"]
+			id: "0B114ACFB9F5CF35"
+			rewards: [
+				{
+					count: 6
+					id: "37537F698B29C75B"
+					item: "betterend:thallasium_ingot"
+					type: "item"
+				}
+				{
+					id: "4D5A334511B392DB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "502C72219DBB8779"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(betterend:thallasium_tools))"
+					}
+				}
+				title: "Thallasium Tool"
+				type: "item"
+			}]
+			title: "Obtain a Thallasium Tool"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1E2682A4EDF96070"]
+			id: "099A67673D6B2E81"
+			rewards: [
+				{
+					count: 3
+					id: "1943F5B4C4FD9825"
+					item: "betterend:terminite_ingot"
+					type: "item"
+				}
+				{
+					id: "30C8F46362BD0583"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "40F91CB16DBEDD7C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(betterend:terminite_tools))"
+					}
+				}
+				title: "Terminite Tool"
+				type: "item"
+			}]
+			title: "Obtain a Terminite Tool"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1B43D925925E3230"]
+			id: "6BDFE494AC54FE8C"
+			rewards: [
+				{
+					count: 3
+					id: "4E3BB4B3153B764C"
+					item: "betterend:aeternium_ingot"
+					type: "item"
+				}
+				{
+					id: "18CE2F8E325C2654"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "2FB68FDB0B2A3F0E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(betterend:aeternium_tools))"
+					}
+				}
+				title: "Aeternium Tool"
+				type: "item"
+			}]
+			title: "Obtain an Aeturnium Tool"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1E2682A4EDF96070"]
+			id: "77E983CE55EC1FC0"
+			rewards: [
+				{
+					id: "6DDC05D4375D2238"
+					item: "betterend:guidebook"
+					type: "item"
+				}
+				{
+					id: "0E28E0F77417DEEF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Utilize the infusion ritual to make some cool items!"
+			tasks: [
+				{
+					id: "2EFFE0E787DA17BD"
+					item: "betterend:infusion_pedestal"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "49403E87422D3E25"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item_tag(betterend:pedestals))not(item(betterend:infusion_pedestal))"
+						}
+					}
+					title: "8x Pedestal"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3F081145D6D33EE9"]
+			id: "57A4F2E5D1F81159"
+			rewards: [
+				{
+					count: 3
+					id: "043995B52909DF1B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "61D2B04DAC9DA44A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Defeat the Dragon and obtain its egg"
+			tasks: [{
+				id: "1E56E9964019CA77"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			icon: "biomesoplenty:redwood_sapling"
+			icon_scale: 0.9d
+			id: "38020E8099FFBE0B"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				id: "1AAA60DA6575FA6C"
+				ignore_reward_blocking: true
+				stage: "natures_compass"
+				title: "Nature's Compass Recipe"
+				type: "gamestage"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Visit 40 Biomes"
+			tasks: [{
+				icon: "biomesoplenty:redwood_sapling"
+				id: "2394A1458A891B7A"
+				title: "Visit Biomes"
+				type: "custom"
+			}]
+			title: "Biome Explorer"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "07F20E4D8EB5E05C"
+			rewards: [{
+				id: "74783950D6FBEC90"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: "minecraft:mossy_cobblestone"
+				id: "7704378FA15552A2"
+				structure: "#betterdungeons:better_dungeons"
+				title: "Find a Dungeon"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "1C59E50A81D20460"
+			rewards: [{
+				id: "6DBA34FE3F965C0D"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				icon: "minecraft:jungle_leaves"
+				id: "061B27EA393114CE"
+				structure: "#betterjungletemples:better_jungle_temples"
+				title: "Find a Jungle Temple"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "079E7D8644770896"
+			rewards: [{
+				id: "43364358B4926F35"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				icon: "minecraft:chiseled_sandstone"
+				id: "0C561FE6BC6AD303"
+				structure: "#minecraft:desert_pyramid"
+				title: "Find a Desert Temple"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "68485C48E3C91CA4"
+			rewards: [{
+				id: "06EEC8AC80B0E743"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				icon: "minecraft:rail"
+				id: "3A046AD00F13BE18"
+				structure: "#bettermineshafts:better_mineshafts"
+				title: "Find a Mineshaft"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "0D39F55C0BF153CA"
+			rewards: [{
+				id: "067CC6A1D20659CB"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				icon: "minecraft:prismarine"
+				id: "32AF150B04296DE5"
+				structure: "#betteroceanmonuments:better_ocean_monuments"
+				title: "Find an Ocean Temple"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"079E7D8644770896"
+				"1C59E50A81D20460"
+				"0D39F55C0BF153CA"
+			]
+			icon: "minecraft:lead"
+			id: "73006AC32FC9B51A"
+			rewards: [
+				{
+					id: "066D4211205CBDAF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 3
+					id: "7FCBC27E044BA203"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Visit all major temples"
+			tasks: [{
+				id: "5EFFF2B4468E4951"
+				title: "Click Me!"
+				type: "checkmark"
+			}]
+			title: "Indy Explorer"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"68485C48E3C91CA4"
+				"07F20E4D8EB5E05C"
 			]
 			icon: {
 				Count: 1
-				id: "candlelight:cooking_hat"
+				id: "minecraft:iron_pickaxe"
 				tag: {
 					Damage: 0
 				}
 			}
-			id: "29BF62FEDA95A326"
-			rewards: [{
-				id: "221BF2B8A92A1921"
-				item: {
-					Count: 1
-					id: "candlelight:cooking_hat"
-					tag: {
-						Damage: 0
-					}
+			id: "784EB7182E5E4704"
+			rewards: [
+				{
+					count: 8
+					id: "64C7D16DDD71198B"
+					item: "minecraft:iron_ingot"
+					type: "item"
 				}
-				type: "item"
+				{
+					id: "15B9384AA9B248FE"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "square"
+			subtitle: "Visit both major cave structures"
+			tasks: [{
+				id: "3FDBABC6D971401D"
+				title: "Click Me!"
+				type: "checkmark"
 			}]
-			subtitle: "Cook, Bake and Roast a meal"
-			title: "Proper Chef"
-			x: 1.0d
-			y: 8.0d
+			title: "Cave Explorer"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F081145D6D33EE9"]
+			id: "701A1E918AE1E027"
+			rewards: [{
+				id: "46149604B502A896"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Find an End City"
+			tasks: [{
+				icon: "minecraft:shulker_box"
+				id: "3AB583D555296B8E"
+				structure: "#minecraft:end_city"
+				title: "Find an End City"
+				type: "structure"
+			}]
+			title: "Lost Civilization"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74B9E7FAD86459E6"]
+			id: "78C21D7140595BA1"
+			rewards: [
+				{
+					id: "3B7DBF9068456212"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "11682E1ECD85843E"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Find a Nether Fortress"
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "06081DC57863E34E"
+				structure: "#betterfortresses:better_fortresses"
+				title: "Find a Nether Fortress"
+				type: "structure"
+			}]
+			title: "Fortress of Solitude"
+			x: -4.0d
+			y: 0.5d
 		}
 	]
-	title: "Farming"
+	title: "Exploration"
 }

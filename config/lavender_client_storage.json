@@ -6,6 +6,9 @@
     ],
     "ef036723-ecfe-4175-ac44-282afd72099a": [
       "things:almanac"
+    ],
+    "fdd68400-b76b-40b7-b623-598ee9768867": [
+      "things:almanac"
     ]
   },
   "viewed_entries": {
@@ -18,6 +21,14 @@
       "things:almanac": [
         "things:trinkets/placebo",
         "things:items/recall_potion"
+      ]
+    },
+    "fdd68400-b76b-40b7-b623-598ee9768867": {
+      "things:almanac": [
+        "things:retribution",
+        "things:trinkets/placebo",
+        "things:diamond_pressure_plate",
+        "things:gleaming_materials"
       ]
     }
   }

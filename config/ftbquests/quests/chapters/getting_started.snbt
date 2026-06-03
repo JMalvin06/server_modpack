@@ -10,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["767745255B65BCC0"]
+			icon: "minecraft:oak_log"
 			id: "183D546BF09A9494"
 			rewards: [{
 				id: "680117697EEF213F"
@@ -37,16 +38,24 @@
 		}
 		{
 			dependencies: ["4BBCC0830068CB8C"]
+			icon: "minecraft:cobblestone"
 			id: "6C686132BBE2A215"
 			rewards: [{
 				id: "37520B5BB607F1F3"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Obtain Cobblestone"
+			subtitle: "Obtain any kind of Stone"
 			tasks: [{
-				id: "6248E9C608EE9D47"
-				item: "minecraft:cobblestone"
+				id: "0B5C2DC128D76E43"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(minecraft:stone_tool_materials))"
+					}
+				}
+				title: "Cobblestone"
 				type: "item"
 			}]
 			title: "Rock and Stone"
@@ -76,6 +85,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			title: "Ironing Out The Kinks"
 			x: -2.5d
 			y: -0.035714285714277594d
 		}
@@ -279,9 +289,9 @@
 			description: [
 				"Welcome to the quest menu!"
 				""
-				"Quests are intended to be a intuitive way to familiarize yourself with the mods in this pack. They are not required, and often explore the surface level of a mod."
+				"Quests are intended to be a intuitive way to familiarize yourself with the mods in this pack. However, they are not required and often only explore the surface level of a particular mod."
 				""
-				"The Getting Started Chapter is centered on the basic Minecraft ore progression (with some modded tweaks), though the other chapters explore deeper into the modpack."
+				"The Getting Started chapter is centered on the basic Minecraft ore progression (with some modded tweaks), though the other chapters explore deeper into the modpack."
 				""
 				"Thank you for playing!"
 			]

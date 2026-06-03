@@ -526,9 +526,9 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2A384CFA9F5CCEBA"
+					id: "5BC193BD720D77EF"
 					table_id: 711509363000943046L
-					type: "loot"
+					type: "choice"
 				}
 				{
 					exclude_from_claim_all: true
