@@ -1,0 +1,33 @@
+filename = 'AdvancedLootInfo-fabric-1.20.1-1.12.0.jar'
+name = 'Advanced Loot Info'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.20.1-1.12.0'
+
+[download]
+hash = '481a04966dbe4ed9ec69e0243d69413a8184acf4cfac041d05542668d6baec5d43cd336c8ae618a8b22931122242a2078df7d3c116cec3b6579d14118c2627bd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/PEPVViac/versions/FC0KM5a6/AdvancedLootInfo-fabric-1.20.1-1.12.0.jar'
+
+[update.modrinth]
+mod-id = 'PEPVViac'
+version = 'FC0KM5a6'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'nfn13YXA'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fJFETWDN'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fRiHVvU7'
+type = 'OPTIONAL'

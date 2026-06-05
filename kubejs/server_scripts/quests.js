@@ -26,7 +26,7 @@ FTBQuestsEvents.customTask('36BD868B6D161CA1', event => {
 })
 
 FTBQuestsEvents.customTask('2394A1458A891B7A', event => {
-    event.maxProgress = 40;
+    event.maxProgress = 25;
 
     event.setCheckTimer(20);
 

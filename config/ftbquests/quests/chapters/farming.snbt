@@ -168,7 +168,6 @@
 				advancement: "farm_and_charm:main/use_hoe_on_fertilized_soil"
 				criterion: ""
 				id: "2EF2D749BB349BA0"
-				title: "To Hoe or Not to Hoe"
 				type: "advancement"
 			}]
 			title: "Thinking With Fertilizer"
@@ -677,6 +676,11 @@
 				type: "item"
 			}]
 			subtitle: "Cook, Bake and Roast a meal"
+			tasks: [{
+				id: "7D4E948A20E4FBFC"
+				title: "Click Me!"
+				type: "checkmark"
+			}]
 			title: "Proper Chef"
 			x: 1.0d
 			y: 8.0d

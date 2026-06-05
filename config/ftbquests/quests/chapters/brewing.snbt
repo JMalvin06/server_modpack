@@ -441,6 +441,11 @@
 				}
 			]
 			subtitle: "Complete Brewery and Vineru"
+			tasks: [{
+				id: "0E20BD57464CD662"
+				title: "Click Me!"
+				type: "checkmark"
+			}]
 			title: "Time to Call AA"
 			x: 0.0d
 			y: 1.5d

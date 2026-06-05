@@ -635,7 +635,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Visit 40 Biomes"
+			subtitle: "Visit 25 Biomes"
 			tasks: [{
 				icon: "biomesoplenty:redwood_sapling"
 				id: "2394A1458A891B7A"
