@@ -1,25 +1,25 @@
-filename = 'dummmmmmy-1.20-2.0.8-fabric.jar'
+filename = 'dummmmmmy-1.20-2.0.12-fabric.jar'
 name = 'MmmMmmMmmMmm'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.20-2.0.8'
+x-prismlauncher-version-number = '1.20-2.0.12-fabric'
 
 [download]
-hash = '15f88a31e359c4bfa71a347440449b696c002f49b996832fa652ea8a65447344a543842753c61568eee959c5ff95d987cf4c079f879e5b5e03f096498fe2763b'
+hash = '5a31ebfb432b5354dd25777d4984fce06277fae0d82c757b399ef9d99b1d3a34b7c0e51ef6cdbc36d99c2ece6df3849bee683c7b58297795d15daeb03d75eea5'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/Adega8YN/versions/ARuuU3Qq/dummmmmmy-1.20-2.0.8-fabric.jar'
+url = 'https://cdn.modrinth.com/data/Adega8YN/versions/6VosBxNt/dummmmmmy-1.20-2.0.12-fabric.jar'
 
 [update.modrinth]
 mod-id = 'Adega8YN'
-version = 'ARuuU3Qq'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
+version = '6VosBxNt'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'twkfQtEc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
 type = 'REQUIRED'
