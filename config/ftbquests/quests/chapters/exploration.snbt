@@ -74,7 +74,7 @@
 			}]
 			title: "Feeling Swamped"
 			x: 1.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			icon: "minecraft:end_portal_frame"
@@ -644,7 +644,7 @@
 			}]
 			title: "Biome Explorer"
 			x: -2.5d
-			y: -2.5d
+			y: -3.1071428571428577d
 		}
 		{
 			id: "07F20E4D8EB5E05C"
@@ -661,7 +661,7 @@
 				type: "structure"
 			}]
 			x: 0.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			id: "1C59E50A81D20460"
@@ -678,7 +678,7 @@
 				type: "structure"
 			}]
 			x: 0.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			id: "079E7D8644770896"
@@ -695,7 +695,7 @@
 				type: "structure"
 			}]
 			x: 2.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			id: "68485C48E3C91CA4"
@@ -712,7 +712,7 @@
 				type: "structure"
 			}]
 			x: 2.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			id: "0D39F55C0BF153CA"
@@ -729,7 +729,7 @@
 				type: "structure"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -761,7 +761,7 @@
 			}]
 			title: "Indy Explorer"
 			x: 1.5d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -798,7 +798,7 @@
 			}]
 			title: "Cave Explorer"
 			x: 1.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3F081145D6D33EE9"]
@@ -846,6 +846,28 @@
 			title: "Fortress of Solitude"
 			x: -4.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["38020E8099FFBE0B"]
+			id: "53A39F959944DA72"
+			rewards: [{
+				id: "27E6A8B45D9BD7A7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Nature's Compass"
+			tasks: [{
+				id: "37C95C01155FBB7D"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Biome Locator"
+			x: -2.5d
+			y: -1.5d
 		}
 	]
 	title: "Exploration"
