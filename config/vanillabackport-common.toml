@@ -53,7 +53,7 @@
 	#allow firefly bushes to generate in the overworld
 	firefly_bushes = true
 	#allow variants for pigs, cows and chickens to generate
-	farm_animal_variants = true
+	farm_animal_variants = false
 	#allow leaf litter to generate in the overworld
 	leaf_litter = true
 
