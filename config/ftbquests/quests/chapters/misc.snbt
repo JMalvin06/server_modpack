@@ -235,7 +235,7 @@
 				}
 			]
 			title: "Nifty Nephrite"
-			x: -0.5d
+			x: -1.5d
 			y: 2.5d
 		}
 		{
@@ -246,7 +246,6 @@
 				type: "xp"
 				xp: 20
 			}]
-			secret: true
 			subtitle: "Obtain an Instant Camera"
 			tasks: [{
 				id: "3FBD81AC243D146A"
@@ -256,6 +255,68 @@
 			title: "Perfect Polaroid"
 			x: -3.5d
 			y: 2.5d
+		}
+		{
+			id: "0144BACF7F74AC98"
+			rewards: [{
+				id: "5810475D12D3516B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Target Dummy"
+			tasks: [{
+				id: "6BBDF9DB27EBCF39"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			title: "Kick Me!"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "337C8B2E1B8DC2F2"
+			rewards: [{
+				id: "6DF8ABF8E5188DC8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Obtain a Hammer and Chisel"
+			tasks: [{
+				id: "2819A1F41CA37D08"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(spelunkery:flint_hammer_and_chisel)item(spelunkery:obsidian_hammer_and_chisel))"
+					}
+				}
+				title: "Hammer and Chisel"
+				type: "item"
+			}]
+			title: "We Have Silk Touch at Home"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "6907798A334D286C"
+			rewards: [{
+				id: "3EB7F3311A8F90D7"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Obtain an Item Magnet"
+			tasks: [{
+				id: "1068D6624613FBD2"
+				item: {
+					Count: 1
+					id: "spelunkery:item_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Master of Magnetism"
+			x: -0.5d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Stuff and Things"]

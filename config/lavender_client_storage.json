@@ -9,6 +9,9 @@
     ],
     "fdd68400-b76b-40b7-b623-598ee9768867": [
       "things:almanac"
+    ],
+    "51c435c1-9b09-42b2-9235-10138d87b043": [
+      "things:almanac"
     ]
   },
   "viewed_entries": {
@@ -29,6 +32,12 @@
         "things:trinkets/placebo",
         "things:diamond_pressure_plate",
         "things:gleaming_materials"
+      ]
+    },
+    "51c435c1-9b09-42b2-9235-10138d87b043": {
+      "things:almanac": [
+        "things:gleaming_ore",
+        "things:items/item_magnet"
       ]
     }
   }

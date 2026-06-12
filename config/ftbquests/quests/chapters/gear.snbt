@@ -1580,6 +1580,50 @@
 			x: -6.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["39B96B658CA74B4F"]
+			id: "19A888F0A2928816"
+			rewards: [{
+				id: "13C57561242908D1"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Obtain a Copper Upgrade for the Glider"
+			tasks: [{
+				id: "758503FF81DDF182"
+				item: "vc_gliders:copper_upgrade"
+				type: "item"
+			}]
+			title: "Save For a Rainy Day"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["39B96B658CA74B4F"]
+			id: "4F717BD1F7ED9273"
+			rewards: [
+				{
+					id: "37F564B7AD9395C2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "1FE067815BD609BC"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a Nether Upgrade"
+			tasks: [{
+				id: "661E92E7ECCB659C"
+				item: "vc_gliders:nether_upgrade"
+				type: "item"
+			}]
+			title: "Through the Fire and Flames"
+			x: -3.0d
+			y: -0.5d
+		}
 	]
 	title: "Gear"
 }
