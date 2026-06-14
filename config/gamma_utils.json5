@@ -1,6 +1,6 @@
 {
 	"nightVisionEnabled": false,
-	"defaultGamma": 200,
+	"defaultGamma": 250,
 	"toggledGamma": 1500,
 	"updateToggle": false,
 	"smoothTransition": false,

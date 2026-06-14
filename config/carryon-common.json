@@ -40,7 +40,7 @@
     "//stackableEntities": "Allows entities to be stacked on top of each other",
     "stackableEntities": true,
     "//entitySizeMattersStacking": "Whether entities' size matters when stacking or not. This means that larger entities cannot be stacked on smaller ones",
-    "entitySizeMattersStacking": true,
+    "entitySizeMattersStacking": false,
     "//placementStateExceptions": "Usually all the block state information is retained when placing a block that was picked up. But some information is changed to a modified property, like rotation or orientation. In this list, add additional properties that should NOT be saved and instead be updated when placed. Format: modid:block[propertyname]. Note: You don't need to add an entry for every subtype of a same block. For example, we only add an entry for one type of slab, but the change is applied to all slabs.",
     "placementStateExceptions": [
       "minecraft:chest[type]",
@@ -181,6 +181,7 @@
     "forbiddenEntities": [
       "minecraft:end_crystal",
       "minecraft:ender_dragon",
+      "minecraft:wither",
       "minecraft:ghast",
       "minecraft:shulker",
       "minecraft:leash_knot",
@@ -204,9 +205,7 @@
       "bodiesbodies:dead_body"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
-    "forbiddenStacking": [
-      "minecraft:horse"
-    ]
+    "forbiddenStacking": []
   },
   "customPickupConditions": {
     "//customPickupConditions": "Custom Pickup Conditions. Read about the format here: https://github.com/Tschipp/CarryOn/wiki/Custom-Pickup-Condition-Config",

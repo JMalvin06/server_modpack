@@ -32,8 +32,8 @@
   "ultrakill": true,
   "cascadeSoundsVolume": 30,
   "cascadeSoundDistanceBlocks": 100,
-  "windAmbienceVolume": 100,
-  "waterAmbienceVolume": 100,
-  "foliageAmbienceVolume": 100,
-  "animalAmbienceVolume": 100
+  "windAmbienceVolume": 0,
+  "waterAmbienceVolume": 0,
+  "foliageAmbienceVolume": 0,
+  "animalAmbienceVolume": 0
 }

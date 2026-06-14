@@ -31,7 +31,7 @@
   "singleLevelMode": true,
   "enchantmentLimit": 2,
   "accurateFishingBobbers": true,
-  "allTridentsHaveLoyalty": true,
+  "allTridentsHaveLoyalty": false,
   "arrowsDropOnHit": false,
   "channelingIgnitesOnMelee": false,
   "channelingWorksWhenNotThundering": true,
