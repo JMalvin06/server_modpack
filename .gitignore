@@ -6,3 +6,6 @@ mods/.index
 config/fabric
 config/iris.properties
 config/indium-renderer.properties
+config/bclib/
+config/jade/
+config/xaero/
