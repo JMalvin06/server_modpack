@@ -79,13 +79,25 @@ const plush_map = {
 };
 
 ServerEvents.recipes(event => {
-    /*event.shapeless('plushie_buddies:plushie_chicken',
-        ['plushie_buddies:fabric', 'plushie_buddies:sewing_needle', 'plushie_buddies:stuffing', 'minecraft:egg']
-    ).stage('chicken_plush');
+    event.remove({output: 'minecraft:saddle', type: 'minecraft:crafting_shaped'});
+    event.shaped('minecraft:saddle', [
+        'LLL',
+        'S S',
+        'I I'
+    ], {
+        L: "minecraft:leather",
+        S: "minecraft:string",
+        I: "minecraft:iron_ingot"
+    });
 
-    event.shapeless('plushie_buddies:plushie_frog',
-        ['plushie_buddies:fabric', 'plushie_buddies:sewing_needle', 'plushie_buddies:stuffing', 'ribbits:maraca']
-    ).stage('frog_plush');*/
+     event.shaped('minecraft:trident', [
+        'PPP',
+        ' S ',
+        ' S '
+    ], {
+        P: "minecraft:prismarine_shard",
+        S: "minecraft:stick"
+    });
 
     const plush_ids = Ingredient.of(/plushie_buddies:plushie_+/).itemIds;
     plush_ids.forEach(plush => {
