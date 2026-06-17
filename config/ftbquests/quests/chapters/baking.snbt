@@ -14,7 +14,7 @@
 			rewards: [{
 				id: "06518AFFE8AEC183"
 				type: "xp"
-				xp: 15
+				xp: 25
 			}]
 			subtitle: "Make Yeast"
 			tasks: [{
@@ -33,6 +33,11 @@
 			]
 			hide_until_deps_complete: true
 			id: "3F029818F874AC68"
+			rewards: [{
+				id: "1890153DA30F0F79"
+				type: "xp"
+				xp: 25
+			}]
 			subtitle: "Obtain Cake Dough"
 			tasks: [{
 				id: "0FB2174FDBFA8468"
@@ -49,7 +54,7 @@
 			rewards: [{
 				id: "6F2415475BFE3575"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			tasks: [{
 				id: "3B08CEAB49CED1F8"
@@ -66,7 +71,7 @@
 			rewards: [{
 				id: "5D694C1675B452E4"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Make some Sweet Dough"
 			tasks: [{
@@ -84,7 +89,7 @@
 			rewards: [{
 				id: "01848E81E1EFB9FF"
 				type: "xp"
-				xp: 20
+				xp: 50
 			}]
 			subtitle: "Bake a Cake"
 			tasks: [{
@@ -111,7 +116,7 @@
 				{
 					id: "7577C00C470E9CD6"
 					type: "xp"
-					xp: 20
+					xp: 30
 				}
 				{
 					id: "4C92C9C24A978DB5"
@@ -143,7 +148,7 @@
 			rewards: [{
 				id: "16033CBD24272F01"
 				type: "xp"
-				xp: 20
+				xp: 30
 			}]
 			subtitle: "Use a Knife and Rolling pin on Cake Dough to make Cookies"
 			tasks: [{
@@ -169,7 +174,7 @@
 			rewards: [{
 				id: "50DF013E1B7FC526"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain a Caking Station"
 			tasks: [{
@@ -186,14 +191,14 @@
 			id: "403BAFEBB10F07DC"
 			rewards: [
 				{
-					id: "259BC8C8E5A91876"
-					type: "xp"
-					xp: 20
-				}
-				{
 					id: "6E952A3AA0022766"
 					item: "bakery:chocolate_box"
 					type: "item"
+				}
+				{
+					id: "3E8C9C022C5DB548"
+					type: "xp_levels"
+					xp_levels: 2
 				}
 			]
 			subtitle: "Bake a loaf of Bread"
@@ -220,7 +225,7 @@
 				{
 					id: "56B67BD7EC95B63B"
 					type: "xp"
-					xp: 20
+					xp: 30
 				}
 				{
 					id: "785E63825D765B66"
@@ -251,7 +256,7 @@
 			rewards: [{
 				id: "0A6CC621072630E6"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain a Cake Stand"
 			tasks: [{
@@ -269,7 +274,7 @@
 			rewards: [{
 				id: "5C95C3F8234F7871"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Cook some Pudding"
 			tasks: [{
@@ -287,7 +292,7 @@
 			rewards: [{
 				id: "37FF10F269B0595B"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Obtain some Jam"
 			tasks: [{
@@ -313,7 +318,7 @@
 			rewards: [{
 				id: "5236ACD3F2C8DE5B"
 				type: "xp"
-				xp: 15
+				xp: 25
 			}]
 			subtitle: "Obtain a Small Cooking Pot"
 			tasks: [{
@@ -332,5 +337,6 @@
 			y: 6.5d
 		}
 	]
+	subtitle: ["Cakes and Sweets"]
 	title: "Baking"
 }

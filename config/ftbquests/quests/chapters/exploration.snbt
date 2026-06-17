@@ -14,7 +14,7 @@
 			rewards: [{
 				id: "51D666A1BBFDC7D8"
 				type: "xp"
-				xp: 20
+				xp: 50
 			}]
 			subtitle: "Travel to the Nether"
 			tasks: [{
@@ -42,7 +42,7 @@
 				{
 					id: "220CEC57E9D99E35"
 					type: "xp"
-					xp: 15
+					xp: 50
 				}
 			]
 			subtitle: "Find a Nether City"
@@ -59,11 +59,18 @@
 		}
 		{
 			id: "24316BDE52F59EBA"
-			rewards: [{
-				id: "1A082C7C5DBCDE92"
-				item: "plushie_buddies:plushie_frog"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1A082C7C5DBCDE92"
+					item: "plushie_buddies:plushie_frog"
+					type: "item"
+				}
+				{
+					id: "1421FFB95AD94A9B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			subtitle: "Find a Frog Village"
 			tasks: [{
 				icon: "ribbits:red_toadstool"
@@ -80,9 +87,9 @@
 			icon: "minecraft:end_portal_frame"
 			id: "3F081145D6D33EE9"
 			rewards: [{
-				id: "37FCC5360D3D61FA"
-				type: "xp"
-				xp: 30
+				id: "32F018D92D91D20E"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 			subtitle: "Reach the End dimension"
 			tasks: [{
@@ -100,15 +107,15 @@
 			id: "0FBC031A719DCA0E"
 			rewards: [
 				{
-					id: "5B4CD90B0F347641"
-					type: "xp"
-					xp: 30
-				}
-				{
 					count: 3
 					id: "37446F5F08FEF49B"
 					item: "minecraft:diamond"
 					type: "item"
+				}
+				{
+					id: "3CC90C0E98D14ED9"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 			]
 			subtitle: "Kill the Wither and obtain a Nether Star"
@@ -127,7 +134,7 @@
 			rewards: [{
 				id: "4B0AFCE73EEF2F97"
 				type: "xp"
-				xp: 10
+				xp: 40
 			}]
 			subtitle: "Obtain a Nether Ruby"
 			tasks: [{
@@ -146,7 +153,7 @@
 			rewards: [{
 				id: "253DF5D5F53BCFD8"
 				type: "xp"
-				xp: 10
+				xp: 40
 			}]
 			subtitle: "Obtain a Cincinnasite Ingot"
 			tasks: [{
@@ -162,11 +169,18 @@
 			dependencies: ["74B9E7FAD86459E6"]
 			hide_until_deps_complete: true
 			id: "63C15940720DEA7E"
-			rewards: [{
-				id: "754876CAE2C765A8"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "754876CAE2C765A8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1B78F99C8207E7DA"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "19DAE7565570D3D2"
 				item: "betternether:nether_reed_stem"
@@ -191,7 +205,7 @@
 				{
 					id: "33C6D9F53DF22E55"
 					type: "xp"
-					xp: 10
+					xp: 40
 				}
 			]
 			tasks: [{
@@ -226,7 +240,7 @@
 				{
 					id: "14CDBDB39C055AA4"
 					type: "xp"
-					xp: 10
+					xp: 40
 				}
 			]
 			tasks: [{
@@ -251,7 +265,7 @@
 			rewards: [{
 				id: "2897D0FE442DA5F8"
 				type: "xp"
-				xp: 20
+				xp: 100
 			}]
 			subtitle: "Infuse a Cinncinasite tool with Diamonds"
 			tasks: [
@@ -283,7 +297,7 @@
 			rewards: [{
 				id: "0F3FE5CE32B2B220"
 				type: "xp"
-				xp: 20
+				xp: 100
 			}]
 			subtitle: "Upgrade a Nether Ruby tool to Fireruby"
 			tasks: [
@@ -323,7 +337,7 @@
 				{
 					id: "72999DFBF07740FC"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			subtitle: "Obtain Thallasium"
@@ -342,7 +356,7 @@
 			rewards: [{
 				id: "4FC9114163602412"
 				type: "xp"
-				xp: 20
+				xp: 50
 			}]
 			subtitle: "Use Thallasium ingots and a Smithing Hammer in a Thallasium anvil to make tools"
 			tasks: [
@@ -378,7 +392,7 @@
 			rewards: [{
 				id: "21F4DE9CD34470F5"
 				type: "xp"
-				xp: 10
+				xp: 50
 			}]
 			subtitle: "Obtain an End Stone Smelter"
 			tasks: [{
@@ -397,7 +411,7 @@
 				{
 					id: "6277A069B97D1A3C"
 					type: "xp"
-					xp: 20
+					xp: 50
 				}
 				{
 					count: 2
@@ -422,7 +436,7 @@
 			rewards: [{
 				id: "7914BEFFCF1894D2"
 				type: "xp"
-				xp: 30
+				xp: 80
 			}]
 			subtitle: "Combine Terminite and Netherite Ingots in an End Stone Smelter to obtain Aeternium"
 			tasks: [{
@@ -440,7 +454,7 @@
 			rewards: [{
 				id: "66B885F10D0E554F"
 				type: "xp"
-				xp: 20
+				xp: 60
 			}]
 			subtitle: "Obtain a Terminite Anvil"
 			tasks: [{
@@ -469,7 +483,7 @@
 				{
 					id: "4D5A334511B392DB"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -501,7 +515,7 @@
 				{
 					id: "30C8F46362BD0583"
 					type: "xp"
-					xp: 15
+					xp: 60
 				}
 			]
 			tasks: [{
@@ -533,7 +547,7 @@
 				{
 					id: "18CE2F8E325C2654"
 					type: "xp"
-					xp: 20
+					xp: 80
 				}
 			]
 			tasks: [{
@@ -564,7 +578,7 @@
 				{
 					id: "0E28E0F77417DEEF"
 					type: "xp"
-					xp: 20
+					xp: 60
 				}
 			]
 			subtitle: "Utilize the infusion ritual to make some cool items!"
@@ -604,7 +618,7 @@
 				{
 					id: "61D2B04DAC9DA44A"
 					type: "xp"
-					xp: 30
+					xp: 200
 				}
 			]
 			subtitle: "Defeat the Dragon and obtain its egg"
@@ -651,7 +665,7 @@
 			rewards: [{
 				id: "74783950D6FBEC90"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			tasks: [{
 				icon: "minecraft:mossy_cobblestone"
@@ -668,7 +682,7 @@
 			rewards: [{
 				id: "6DBA34FE3F965C0D"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			tasks: [{
 				icon: "minecraft:jungle_leaves"
@@ -685,7 +699,7 @@
 			rewards: [{
 				id: "43364358B4926F35"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			tasks: [{
 				icon: "minecraft:chiseled_sandstone"
@@ -702,7 +716,7 @@
 			rewards: [{
 				id: "06EEC8AC80B0E743"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			tasks: [{
 				icon: "minecraft:rail"
@@ -719,7 +733,7 @@
 			rewards: [{
 				id: "067CC6A1D20659CB"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			tasks: [{
 				icon: "minecraft:prismarine"
@@ -741,15 +755,15 @@
 			id: "73006AC32FC9B51A"
 			rewards: [
 				{
-					id: "066D4211205CBDAF"
-					type: "xp"
-					xp: 30
-				}
-				{
 					count: 3
 					id: "7FCBC27E044BA203"
 					item: "minecraft:diamond"
 					type: "item"
+				}
+				{
+					id: "5521C72356EE4773"
+					type: "xp_levels"
+					xp_levels: 2
 				}
 			]
 			shape: "square"
@@ -784,9 +798,9 @@
 					type: "item"
 				}
 				{
-					id: "15B9384AA9B248FE"
-					type: "xp"
-					xp: 15
+					id: "20F816AAFC6F4C49"
+					type: "xp_levels"
+					xp_levels: 2
 				}
 			]
 			shape: "square"
@@ -806,7 +820,7 @@
 			rewards: [{
 				id: "46149604B502A896"
 				type: "xp"
-				xp: 20
+				xp: 150
 			}]
 			subtitle: "Find an End City"
 			tasks: [{
@@ -827,7 +841,7 @@
 				{
 					id: "3B7DBF9068456212"
 					type: "xp"
-					xp: 15
+					xp: 50
 				}
 				{
 					id: "11682E1ECD85843E"
@@ -853,7 +867,7 @@
 			rewards: [{
 				id: "27E6A8B45D9BD7A7"
 				type: "xp"
-				xp: 10
+				xp: 50
 			}]
 			subtitle: "Obtain a Nature's Compass"
 			tasks: [{
@@ -870,5 +884,6 @@
 			y: -1.5d
 		}
 	]
+	subtitle: ["Itching for Adventure"]
 	title: "Exploration"
 }

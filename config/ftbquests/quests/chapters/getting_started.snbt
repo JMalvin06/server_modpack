@@ -15,7 +15,7 @@
 			rewards: [{
 				id: "680117697EEF213F"
 				type: "xp"
-				xp: 10
+				xp: 20
 			}]
 			shape: "square"
 			size: 1.2d
@@ -43,7 +43,7 @@
 			rewards: [{
 				id: "37520B5BB607F1F3"
 				type: "xp"
-				xp: 10
+				xp: 20
 			}]
 			subtitle: "Obtain any kind of Stone"
 			tasks: [{
@@ -75,7 +75,7 @@
 				{
 					id: "0989014832DE3CE5"
 					type: "xp"
-					xp: 15
+					xp: 30
 				}
 			]
 			size: 1.0d
@@ -102,7 +102,7 @@
 				{
 					id: "0FA9E032137CA87C"
 					type: "xp"
-					xp: 10
+					xp: 20
 				}
 			]
 			subtitle: "Obtain a Crafting Table"
@@ -166,9 +166,9 @@
 			dependencies: ["20E3BD3D2EE0592D"]
 			id: "007189A416C6B42D"
 			rewards: [{
-				id: "61E707A4E82F6F47"
-				type: "xp"
-				xp: 25
+				id: "3B00EE388EBA9EB1"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 			subtitle: "Polish a Rough Diamond"
 			tasks: [{
@@ -186,7 +186,7 @@
 			rewards: [{
 				id: "4CE7CCF219578328"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain Rough Cinnabar"
 			tasks: [{
@@ -211,7 +211,7 @@
 				{
 					id: "6F4B3DDEBB4FF34A"
 					type: "xp"
-					xp: 15
+					xp: 30
 				}
 			]
 			subtitle: "Grind Rough Cinnabar into Redstone"
@@ -230,7 +230,7 @@
 			rewards: [{
 				id: "5B5FC9F92D26816A"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Polish Rough Cinnabar"
 			tasks: [{
@@ -254,7 +254,7 @@
 				{
 					id: "3BEA5663839F78EB"
 					type: "xp"
-					xp: 10
+					xp: 30
 				}
 			]
 			subtitle: "Polish Lazurite into Lapis"
@@ -273,7 +273,7 @@
 			rewards: [{
 				id: "47DCC1A92A599A31"
 				type: "xp"
-				xp: 10
+				xp: 20
 			}]
 			subtitle: "Obtain Rough Lazurite"
 			tasks: [{
@@ -320,7 +320,7 @@
 			rewards: [{
 				id: "6293D1C20B650C73"
 				type: "xp"
-				xp: 10
+				xp: 20
 			}]
 			shape: "square"
 			size: 1.2d
@@ -369,5 +369,6 @@
 			y: -1.5d
 		}
 	]
+	subtitle: ["Basics of Progression"]
 	title: "Getting Started"
 }

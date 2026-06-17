@@ -13,7 +13,7 @@
 			rewards: [{
 				id: "7A9DDE5B72DC7048"
 				type: "xp"
-				xp: 15
+				xp: 20
 			}]
 			subtitle: "Tame a mob"
 			tasks: [{
@@ -43,7 +43,7 @@
 				{
 					id: "6FDA13796E8D685C"
 					type: "xp"
-					xp: 15
+					xp: 25
 				}
 			]
 			subtitle: "Obtain a Pet Bowl"
@@ -68,7 +68,7 @@
 				{
 					id: "1845EDDC607668A8"
 					type: "xp"
-					xp: 10
+					xp: 25
 				}
 			]
 			subtitle: "Place a Chicken Coop"
@@ -135,7 +135,7 @@
 			rewards: [{
 				id: "144545DBADB2AB6A"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Use a pitchfork on fertilized soil for a bonemeal effect"
 			tasks: [{
@@ -161,7 +161,7 @@
 			rewards: [{
 				id: "0A089D484C9DCC7B"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Use a hoe on fertilized soil"
 			tasks: [{
@@ -236,7 +236,7 @@
 				{
 					id: "24B8F8C517DA8858"
 					type: "xp"
-					xp: 10
+					xp: 30
 				}
 			]
 			subtitle: "Obtain a Cooking Pot"
@@ -255,7 +255,7 @@
 			rewards: [{
 				id: "47749C07B095B43F"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain a Roaster"
 			tasks: [{
@@ -273,7 +273,7 @@
 			rewards: [{
 				id: "5D5418D1E3EDC3F2"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Cook a meal with the Cooking Pot"
 			tasks: [{
@@ -298,7 +298,7 @@
 			rewards: [{
 				id: "60624AA5B821BB3F"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Bake dish with the Stove"
 			tasks: [{
@@ -323,7 +323,7 @@
 			rewards: [{
 				id: "0D337CC66A05C90B"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Roast a meal with the Roaster"
 			tasks: [{
@@ -347,7 +347,7 @@
 			rewards: [{
 				id: "30138A8B83902CCE"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain a Crafting Bowl"
 			tasks: [{
@@ -365,7 +365,7 @@
 			rewards: [{
 				id: "01D40B089022C5A0"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Use the Crafting Bowl to make something"
 			tasks: [{
@@ -428,7 +428,7 @@
 				{
 					id: "3936E106E3C0777F"
 					type: "xp"
-					xp: 10
+					xp: 20
 				}
 			]
 			subtitle: "Obtain any seeds from the Let's Do series"
@@ -455,7 +455,7 @@
 			rewards: [{
 				id: "3CEA9FB32E368D65"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain a Water Sprinker"
 			tasks: [{
@@ -472,7 +472,7 @@
 			rewards: [{
 				id: "4EF534BF5AE2FA25"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			subtitle: "Obtain a Feeding Trough"
 			tasks: [{
@@ -490,7 +490,7 @@
 			rewards: [{
 				id: "0505F2B5E6C8C569"
 				type: "xp"
-				xp: 25
+				xp: 30
 			}]
 			secret: true
 			subtitle: "Obtain Lettuce"
@@ -509,7 +509,7 @@
 				{
 					id: "15076D969CFDBADC"
 					type: "xp"
-					xp: 25
+					xp: 50
 				}
 				{
 					exclude_from_claim_all: true
@@ -572,6 +572,11 @@
 					item: "meadow:cheese_rack"
 					type: "item"
 				}
+				{
+					id: "4F5988FD79960702"
+					type: "xp"
+					xp: 30
+				}
 			]
 			subtitle: "Make Cheese"
 			tasks: [{
@@ -595,7 +600,7 @@
 			rewards: [{
 				id: "617C934A45BD7E81"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			subtitle: "Obtain a Cooking Cauldron"
 			tasks: [{
@@ -613,7 +618,7 @@
 			rewards: [{
 				id: "5A3CD97A650F6D45"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			subtitle: "Obtain Rennet"
 			tasks: [{
@@ -631,7 +636,7 @@
 			rewards: [{
 				id: "4FBE233E77DCA421"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Use a Fondue and Bread to make a Cheese Stick"
 			tasks: [
@@ -664,17 +669,24 @@
 				}
 			}
 			id: "29BF62FEDA95A326"
-			rewards: [{
-				id: "221BF2B8A92A1921"
-				item: {
-					Count: 1
-					id: "candlelight:cooking_hat"
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "221BF2B8A92A1921"
+					item: {
+						Count: 1
+						id: "candlelight:cooking_hat"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "28050934940C35FA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			subtitle: "Cook, Bake and Roast a meal"
 			tasks: [{
 				id: "7D4E948A20E4FBFC"
@@ -686,5 +698,6 @@
 			y: 8.0d
 		}
 	]
+	subtitle: ["Crop Basics"]
 	title: "Farming"
 }

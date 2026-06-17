@@ -19,7 +19,7 @@
 				{
 					id: "3B5D308146B94D4D"
 					type: "xp"
-					xp: 10
+					xp: 20
 				}
 			]
 			subtitle: "Equip an apple!"
@@ -38,7 +38,7 @@
 			rewards: [{
 				id: "2B526C9F9123EB4E"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			subtitle: "Obtain a Camera"
 			tasks: [{
@@ -57,7 +57,7 @@
 				{
 					id: "59A7602606947F95"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 				{
 					id: "19E978774BCFE0F0"
@@ -80,7 +80,7 @@
 			rewards: [{
 				id: "10E65C16BFEB942A"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain a Lightroom"
 			tasks: [{
@@ -98,7 +98,7 @@
 			rewards: [{
 				id: "26A38D5C7B570774"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain Film"
 			tasks: [{
@@ -123,7 +123,7 @@
 			rewards: [{
 				id: "577BFA6E11BAB35C"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Develop Film using a Lightroom"
 			tasks: [{
@@ -197,7 +197,7 @@
 			rewards: [{
 				id: "10BF97FE71D10E22"
 				type: "xp"
-				xp: 20
+				xp: 30
 			}]
 			subtitle: "Obtain a Recall Potion"
 			tasks: [{
@@ -214,7 +214,7 @@
 			rewards: [{
 				id: "13EC6CC9B3C63BC5"
 				type: "xp"
-				xp: 20
+				xp: 50
 			}]
 			subtitle: "Utilize Nephrite blocks to store your XP"
 			tasks: [
@@ -244,7 +244,7 @@
 			rewards: [{
 				id: "7FF1DB45CF7BBB3B"
 				type: "xp"
-				xp: 20
+				xp: 50
 			}]
 			subtitle: "Obtain an Instant Camera"
 			tasks: [{
@@ -261,7 +261,7 @@
 			rewards: [{
 				id: "5810475D12D3516B"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain a Target Dummy"
 			tasks: [{
@@ -278,7 +278,7 @@
 			rewards: [{
 				id: "6DF8ABF8E5188DC8"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain a Hammer and Chisel"
 			tasks: [{
@@ -302,7 +302,7 @@
 			rewards: [{
 				id: "3EB7F3311A8F90D7"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Obtain an Item Magnet"
 			tasks: [{

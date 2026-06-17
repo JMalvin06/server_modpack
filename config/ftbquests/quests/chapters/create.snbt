@@ -15,7 +15,7 @@
 			rewards: [{
 				id: "6158348E8879D352"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			shape: "gear"
 			subtitle: "Obtain a Water Wheel or Windmill Bearing"
@@ -41,7 +41,7 @@
 			rewards: [{
 				id: "2511468C56FA4B34"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			shape: "gear"
 			subtitle: "Obtain a Cog"
@@ -60,7 +60,7 @@
 			rewards: [{
 				id: "6C42BA747A6E7687"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			shape: "gear"
 			subtitle: "Obtain Andesite Alloy"
@@ -81,7 +81,7 @@
 			rewards: [{
 				id: "322D9CB1B3440014"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			shape: "gear"
 			subtitle: "These items will help transport your stress units"
@@ -148,7 +148,7 @@
 			rewards: [{
 				id: "6A16D90A01FE506F"
 				type: "xp"
-				xp: 20
+				xp: 50
 			}]
 			shape: "gear"
 			subtitle: "Obtain Basic Andesite Machinery"
@@ -205,12 +205,19 @@
 		{
 			dependencies: ["34AA8FDB5AE7A18F"]
 			id: "4F087FC65A2A8799"
-			rewards: [{
-				count: 8
-				id: "5FF0DB95CDA37C45"
-				item: "create:belt_connector"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "5FF0DB95CDA37C45"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "1DC42BD45CED3520"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "gear"
 			size: 1.0d
 			subtitle: "Use Belts and Funnels to transport your items"
@@ -236,7 +243,7 @@
 			rewards: [{
 				id: "61457B327E841098"
 				type: "xp"
-				xp: 10
+				xp: 40
 			}]
 			shape: "gear"
 			subtitle: "Obtain Copper Casing to start building copper machinery"
@@ -253,13 +260,20 @@
 			dependencies: ["4F087FC65A2A8799"]
 			hide_until_deps_complete: true
 			id: "7E887823A79D6A8D"
-			rewards: [{
-				count: 5
-				id: "52785899466749CA"
-				item: "minecraft:copper_ingot"
-				random_bonus: 3
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "52785899466749CA"
+					item: "minecraft:copper_ingot"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "09F90E8562961DD6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "gear"
 			subtitle: "Use Copper Machines to transport and store fluids"
 			tasks: [
@@ -322,9 +336,9 @@
 					type: "item"
 				}
 				{
-					id: "747AF5581B8521EC"
-					type: "xp"
-					xp: 20
+					id: "6F860867CA3E2921"
+					type: "xp_levels"
+					xp_levels: 2
 				}
 			]
 			shape: "gear"
@@ -365,9 +379,9 @@
 			dependencies: ["3EF3C1598C40B251"]
 			id: "289CE11C0DC36D25"
 			rewards: [{
-				id: "4B92275008755CF8"
-				type: "xp"
-				xp: 30
+				id: "47914527378E52B4"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 			shape: "gear"
 			subtitle: "Obtain machines capable of managing factory logistics"
@@ -404,7 +418,7 @@
 			rewards: [{
 				id: "77961CBFE5A1DEE3"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			shape: "gear"
 			subtitle: "Obtain a Postbox"
@@ -428,9 +442,9 @@
 			dependencies: ["33346CF6759BCECA"]
 			id: "1BA52193210C458B"
 			rewards: [{
-				id: "79B88D7067ECE2E3"
-				type: "xp"
-				xp: 30
+				id: "167A52FC428859D3"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 			shape: "gear"
 			subtitle: "Obtain a Steam Engine to supercharge your stress unit production"
@@ -451,7 +465,7 @@
 			rewards: [{
 				id: "3AA1291F51FD2CB6"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			shape: "gear"
 			subtitle: "Obtain a Toolbox"
@@ -479,7 +493,7 @@
 			rewards: [{
 				id: "70DA5CA55FC70F3A"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			shape: "gear"
 			subtitle: "Obtain a Crafting Blueprint"
@@ -498,7 +512,7 @@
 			rewards: [{
 				id: "7732D19D03F904E5"
 				type: "xp"
-				xp: 10
+				xp: 50
 			}]
 			shape: "gear"
 			tasks: [{
@@ -513,11 +527,19 @@
 		{
 			dependencies: ["76DF2D55D548F46E"]
 			id: "1D47F924C10B331F"
-			rewards: [{
-				id: "71AC71D981690519"
-				type: "xp"
-				xp: 30
-			}]
+			rewards: [
+				{
+					id: "06DE694A60A60534"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 8
+					id: "00060DD466CAC766"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 1.0d
 			subtitle: "Utilize Precision Mechanisms to create more complex machinery"
@@ -534,9 +556,9 @@
 			dependencies: ["60DE22490741F644"]
 			id: "151AA6ECADDB19F9"
 			rewards: [{
-				id: "04202869720CB1E4"
-				type: "xp"
-				xp: 10
+				id: "2B02FDD6C849E1CB"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 			shape: "gear"
 			subtitle: "Obtain a Train Casing"
@@ -562,7 +584,7 @@
 				{
 					id: "3C4640D38D82BA94"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			shape: "gear"
@@ -601,7 +623,7 @@
 				{
 					id: "1B5AF022D54F2220"
 					type: "xp"
-					xp: 20
+					xp: 50
 				}
 			]
 			shape: "gear"
@@ -663,7 +685,7 @@
 			rewards: [{
 				id: "7926592B48745F82"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			shape: "gear"
 			subtitle: "Obtain a Mechanical Bearing to start making contraptions"
@@ -682,7 +704,7 @@
 			rewards: [{
 				id: "374B6F5BA9DB3886"
 				type: "xp"
-				xp: 10
+				xp: 50
 			}]
 			shape: "gear"
 			subtitle: "Utilize these items to make the most out of your train network"
@@ -709,7 +731,7 @@
 			rewards: [{
 				id: "6C0A4621D062CE4C"
 				type: "xp"
-				xp: 10
+				xp: 40
 			}]
 			shape: "gear"
 			subtitle: "Obtain the Handcar"
@@ -730,7 +752,7 @@
 			rewards: [{
 				id: "546ED26D962F28EA"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			shape: "gear"
 			subtitle: "Use a Hand Crank to manually power your machines"
@@ -759,7 +781,7 @@
 			rewards: [{
 				id: "02093455F4622F01"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			shape: "gear"
 			size: 1.5d
@@ -789,7 +811,7 @@
 			rewards: [{
 				id: "24650F5A9F3D8EDD"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			shape: "gear"
 			subtitle: "Obtain a Wrench and Engineer's Goggles"
@@ -810,5 +832,6 @@
 			y: -0.5d
 		}
 	]
+	subtitle: ["Engineering Efficiency"]
 	title: "Create"
 }

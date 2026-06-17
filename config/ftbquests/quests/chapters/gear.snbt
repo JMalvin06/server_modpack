@@ -19,7 +19,7 @@
 			rewards: [{
 				id: "418351636FD7F9E3"
 				type: "xp"
-				xp: 20
+				xp: 30
 			}]
 			subtitle: "Obtain a set of Iron Armor"
 			tasks: [
@@ -77,7 +77,7 @@
 			rewards: [{
 				id: "48816E932F7F64AF"
 				type: "xp"
-				xp: 20
+				xp: 40
 			}]
 			tasks: [
 				{
@@ -134,7 +134,7 @@
 			rewards: [{
 				id: "24F047108EA88429"
 				type: "xp"
-				xp: 20
+				xp: 40
 			}]
 			tasks: [
 				{
@@ -191,7 +191,7 @@
 			rewards: [{
 				id: "0A073124A246622E"
 				type: "xp"
-				xp: 15
+				xp: 50
 			}]
 			tasks: [
 				{
@@ -248,7 +248,7 @@
 			rewards: [{
 				id: "7F92F9B299EB8671"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			tasks: [
 				{
@@ -306,7 +306,7 @@
 			rewards: [{
 				id: "04ED2F4AF6B82B21"
 				type: "xp"
-				xp: 20
+				xp: 50
 			}]
 			tasks: [
 				{
@@ -364,7 +364,7 @@
 				{
 					id: "13803B33C3326F90"
 					type: "xp"
-					xp: 20
+					xp: 25
 				}
 				{
 					id: "1E2C1EA981F30875"
@@ -439,7 +439,7 @@
 				{
 					id: "23A382B6375440FD"
 					type: "xp"
-					xp: 15
+					xp: 30
 				}
 			]
 			tasks: [
@@ -503,7 +503,7 @@
 				{
 					id: "3BBBB2D873E33461"
 					type: "xp"
-					xp: 20
+					xp: 50
 				}
 			]
 			tasks: [
@@ -561,7 +561,7 @@
 			rewards: [{
 				id: "52AD25260E5D3A04"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			tasks: [
 				{
@@ -619,7 +619,7 @@
 			rewards: [{
 				id: "7D8FDC90305B32CD"
 				type: "xp"
-				xp: 20
+				xp: 100
 			}]
 			subtitle: "Obtain a set of Diamond Armor"
 			tasks: [
@@ -677,9 +677,9 @@
 			id: "52D9370C99E1D456"
 			rewards: [
 				{
-					id: "07803B0B29E6F3BC"
-					type: "xp"
-					xp: 20
+					id: "4382C3F86C57E755"
+					type: "xp_levels"
+					xp_levels: 2
 				}
 				{
 					id: "592D4837D5CCFB79"
@@ -743,9 +743,9 @@
 			id: "226C158E665BC963"
 			rewards: [
 				{
-					id: "0C51C341B94A017D"
-					type: "xp"
-					xp: 50
+					id: "739083FCAB62EFE0"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 				{
 					count: 5
@@ -814,7 +814,7 @@
 			rewards: [{
 				id: "186A36EB74B2EC10"
 				type: "xp"
-				xp: 20
+				xp: 100
 			}]
 			tasks: [
 				{
@@ -852,7 +852,7 @@
 			rewards: [{
 				id: "04E69BECC38BE4E7"
 				type: "xp"
-				xp: 25
+				xp: 75
 			}]
 			tasks: [
 				{
@@ -909,9 +909,9 @@
 			id: "05AFCF5ED7730EAB"
 			rewards: [
 				{
-					id: "6B6A831F80D5394B"
-					type: "xp"
-					xp: 30
+					id: "3051DBDE6A24AAF9"
+					type: "xp_levels"
+					xp_levels: 3
 				}
 				{
 					id: "6BEA43751F73D759"
@@ -990,9 +990,9 @@
 			hide_until_deps_complete: true
 			id: "7A2D06218093BE3A"
 			rewards: [{
-				id: "0B14ECCDE82ECB8A"
-				type: "xp"
-				xp: 25
+				id: "68A2AAC4058D6C49"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 			tasks: [
 				{
@@ -1050,7 +1050,7 @@
 			rewards: [{
 				id: "1BA4C40B78C3307E"
 				type: "xp"
-				xp: 20
+				xp: 100
 			}]
 			subtitle: "Obtain the Smithing Template for Aeternium Armor"
 			tasks: [{
@@ -1067,9 +1067,9 @@
 			id: "50B3725B213FCA82"
 			rewards: [
 				{
-					id: "3F9C93932CE906A8"
-					type: "xp"
-					xp: 50
+					id: "559EB2420BF3D282"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 				{
 					id: "16BD825A65692A37"
@@ -1145,7 +1145,7 @@
 				{
 					id: "3D911F760AD392A9"
 					type: "xp"
-					xp: 25
+					xp: 40
 				}
 				{
 					id: "5547BCAF01E55B3F"
@@ -1217,9 +1217,9 @@
 					type: "item"
 				}
 				{
-					id: "522F5F847DB0BF6C"
-					type: "xp"
-					xp: 50
+					id: "5D464ED136EF6E08"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [
@@ -1294,7 +1294,7 @@
 				{
 					id: "403B175D11BA19AE"
 					type: "xp"
-					xp: 10
+					xp: 20
 				}
 			]
 			subtitle: "Obtain a Traveler's Backpack"
@@ -1324,7 +1324,7 @@
 			rewards: [{
 				id: "2789D9AA1068F703"
 				type: "xp"
-				xp: 10
+				xp: 25
 			}]
 			tasks: [{
 				id: "370862206BC59671"
@@ -1340,7 +1340,7 @@
 			rewards: [{
 				id: "1AD805767E859F4A"
 				type: "xp"
-				xp: 15
+				xp: 35
 			}]
 			tasks: [{
 				id: "5FC23C837E1CB1AF"
@@ -1356,7 +1356,7 @@
 			rewards: [{
 				id: "15A7A00BD985D1F1"
 				type: "xp"
-				xp: 20
+				xp: 50
 			}]
 			tasks: [{
 				id: "304224FB0F2AA302"
@@ -1370,9 +1370,9 @@
 			dependencies: ["576967F4B94EC16B"]
 			id: "576CD6CC7CAF88A2"
 			rewards: [{
-				id: "00C93F22B458BA27"
-				type: "xp"
-				xp: 25
+				id: "1A911EC552B0917A"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "29C8C98F535F3ED1"
@@ -1387,7 +1387,7 @@
 			rewards: [{
 				id: "510C0B4EE14E95FB"
 				type: "xp"
-				xp: 15
+				xp: 40
 			}]
 			subtitle: "Obtain a set of Gold Armor"
 			tasks: [
@@ -1445,7 +1445,7 @@
 			rewards: [{
 				id: "33CB019683A2FD14"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Obtain a Paraglider"
 			tasks: [{
@@ -1470,7 +1470,7 @@
 			rewards: [{
 				id: "1C93DDE2F7783FFB"
 				type: "xp"
-				xp: 25
+				xp: 100
 			}]
 			tasks: [
 				{
@@ -1528,7 +1528,7 @@
 			rewards: [{
 				id: "0EA0DC2F9B6C8313"
 				type: "xp"
-				xp: 25
+				xp: 50
 			}]
 			tasks: [
 				{
@@ -1586,7 +1586,7 @@
 			rewards: [{
 				id: "13C57561242908D1"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Obtain a Copper Upgrade for the Glider"
 			tasks: [{
@@ -1605,7 +1605,7 @@
 				{
 					id: "37F564B7AD9395C2"
 					type: "xp"
-					xp: 10
+					xp: 30
 				}
 				{
 					count: 3
@@ -1625,5 +1625,6 @@
 			y: -0.5d
 		}
 	]
+	subtitle: ["All the Armors"]
 	title: "Gear"
 }

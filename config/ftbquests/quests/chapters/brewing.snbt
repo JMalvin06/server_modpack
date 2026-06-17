@@ -12,7 +12,7 @@
 			rewards: [{
 				id: "2580D8660B3A182E"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			tasks: [{
 				id: "40811EFC43AA32A1"
@@ -28,7 +28,7 @@
 			rewards: [{
 				id: "1109019D472F143C"
 				type: "xp"
-				xp: 20
+				xp: 40
 			}]
 			tasks: [{
 				id: "51CC73B256B6E0B3"
@@ -41,11 +41,18 @@
 		{
 			dependencies: ["21602667859CB4F9"]
 			id: "1B794FBBE058ED49"
-			rewards: [{
-				id: "1E0D19BA8F1CC908"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					id: "1E0D19BA8F1CC908"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7479C6FADC181051"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5FCEDBE9AA2BAF58"
 				item: "brewery:netherite_brewingstation"
@@ -60,7 +67,7 @@
 			rewards: [{
 				id: "5917B78C23669C98"
 				type: "xp"
-				xp: 20
+				xp: 30
 			}]
 			subtitle: "Brew your first beer"
 			tasks: [{
@@ -85,7 +92,7 @@
 			rewards: [{
 				id: "32F92DF988CBB197"
 				type: "xp"
-				xp: 20
+				xp: 30
 			}]
 			subtitle: "Brew your first Whiskey"
 			tasks: [{
@@ -112,7 +119,7 @@
 			rewards: [{
 				id: "59D78E0900FA6273"
 				type: "xp"
-				xp: 40
+				xp: 100
 			}]
 			subtitle: "Brew every beer and whiskey"
 			tasks: [
@@ -206,7 +213,7 @@
 			rewards: [{
 				id: "476508FC95212361"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Obtain a Grapevine Pot"
 			tasks: [{
@@ -230,7 +237,7 @@
 				{
 					id: "2CE45C2351A1D1AB"
 					type: "xp"
-					xp: 10
+					xp: 30
 				}
 			]
 			subtitle: "Obtain an Apple Press"
@@ -253,7 +260,7 @@
 			rewards: [{
 				id: "2B3648B835498372"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Obtain a Fermentation Barrel"
 			tasks: [{
@@ -270,7 +277,7 @@
 			rewards: [{
 				id: "2CFE3377958CC44F"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Stomp Grapes in the Grapevine pot to make Grape Juice"
 			tasks: [{
@@ -295,7 +302,7 @@
 			rewards: [{
 				id: "1CC0087CAAAF9CFD"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Make Apple Juice with the Apple Press"
 			tasks: [{
@@ -314,7 +321,7 @@
 				{
 					id: "21C6B26B4475468D"
 					type: "xp"
-					xp: 20
+					xp: 50
 				}
 				{
 					id: "58CBB4BD5E06A17C"
@@ -351,7 +358,7 @@
 			rewards: [{
 				id: "4417A8D1C3D8FBBD"
 				type: "xp"
-				xp: 40
+				xp: 100
 			}]
 			subtitle: "Make every type of Wine"
 			tasks: [{
@@ -371,7 +378,7 @@
 				{
 					id: "37CBBFD9885A27EC"
 					type: "xp"
-					xp: 15
+					xp: 30
 				}
 				{
 					id: "1003190749CE3EB5"
@@ -405,7 +412,7 @@
 			rewards: [{
 				id: "5A59EF8DEB87913F"
 				type: "xp"
-				xp: 20
+				xp: 30
 			}]
 			subtitle: "Encounter the Wandering Winemaker"
 			tasks: [{
@@ -429,9 +436,9 @@
 			id: "00A1EF7806C97168"
 			rewards: [
 				{
-					id: "3D94BC0103BC598C"
-					type: "xp"
-					xp: 50
+					id: "1D47014A6C34F1F1"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 				{
 					count: 6
@@ -455,7 +462,7 @@
 			rewards: [{
 				id: "797331AF2999DDB1"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain a Grapevine Stem to grow normal Grapes"
 			tasks: [{
@@ -472,7 +479,7 @@
 			rewards: [{
 				id: "69EEEA9E42FA7574"
 				type: "xp"
-				xp: 10
+				xp: 30
 			}]
 			subtitle: "Obtain an Oak Lattice to grow Jungle Grapes"
 			tasks: [{
@@ -489,7 +496,7 @@
 			rewards: [{
 				id: "2AEEBDBB02FF635E"
 				type: "xp"
-				xp: 15
+				xp: 30
 			}]
 			subtitle: "Obtain a Brewing Cauldron"
 			tasks: [{
@@ -507,7 +514,7 @@
 			rewards: [{
 				id: "0D6F4F0C7C95FC77"
 				type: "xp"
-				xp: 20
+				xp: 40
 			}]
 			subtitle: "Combine Potions in a Brewing Cauldron to create a Flask"
 			tasks: [{
@@ -564,7 +571,7 @@
 			rewards: [{
 				id: "4502F1A57D6FDC00"
 				type: "xp"
-				xp: 15
+				xp: 25
 			}]
 			subtitle: "Obtain a Tea Kettle"
 			tasks: [{
@@ -582,7 +589,7 @@
 			rewards: [{
 				id: "657B296F10CC96EE"
 				type: "xp"
-				xp: 20
+				xp: 30
 			}]
 			subtitle: "Brew someting with the Tea Kettle"
 			tasks: [{
@@ -602,5 +609,6 @@
 			y: 1.0d
 		}
 	]
+	subtitle: ["Bottoms Up!"]
 	title: "Brewing"
 }
