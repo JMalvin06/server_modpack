@@ -170,6 +170,25 @@ ServerEvents.recipes(event => {
         event.custom({type: 'create:mixing', results: json.result, ingredients: json.ingredients});
     });
 
+    event.remove(/vc_gliders:reinforced_paper_+/);
+
+    const upgrades = ['iron_ingot', 'gold_ingot', 'diamond', 'netherite_scrap'];
+
+    upgrades.forEach(upgrade => {
+        var trimmed = upgrade;
+        if (trimmed != 'diamond') {
+            //console.log("YIPPEE " + upgrade.substring(0, upgrade.indexOf('_'));
+            trimmed = upgrade.substring(0, upgrade.indexOf('_'));
+        }
+        console.log("HELLO HERE BTW")
+        console.log('vc_gliders:reinforced_paper_' + trimmed)
+        event.shaped('vc_gliders:reinforced_paper_' + trimmed, [
+            ' U ',
+            ' P ',
+            '   '
+        ], {U: 'minecraft:'+upgrade, P: 'vc_gliders:reinforced_paper'});
+    })
+
     /*event.forEachRecipe({mod: "betternether", type: "crafting_shaped"}, recipe => {
         const json = JSON.parse(recipe.json);
         json.ingredients.forEach(ingredient => {
