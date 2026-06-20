@@ -180,7 +180,6 @@ ServerEvents.recipes(event => {
             //console.log("YIPPEE " + upgrade.substring(0, upgrade.indexOf('_'));
             trimmed = upgrade.substring(0, upgrade.indexOf('_'));
         }
-        console.log("HELLO HERE BTW")
         console.log('vc_gliders:reinforced_paper_' + trimmed)
         event.shaped('vc_gliders:reinforced_paper_' + trimmed, [
             ' U ',
@@ -188,6 +187,19 @@ ServerEvents.recipes(event => {
             '   '
         ], {U: 'minecraft:'+upgrade, P: 'vc_gliders:reinforced_paper'});
     })
+
+    event.remove("vc_gliders:reinforced_paper");
+    event.shaped("vc_gliders:reinforced_paper", [
+        "LP",
+        "PL"
+    ], {L: "minecraft:leather", P: "minecraft:paper"});
+
+    event.remove({type: "minecraft:crafting_shaped", output: "vc_gliders:paraglider_netherite"});
+    event.shaped(Item.of('vc_gliders:paraglider_netherite', '{nether_upgrade:1b}'), [
+        "PPP",
+        "STS",
+        "TFT"
+    ], {P: "vc_gliders:reinforced_paper_netherite", S: "minecraft:string", T: "minecraft:stick", F: "minecraft:feather"})
 
     /*event.forEachRecipe({mod: "betternether", type: "crafting_shaped"}, recipe => {
         const json = JSON.parse(recipe.json);
